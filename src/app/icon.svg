@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="An upvote arrow">
+  <!-- The upvote, which is the whole subject of the site. Solid shape, one
+       colour, dark plate behind it: a 16px tab favicon has no room for
+       anything cleverer, and an outline would disappear. -->
+  <rect width="32" height="32" rx="7.5" fill="#17130F"/>
+  <path d="M16 6.4 L27 24.4 H5 Z" fill="#FF5A1F"/>
+</svg>

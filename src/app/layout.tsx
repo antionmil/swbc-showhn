@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, IBM_Plex_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import report from "@/data/report.json";
@@ -22,6 +22,17 @@ export const metadata: Metadata = {
   description: DESC,
   openGraph: { title: TITLE, description: DESC, url: SITE, siteName: TITLE, type: "website", images: ["/api/og"] },
   twitter: { card: "summary_large_image", title: TITLE, description: DESC, images: ["/api/og"] },
+  /* The upvote arrow, in src/app/icon.svg. */
+  icons: { icon: "/icon.svg" },
+};
+
+/* Paper in light, ink in dark: the browser chrome on a phone matches the page
+   instead of framing it in white. */
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#faf7f2" },
+    { media: "(prefers-color-scheme: dark)", color: "#14110e" },
+  ],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
