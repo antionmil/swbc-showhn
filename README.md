@@ -3,26 +3,34 @@
 Day 14 of [onedaybuilt.com](https://onedaybuilt.com). Live at
 **[showhn.onedaybuilt.com](https://showhn.onedaybuilt.com)**.
 
-Paste the title you are about to post to Show HN. The site finds the posts of
-the past twelve months whose titles had the same *shape* — the same handful of
+**Show HN** is the part of Hacker News where people post the thing they built.
+The typical one gets two upvotes, and one of those is the automatic upvote you
+get for submitting.
+
+Paste the title you are about to use. The site finds the posts of the past
+twelve months whose titles had the same *shape* — the same handful of
 measurable facts — and tells you what happened to them. Then it shows every
 post about your subject, the ones that worked **and** the ones that sank.
+
+The page says "upvotes" throughout, and explains once that Hacker News calls
+an upvote a point. A test fails if any component writes "HN" on its own or
+puts "points" back in front of a reader.
 
 No account, no sign-in, nothing stored about what you type.
 
 ## What the corpus says
 
-208,000+ posts, every Show HN back to January 2011, read from the HN Search
-API. Rates are measured on the 45,000 posts of the last twelve months that are
-at least 48 hours old, because points keep moving for about a day.
+208,000+ posts, every Show HN back to January 2011, read from the Hacker News
+search API. Rates are measured on the 45,000 posts of the last twelve months that are
+at least 48 hours old, because upvotes keep moving for about a day.
 
 | | |
 |---|---|
-| Median post | **2 points** |
+| The middle post | **2 upvotes**, one of which is your own |
 | Got no comment at all | **62%** |
-| Reached 30 points | **4.1%** |
-| Reached 100 points | **1.7%** |
-| Titles saying AI, LLM, GPT or agent | **31%** of all posts, and they reach 30 points **2.9%** of the time against **4.6%** for everything else |
+| Reached 30 upvotes | **4.1%** |
+| Reached 100 upvotes | **1.7%** |
+| Titles saying AI, LLM, GPT or agent | **31%** of all posts, and they reach 30 upvotes **2.9%** of the time against **4.6%** for everything else |
 | Best hour vs worst hour | 17:00 UTC **5.6%**, 07:00 UTC **2.0%** |
 | 2011 vs 2026 | 2,980 posts at **12.7%**, against 36,100 posts at **4.0%** |
 
@@ -90,6 +98,10 @@ are `/api/topic` and `/api/og`, which are meant to be dynamic.
 
 ## Traps met while building this
 
+- **Only 7 posts of 208,296 sit at zero upvotes.** Hacker News upvotes your own
+  submission automatically, so a post starts at one — which is why 28% of every
+  Show HN ever posted sits at exactly one, and why the headline can say "one is
+  your own" as a measured fact rather than a turn of phrase.
 - **Algolia caps one query at ~1000 hits** whatever `nbPages` says, and an
   unbounded query returns a garbage `nbHits` (it claimed 561,938 Show HN
   posts). Every window is date-bound and split until it fits. 774 API calls
@@ -111,8 +123,8 @@ are `/api/topic` and `/api/og`, which are meant to be dynamic.
 
 ## Where this is weak, in the page's own words
 
-Points are not quality and this site cannot separate them: someone who writes a
-careful title usually built a careful thing. The numbers describe groups of
-posts, not yours. Deleted and flagged posts are not in the corpus, so the worst
-launches are under-counted. "Worked" means 30 points because Hacker News does
-not publish which posts reached the front page.
+Upvotes are not quality and this site cannot separate them: someone who writes
+a careful title usually built a careful thing. The numbers describe groups of
+posts, not yours. Deleted and flagged posts are not counted at all, so the
+worst launches are under-counted. "Worked" means 30 upvotes because Hacker News
+does not publish which posts reached the front page.
