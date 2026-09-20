@@ -76,3 +76,29 @@ test("no file types a number the corpus is supposed to supply", () => {
     assert.deepEqual(typed, [], `${f} hardcodes ${typed.join(", ")} — read it from report.json instead`);
   }
 });
+
+test("the page never shortens Hacker News to two letters", () => {
+  // "HN" is obvious to the people already on Hacker News and to nobody else.
+  // "Show HN" stays, because that is the literal name of the thing.
+  for (const f of ["src/app/page.tsx", "src/app/layout.tsx", "src/components/Report.tsx",
+    "src/components/Checker.tsx", "src/components/TopicPanel.tsx", "src/components/TopicSearch.tsx",
+    "src/app/api/og/route.tsx"]) {
+    const src = readFileSync(f, "utf8").replace(/Show HN/g, "").replace(/show_hn/g, "").replace(/hn\.algolia/g, "");
+    const bare = src.match(/\bHN\b/g) ?? [];
+    assert.deepEqual(bare, [], `${f} writes "HN" on its own — spell out Hacker News`);
+  }
+});
+
+test("upvotes are called upvotes, except where the page explains the word", () => {
+  // Hacker News calls an upvote a "point". The footnote says so once; every
+  // other line says upvotes, because that is what a reader outside Hacker
+  // News understands.
+  const explained = readFileSync("src/app/page.tsx", "utf8").includes("calls an upvote a point");
+  assert.ok(explained, "the page must explain the word it is translating away from");
+  for (const f of ["src/components/Report.tsx", "src/components/TopicPanel.tsx",
+    "src/components/Checker.tsx", "src/app/api/og/route.tsx"]) {
+    const src = readFileSync(f, "utf8").split("\n").filter((l) => !l.trim().startsWith("*") && !l.trim().startsWith("//") && !l.trim().startsWith("/*"));
+    const left = src.join("\n").match(/\b\d+ points\b|\bpoints\./g) ?? [];
+    assert.deepEqual(left, [], `${f} still says points in copy the reader sees`);
+  }
+});

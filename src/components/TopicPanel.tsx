@@ -63,7 +63,7 @@ export default function TopicPanel({ topic, heading }: { topic: string; heading?
               <b>{n0(data.n)} posts</b> since 2011 mention it.{" "}
               {data.rate !== null && (
                 <>
-                  {pc(data.rate)} reached {report.window.WORKED} points, against {pc(data.base)} across the whole site —{" "}
+                  {pc(data.rate)} reached {report.window.WORKED} upvotes, against {pc(data.base)} across every subject —{" "}
                   <b className={data.rate >= data.base ? "text-green" : "text-accent"}>
                     {data.rate >= data.base ? "a better topic than most" : "a harder topic than most"}
                   </b>.
@@ -74,24 +74,24 @@ export default function TopicPanel({ topic, heading }: { topic: string; heading?
             <div className="mt-5 grid gap-5 sm:grid-cols-2">
               <div>
                 <h4 className="font-display text-[15px] font-semibold text-green">Worked — {n0(data.worked)} of {n0(data.n)}</h4>
-                <p className="text-[12.5px] text-muted">{report.window.WORKED} points or more</p>
+                <p className="text-[12.5px] text-muted">{report.window.WORKED} upvotes or more</p>
                 <div className="mt-1.5">
                   {data.topWorked.length
                     ? data.topWorked.map((p) => <Row key={p.i} p={p} />)
                     : <p className="border-t border-rule pt-2.5 text-[14px] text-muted">
                         Not one of them. In fifteen years, no post mentioning <b className="text-ink">{topic}</b> has
-                        reached {report.window.WORKED} points.
+                        reached {report.window.WORKED} upvotes.
                       </p>}
                 </div>
               </div>
               <div>
                 <h4 className="font-display text-[15px] font-semibold text-accent">Sank — {n0(data.sank)} of {n0(data.n)}</h4>
-                <p className="text-[12.5px] text-muted">Two points or fewer. The newest first.</p>
+                <p className="text-[12.5px] text-muted">Two upvotes or fewer. The newest first.</p>
                 <div className="mt-1.5">
                   {data.topSank.length
                     ? data.topSank.map((p) => <Row key={p.i} p={p} />)
                     : <p className="border-t border-rule pt-2.5 text-[14px] text-muted">
-                        None. Every post about this got past two points, which almost no subject manages.
+                        None. Every post about this got past two upvotes, which almost no subject manages.
                       </p>}
                 </div>
               </div>

@@ -47,7 +47,7 @@ export default function TopicSearch({ suggestions }: { suggestions: string[] }) 
         <League title="Words that never did" rows={league.worst} good={false} />
       </div>
       <p className="mt-3 text-[13px] text-muted">
-        Words in at least {league.min} titles of the past twelve months. The site-wide rate is {pc(report.window.base)}.
+        Words in at least {league.min} titles of the past twelve months, and how often those posts reached {report.window.WORKED} upvotes. Across every post it is {pc(report.window.base)}.
         Press one to see both columns of posts behind it.
       </p>
     </div>

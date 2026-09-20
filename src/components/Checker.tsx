@@ -163,7 +163,7 @@ function Verdict({ title, ready }: { title: string; ready: boolean }) {
               {n0(res.worked)}<span className="text-[20px] font-semibold text-muted"> of {n0(res.n)}</span>
             </div>
             <p className="mt-2 max-w-[19ch] text-[13.5px] text-muted">
-              reached {WORKED} points — <b className="text-ink">{pc(rate)}</b>, against {pc(base)} for everything posted
+              reached {WORKED} upvotes — <b className="text-ink">{pc(rate)}</b>, against {pc(base)} for everything posted
             </p>
           </div>
 

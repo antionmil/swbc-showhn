@@ -55,11 +55,16 @@ export async function GET() {
           <div style={{ display: "flex", fontWeight: 700 }}>
             Show HN <span style={{ color: "#C6350B", marginLeft: 10 }}>/ what actually worked</span>
           </div>
-          <div style={{ display: "flex", color: "#6B625A" }}>{n0(report.corpus.total)} posts</div>
+          <div style={{ display: "flex", color: "#6B625A" }}>{n0(report.corpus.total)} posts since 2011</div>
         </div>
 
-        <div style={{ display: "flex", fontSize: 88, fontWeight: 700, lineHeight: 1.04, letterSpacing: "-0.035em", maxWidth: 940 }}>
-          Most Show HN posts get {report.window.median} points.
+        <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
+          <div style={{ display: "flex", fontSize: 68, fontWeight: 700, lineHeight: 1.06, letterSpacing: "-0.032em", maxWidth: 1010 }}>
+            The typical Show HN gets {report.window.median} upvotes. One is your own.
+          </div>
+          <div style={{ display: "flex", fontSize: 27, color: "#6B625A", maxWidth: 880 }}>
+            Show HN is the part of Hacker News where people post the thing they built.
+          </div>
         </div>
 
         <div style={{ display: "flex", alignItems: "flex-end", gap: 54 }}>
@@ -74,7 +79,7 @@ export async function GET() {
               {ai.rate.toFixed(1)}%
             </div>
             <div style={{ display: "flex", fontSize: 25, color: "#6B625A", maxWidth: 380 }}>
-              of those reach {report.window.WORKED} points, against {ai.rateOther.toFixed(1)}% for the rest
+              of those reach {report.window.WORKED} upvotes, against {ai.rateOther.toFixed(1)}% for the rest
             </div>
           </div>
         </div>
