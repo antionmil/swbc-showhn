@@ -18,11 +18,29 @@ type Row = { i: string; s: number; p: number; c: number; t: string };
 let LINES: string[] | null = null;
 let LOWER: string[] | null = null;
 
+/* Each title is reduced to its words, separated and surrounded by single
+ * spaces, so a search for " seo" can only start at a word.
+ *
+ * A plain substring match found "seo" inside ExpenseOwl and Joseon, and
+ * reported 406 posts about SEO where the tokenised word count says 122. The
+ * leading space makes the match start at a word; leaving the END open keeps
+ * plurals and compounds that begin with the word, so "terminal" still finds
+ * terminals and "postgres" still finds postgresql. */
+function words(title: string): string {
+  return " " + title.toLowerCase().replace(/[^a-z0-9+#.]+/g, " ").trim() + " ";
+}
+
+function titleOf(line: string): string {
+  let i = -1;
+  for (let k = 0; k < 4; k++) i = line.indexOf("\t", i + 1);
+  return line.slice(i + 1);
+}
+
 function load() {
   if (LINES && LOWER) return { LINES, LOWER };
   const file = path.join(process.cwd(), "data", "search.txt");
   LINES = readFileSync(file, "utf8").split("\n").filter(Boolean);
-  LOWER = LINES.map((l) => l.slice(l.indexOf("\t", l.indexOf("\t", l.indexOf("\t", l.indexOf("\t") + 1) + 1) + 1) + 1).toLowerCase());
+  LOWER = LINES.map((l) => words(titleOf(l)));
   return { LINES, LOWER };
 }
 
@@ -38,7 +56,7 @@ export async function GET(req: Request) {
   const q = raw.toLowerCase().replace(/[^\p{L}\p{N}+#. -]/gu, " ").trim().slice(0, 40);
   if (q.length < 2) return Response.json({ error: "short" }, { status: 400 });
 
-  const terms = q.split(/\s+/).filter((t) => t.length >= 2).slice(0, 4);
+  const terms = q.split(/\s+/).map((t) => t.replace(/[^a-z0-9+#.]/g, "")).filter((t) => t.length >= 2).slice(0, 4);
   if (!terms.length) return Response.json({ error: "short" }, { status: 400 });
 
   const { LINES: lines, LOWER: lower } = load();
@@ -46,7 +64,7 @@ export async function GET(req: Request) {
   for (let k = 0; k < lower.length; k++) {
     const t = lower[k];
     let ok = true;
-    for (const term of terms) if (!t.includes(term)) { ok = false; break; }
+    for (const term of terms) if (!t.includes(" " + term)) { ok = false; break; }
     if (ok) hits.push(parse(lines[k]));
   }
 

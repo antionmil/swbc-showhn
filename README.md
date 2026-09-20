@@ -70,7 +70,9 @@ data/search.txt         one line per post, read by /api/topic     17 MB
 
 - `/` is **static**. The title check runs entirely in the browser against
   `cells.json`; there is no request and nothing to rate-limit.
-- `/api/topic` is the only dynamic route. It scans the corpus for a word and
+- `/api/topic` is the only dynamic route. It scans the corpus for a word —
+  matching only where the word STARTS one, so "seo" cannot hit ExpenseOwl,
+  while plurals and compounds that begin with it still count — and
   returns both columns, cached at the edge for a day — through
   `vercel-cdn-cache-control`, because Next rewrites `cache-control` on a
   dynamic route and the edge was caching nothing.

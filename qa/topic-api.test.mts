@@ -24,12 +24,22 @@ test("a query is cut to 40 characters and four terms, and still answers", async 
 });
 
 test("the counts match the corpus, counted a different way", async () => {
-  const d = await (await call("terminal")).json();
-  const mine = lines.filter((l) => l.slice(l.indexOf("\t", l.indexOf("\t", l.indexOf("\t", l.indexOf("\t") + 1) + 1) + 1) + 1).toLowerCase().includes("terminal"));
-  assert.equal(d.n, mine.length, "the route and a plain scan must agree");
+  // Independent re-implementation of the rule the route uses: the term has to
+  // start a word. Written as a regex here and as a space-prefixed substring
+  // there, so a bug in one does not hide in the other.
+  const startsAWord = /(^|[^a-z0-9+#.])terminal/;
+  const title = (l: string) => {
+    let i = -1;
+    for (let k = 0; k < 4; k++) i = l.indexOf("\t", i + 1);
+    return l.slice(i + 1).toLowerCase();
+  };
+  const mine = lines.filter((l) => startsAWord.test(title(l)));
+  assert.equal(d_n(await (await call("terminal")).json()), mine.length, "the route and an independent scan must agree");
   const worked = mine.filter((l) => +l.split("\t")[2] >= 30).length;
-  assert.equal(d.worked, worked);
+  assert.equal((await (await call("terminal")).json()).worked, worked);
 });
+
+const d_n = (d: { n: number }) => d.n;
 
 test("both columns come back, and they are the right way round", async () => {
   const d = await (await call("terminal")).json();
@@ -64,4 +74,26 @@ test("the answer is cacheable, because it is the same for everyone", async () =>
   // dynamic route and the edge cached nothing at all until this moved.
   assert.match(res.headers.get("vercel-cdn-cache-control") ?? "", /s-maxage=\d+/);
   assert.match(res.headers.get("cdn-cache-control") ?? "", /s-maxage=\d+/);
+});
+
+test("a word is matched at the start of a word, never inside one", () => {
+  // Found in the audit: "seo" matched ExpenseOwl and Joseon, and the panel
+  // said 406 posts where the tokenised league table said 122.
+  return (async () => {
+    const d = await (await call("seo")).json();
+    const wrong = [...d.topWorked, ...d.topSank].filter(
+      (p: { t: string }) => !/(^|[^a-z])seo/i.test(p.t),
+    );
+    assert.deepEqual(wrong.map((p: { t: string }) => p.t), [], "these matched inside another word");
+    assert.ok(d.n < 406, `the inflated substring count was 406, got ${d.n}`);
+  })();
+});
+
+test("plurals and compounds that start with the word still match", async () => {
+  const d = await (await call("terminal")).json();
+  const titles = [...d.topWorked, ...d.topSank].map((p: { t: string }) => p.t.toLowerCase());
+  assert.ok(titles.length > 0);
+  assert.ok(titles.every((t: string) => /(^|[^a-z])terminal/.test(t)), "every hit starts the word 'terminal'");
+  const pg = await (await call("postgres")).json();
+  assert.ok(pg.n > 200, `postgres should still find postgresql titles, got ${pg.n}`);
 });
