@@ -80,6 +80,18 @@ export async function GET() {
         </div>
       </div>
     ),
-    { width: 1200, height: 630, fonts },
+    {
+      width: 1200,
+      height: 630,
+      fonts,
+      /* The card changes once a night at most, and every render fetches a font
+         from Google. Uncached, each social scrape paid for that. The lifetime
+         goes on the CDN headers because Next rewrites cache-control here too. */
+      headers: {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cdn-cache-control": "public, s-maxage=86400, stale-while-revalidate=604800",
+        "vercel-cdn-cache-control": "public, s-maxage=86400, stale-while-revalidate=604800",
+      },
+    },
   );
 }
