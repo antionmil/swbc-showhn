@@ -22,13 +22,14 @@ export default function Home() {
         </p>
       </header>
 
-      <h1 className="mt-9 max-w-[17ch] font-display text-[40px] font-bold leading-[1.03] tracking-[-.038em] sm:text-[52px]">
-        The typical Show HN gets {spell(r.window.median)} upvotes. One is your own.
+      <h1 className="mt-9 font-display text-[46px] font-bold leading-[1.02] tracking-[-.04em] sm:text-[62px]">
+        {Math.round(100 - r.window.base)} in 100 sink.
       </h1>
-      <p className="mt-4 max-w-[56ch] text-[17px] text-muted">
-        <b className="text-ink">Show HN</b> is the part of Hacker News where people post the thing they built.
-        {" "}{n0(r.corpus.total)} have been posted since 2011. Hacker News gives your own submission one upvote
-        automatically, and {pc(r.window.pctLE1)} of posts never get a second one.
+      <p className="mt-5 max-w-[56ch] text-[17px] text-muted">
+        On Hacker News there is a section called <b className="text-ink">Show HN</b>, where people post the thing
+        they built. {n0(r.corpus.total)} have been posted since 2011, and{" "}
+        {spell(Math.round(r.window.base))} in a hundred are ever really seen. The middle one gets{" "}
+        {spell(r.window.median)} upvotes, and one of those is its own — Hacker News upvotes your submission for you.
       </p>
       <p className="mt-3 max-w-[56ch] text-[17px] text-muted">
         Paste the title you are about to use. This looks up the posts of the past year whose titles had the same
@@ -52,7 +53,7 @@ export default function Home() {
         </h2>
         <p className="mb-7 mt-3 max-w-[62ch] text-[15px] text-muted">
           Every list of great Show HNs is a list of winners, which teaches you nothing: you cannot see what the
-          winners did differently without the posts that did the same thing and got two upvotes. Look up any subject
+          winners did differently without the posts that did the same thing and were ignored. Look up any subject
           and you get both columns.
         </p>
         <TopicSearch suggestions={r.topics} />

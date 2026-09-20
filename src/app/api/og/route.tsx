@@ -33,6 +33,8 @@ async function font(weight: number): Promise<ArrayBuffer | null> {
 }
 
 const n0 = (x: number) => x.toLocaleString("en-US");
+const WORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
+const spell = (n: number) => (n >= 0 && n <= 10 ? WORDS[n] : String(n));
 
 export async function GET() {
   const [bold, regular] = await Promise.all([font(700), font(400)]);
@@ -59,11 +61,12 @@ export async function GET() {
         </div>
 
         <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
-          <div style={{ display: "flex", fontSize: 68, fontWeight: 700, lineHeight: 1.06, letterSpacing: "-0.032em", maxWidth: 1010 }}>
-            The typical Show HN gets {report.window.median} upvotes. One is your own.
+          <div style={{ display: "flex", fontSize: 104, fontWeight: 700, lineHeight: 1, letterSpacing: "-0.04em" }}>
+            {Math.round(100 - report.window.base)} in 100 sink.
           </div>
-          <div style={{ display: "flex", fontSize: 27, color: "#6B625A", maxWidth: 880 }}>
-            Show HN is the part of Hacker News where people post the thing they built.
+          <div style={{ display: "flex", fontSize: 28, color: "#6B625A", maxWidth: 900, lineHeight: 1.35 }}>
+            On Hacker News there is a section called Show HN, where people post the thing they built.
+            {" "}{spell(Math.round(report.window.base))[0].toUpperCase() + spell(Math.round(report.window.base)).slice(1)} posts in a hundred are ever really seen.
           </div>
         </div>
 

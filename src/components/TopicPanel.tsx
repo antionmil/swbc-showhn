@@ -85,7 +85,7 @@ export default function TopicPanel({ topic, heading }: { topic: string; heading?
                 </div>
               </div>
               <div>
-                <h4 className="font-display text-[15px] font-semibold text-accent">Sank — {n0(data.sank)} of {n0(data.n)}</h4>
+                <h4 className="font-display text-[15px] font-semibold text-accent">Ignored — {n0(data.sank)} of {n0(data.n)}</h4>
                 <p className="text-[12.5px] text-muted">Two upvotes or fewer. The newest first.</p>
                 <div className="mt-1.5">
                   {data.topSank.length

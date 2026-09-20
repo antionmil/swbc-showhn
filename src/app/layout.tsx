@@ -12,9 +12,9 @@ const TITLE = "Show HN, what actually worked";
 /* Built from the corpus, never typed. A hardcoded total shipped once and was
  * stale the next night, in the one place nobody re-reads: the share card. */
 const DESC =
-  "Show HN is the part of Hacker News where people post the thing they built. " +
-  `All ${report.corpus.total.toLocaleString("en-US")} of them since 2011, measured: paste the title you are about to ` +
-  "use and see what happened to the posts shaped like it.";
+  `${Math.round(100 - report.window.base)} in 100 sink. On Hacker News there is a section called Show HN, where ` +
+  `people post the thing they built \u2014 all ${report.corpus.total.toLocaleString("en-US")} of them since 2011, measured. ` +
+  "Paste the title you are about to use and see what happened to the posts shaped like it.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),
