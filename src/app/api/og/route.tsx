@@ -33,8 +33,6 @@ async function font(weight: number): Promise<ArrayBuffer | null> {
 }
 
 const n0 = (x: number) => x.toLocaleString("en-US");
-const WORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
-const spell = (n: number) => (n >= 0 && n <= 10 ? WORDS[n] : String(n));
 
 export async function GET() {
   const [bold, regular] = await Promise.all([font(700), font(400)]);
@@ -61,28 +59,27 @@ export async function GET() {
         </div>
 
         <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
-          <div style={{ display: "flex", fontSize: 104, fontWeight: 700, lineHeight: 1, letterSpacing: "-0.04em" }}>
-            {Math.round(100 - report.window.base)} in 100 sink.
+          <div style={{ display: "flex", fontSize: 78, fontWeight: 700, lineHeight: 1.05, letterSpacing: "-0.035em", maxWidth: 1010 }}>
+            What actually worked on Hacker News
           </div>
-          <div style={{ display: "flex", fontSize: 28, color: "#6B625A", maxWidth: 900, lineHeight: 1.35 }}>
-            On Hacker News there is a section called Show HN, where people post the thing they built.
-            {" "}{spell(Math.round(report.window.base))[0].toUpperCase() + spell(Math.round(report.window.base)).slice(1)} posts in a hundred are ever really seen.
+          <div style={{ display: "flex", fontSize: 28, color: "#6B625A", maxWidth: 900 }}>
+            Every Show HN post since 2011, measured.
           </div>
         </div>
 
         <div style={{ display: "flex", alignItems: "flex-end", gap: 54 }}>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <div style={{ display: "flex", fontSize: 62, fontWeight: 700, color: "#C6350B", letterSpacing: "-0.03em" }}>
-              {ai.share.toFixed(0)}%
+              {Math.round(100 - report.window.base)} in 100
             </div>
-            <div style={{ display: "flex", fontSize: 25, color: "#6B625A", maxWidth: 330 }}>of titles now say AI</div>
+            <div style={{ display: "flex", fontSize: 25, color: "#6B625A", maxWidth: 300 }}>are never seen</div>
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <div style={{ display: "flex", fontSize: 62, fontWeight: 700, letterSpacing: "-0.03em" }}>
               {ai.rate.toFixed(1)}%
             </div>
-            <div style={{ display: "flex", fontSize: 25, color: "#6B625A", maxWidth: 380 }}>
-              of those reach {report.window.WORKED} upvotes, against {ai.rateOther.toFixed(1)}% for the rest
+            <div style={{ display: "flex", fontSize: 25, color: "#6B625A", maxWidth: 420 }}>
+              of the {ai.share.toFixed(0)}% of titles saying AI are seen, against {ai.rateOther.toFixed(1)}% for the rest
             </div>
           </div>
         </div>

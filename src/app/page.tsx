@@ -22,25 +22,19 @@ export default function Home() {
         </p>
       </header>
 
-      <h1 className="mt-9 font-display text-[46px] font-bold leading-[1.02] tracking-[-.04em] sm:text-[62px]">
-        {Math.round(100 - r.window.base)} in 100 sink.
+      <h1 className="mt-9 max-w-[16ch] font-display text-[42px] font-bold leading-[1.03] tracking-[-.038em] sm:text-[56px]">
+        What actually worked on Hacker News
       </h1>
-      <p className="mt-5 max-w-[56ch] text-[17px] text-muted">
-        On Hacker News there is a section called <b className="text-ink">Show HN</b>, where people post the thing
-        they built. {n0(r.corpus.total)} have been posted since 2011, and{" "}
-        {spell(Math.round(r.window.base))} in a hundred are ever really seen. The middle one gets{" "}
-        {spell(r.window.median)} upvotes, and one of those is its own — Hacker News upvotes your submission for you.
-      </p>
-      <p className="mt-3 max-w-[56ch] text-[17px] text-muted">
-        Paste the title you are about to use. This looks up the posts of the past year whose titles had the same
-        shape, and shows you what happened to them — including the ones nobody saw.
+      <p className="mt-4 max-w-[52ch] text-[17.5px] text-muted">
+        Every <b className="text-ink">Show HN</b> post since 2011, measured — paste your title and see the ones
+        shaped like it.
       </p>
 
       <Checker examples={r.samples.map((s) => s.t)} />
 
       <div className="mt-10 grid gap-3 sm:grid-cols-3">
-        <Stat n={String(r.window.median)} t="upvotes for the middle post of the past year" />
-        <Stat n={pc(r.window.pctNoComment)} t="got no comment at all" hot />
+        <Stat n={`${Math.round(100 - r.window.base)} in 100`} t={`never seen — under ${r.window.WORKED} upvotes`} hot />
+        <Stat n={pc(r.window.pctNoComment)} t="got no comment at all" />
         <Stat n={pc(r.window.pct100)} t="reached 100 upvotes" />
       </div>
 
@@ -82,7 +76,8 @@ export default function Home() {
           </li>
           <li>
             <b className="text-ink">&ldquo;Worked&rdquo; means {r.window.WORKED} upvotes or more.</b> That is the top {pc(r.window.base)} of
-            the past year. Hacker News calls an upvote a point and shows it beside every post. It does not publish
+            the past year. Hacker News calls an upvote a point, and it upvotes your own submission for you — so every
+            post starts at one, and {pc(r.window.pctLE1)} of them never get a second. Hacker News does not publish
             which posts reached the front page, so the upvote count is the closest honest measure of being seen.
             Rates come from the {n0(r.window.n)} posts between {r.window.from} and {r.window.to}.
           </li>
@@ -111,11 +106,6 @@ export default function Home() {
     </main>
   );
 }
-
-/* The headline says "two upvotes" because the middle post really gets two.
- * If that moves, the headline moves with it rather than becoming false. */
-const WORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
-const spell = (n: number) => (Number.isInteger(n) && n >= 0 && n <= 10 ? WORDS[n] : String(n));
 
 function Stat({ n, t, hot }: { n: string; t: string; hot?: boolean }) {
   return (

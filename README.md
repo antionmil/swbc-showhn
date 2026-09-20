@@ -3,10 +3,9 @@
 Day 14 of [onedaybuilt.com](https://onedaybuilt.com). Live at
 **[showhn.onedaybuilt.com](https://showhn.onedaybuilt.com)**.
 
-**96 in 100 sink.** On Hacker News there is a section called **Show HN**, where
-people post the thing they built. Four posts in a hundred are ever really seen.
-The middle one gets two upvotes, and one of those is the automatic upvote you
-get for submitting.
+On Hacker News there is a section called **Show HN**, where people post the
+thing they built. 96 in 100 are never seen. The middle one gets two upvotes,
+and one of those is the automatic upvote you get for submitting.
 
 Paste the title you are about to use. The site finds the posts of the past
 twelve months whose titles had the same *shape* — the same handful of
@@ -15,10 +14,9 @@ post about your subject, the ones that worked **and** the ones that sank.
 
 The page says "upvotes" throughout, and explains once that Hacker News calls
 an upvote a point. A test fails if any component writes "HN" on its own or
-puts "points" back in front of a reader. "Sink" in the headline means the 96%
-that never reach 30 upvotes; the stricter cut in the comparison columns is
-labelled **Ignored**, two upvotes or fewer, so one verb never carries two
-thresholds.
+puts "points" back in front of a reader. "Never seen" means under 30 upvotes, which is 96
+in 100; the stricter cut in the comparison columns is labelled **Ignored**,
+two upvotes or fewer, so one phrase never carries two thresholds.
 
 No account, no sign-in, nothing stored about what you type.
 
