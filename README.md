@@ -41,7 +41,7 @@ The hour is worth 3.6 posts in a hundred. One word in the title costs about the
 same, and a third of posters write it. The prior art that matters most is
 Kraishan's [Launch-Day Diffusion](https://arxiv.org/abs/2511.04453) (arXiv,
 2025): 138 launches, GitHub stars as the outcome, timing significant, the Show
-HN tag itself not. This site measures points over the whole population instead.
+HN tag itself not. This site measures upvotes over every post instead.
 
 ## Architecture
 
