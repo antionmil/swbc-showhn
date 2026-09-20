@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "sw
 const plex = IBM_Plex_Mono({ subsets: ["latin"], weight: ["400", "600"], variable: "--font-mono-plex", display: "swap" });
 
 const SITE = "https://showhn.onedaybuilt.com";
-const TITLE = "Show HN, what actually worked";
+const TITLE = "Show HN, what actually got attention";
 /* Built from the corpus, never typed. A hardcoded total shipped once and was
  * stale the next night, in the one place nobody re-reads: the share card. */
 const DESC =

@@ -15,7 +15,7 @@ export default function Home() {
     <main className="mx-auto w-full max-w-[860px] px-4 pb-24 pt-6 sm:px-6">
       <header className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 border-b border-rule pb-4">
         <p className="font-display text-[14px] font-bold tracking-[-.01em]">
-          Show HN <span className="text-accent">/ what actually worked</span>
+          Show HN <span className="text-accent">/ what got attention</span>
         </p>
         <p className="font-mono text-[11.5px] text-muted">
           {n0(r.corpus.total)} posts · <b className="font-semibold text-green">+{n0(r.corpus.week)} this week</b>
@@ -23,7 +23,7 @@ export default function Home() {
       </header>
 
       <h1 className="mt-9 max-w-[16ch] font-display text-[42px] font-bold leading-[1.03] tracking-[-.038em] sm:text-[56px]">
-        What actually worked on Hacker News
+        What actually got attention on Hacker News
       </h1>
       <p className="mt-4 max-w-[52ch] text-[17.5px] text-muted">
         Every <b className="text-ink">Show HN</b> post since 2011, measured — paste your title and see the ones
@@ -43,11 +43,11 @@ export default function Home() {
       <section className="mt-20">
         <p className="font-mono text-[12px] uppercase tracking-[.13em] text-accent">Any subject you like</p>
         <h2 className="mt-3 max-w-[20ch] font-display text-[34px] font-bold leading-[1.06] tracking-[-.033em] sm:text-[42px]">
-          Nobody shows you the posts that sank.
+          Nobody shows you the posts nobody saw.
         </h2>
         <p className="mb-7 mt-3 max-w-[62ch] text-[15px] text-muted">
           Every list of great Show HNs is a list of winners, which teaches you nothing: you cannot see what the
-          winners did differently without the posts that did the same thing and were ignored. Look up any subject
+          seen ones did differently without the posts that did the same thing and were ignored. Look up any subject
           and you get both columns.
         </p>
         <TopicSearch suggestions={r.topics} />
@@ -57,7 +57,7 @@ export default function Home() {
         <p className="font-mono text-[12px] uppercase tracking-[.13em] text-muted">
           This week · {n0(r.corpus.week)} new posts
         </p>
-        <h3 className="mt-3 font-display text-[23px] font-semibold tracking-[-.02em]">The ones that worked, in the last seven days</h3>
+        <h3 className="mt-3 font-display text-[23px] font-semibold tracking-[-.02em]">The ones that got attention, in the last seven days</h3>
         <div className="mt-3">{r.newest.map((p) => <Row key={p.i} p={p} />)}</div>
         <p className="mt-4 text-[13px] text-muted">
           Everything here is rebuilt every night, so these numbers move. Posts from the last two days are counted in
@@ -75,7 +75,7 @@ export default function Home() {
             Not a sample, and not only the winners.
           </li>
           <li>
-            <b className="text-ink">&ldquo;Worked&rdquo; means {r.window.WORKED} upvotes or more.</b> That is the top {pc(r.window.base)} of
+            <b className="text-ink">&ldquo;Seen&rdquo; means {r.window.WORKED} upvotes or more.</b> That is the top {pc(r.window.base)} of
             the past year. Hacker News calls an upvote a point, and it upvotes your own submission for you — so every
             post starts at one, and {pc(r.window.pctLE1)} of them never get a second. Hacker News does not publish
             which posts reached the front page, so the upvote count is the closest honest measure of being seen.

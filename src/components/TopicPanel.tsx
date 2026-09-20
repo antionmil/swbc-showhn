@@ -73,7 +73,7 @@ export default function TopicPanel({ topic, heading }: { topic: string; heading?
 
             <div className="mt-5 grid gap-5 sm:grid-cols-2">
               <div>
-                <h4 className="font-display text-[15px] font-semibold text-green">Worked — {n0(data.worked)} of {n0(data.n)}</h4>
+                <h4 className="font-display text-[15px] font-semibold text-green">Seen — {n0(data.worked)} of {n0(data.n)}</h4>
                 <p className="text-[12.5px] text-muted">{report.window.WORKED} upvotes or more</p>
                 <div className="mt-1.5">
                   {data.topWorked.length

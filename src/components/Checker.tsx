@@ -221,7 +221,7 @@ function Verdict({ title, ready }: { title: string; ready: boolean }) {
       {winners.length > 0 && (
         <div className="mt-4 rounded-2xl border border-rule bg-surface p-6 sm:p-7">
           <p className="font-mono text-[12px] uppercase tracking-[.13em] text-muted">
-            Titles this shape that worked{rate < base ? " anyway" : ""}
+            Titles this shape that got attention{rate < base ? " anyway" : ""}
           </p>
           <div className="mt-2">
             {winners.map((p) => <Row key={p.i} p={p} />)}

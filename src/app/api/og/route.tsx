@@ -53,14 +53,14 @@ export async function GET() {
       >
         <div style={{ display: "flex", justifyContent: "space-between", fontSize: 25 }}>
           <div style={{ display: "flex", fontWeight: 700 }}>
-            Show HN <span style={{ color: "#C6350B", marginLeft: 10 }}>/ what actually worked</span>
+            Show HN <span style={{ color: "#C6350B", marginLeft: 10 }}>/ what got attention</span>
           </div>
           <div style={{ display: "flex", color: "#6B625A" }}>{n0(report.corpus.total)} posts since 2011</div>
         </div>
 
         <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
           <div style={{ display: "flex", fontSize: 78, fontWeight: 700, lineHeight: 1.05, letterSpacing: "-0.035em", maxWidth: 1010 }}>
-            What actually worked on Hacker News
+            What actually got attention on Hacker News
           </div>
           <div style={{ display: "flex", fontSize: 28, color: "#6B625A", maxWidth: 900 }}>
             Every Show HN post since 2011, measured.

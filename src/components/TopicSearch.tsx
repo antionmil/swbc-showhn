@@ -43,7 +43,7 @@ export default function TopicSearch({ suggestions }: { suggestions: string[] }) 
       {topic && <TopicPanel topic={topic} heading="Every Show HN about" />}
 
       <div className="mt-8 grid gap-4 sm:grid-cols-2">
-        <League title="Words that carried a post" rows={league.best} good />
+        <League title="Words that got attention" rows={league.best} good />
         <League title="Words that never did" rows={league.worst} good={false} />
       </div>
       <p className="mt-3 text-[13px] text-muted">

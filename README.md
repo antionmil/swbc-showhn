@@ -1,4 +1,4 @@
-# Show HN, what actually worked
+# Show HN, what actually got attention
 
 Day 14 of [onedaybuilt.com](https://onedaybuilt.com). Live at
 **[showhn.onedaybuilt.com](https://showhn.onedaybuilt.com)**.
@@ -10,13 +10,19 @@ and one of those is the automatic upvote you get for submitting.
 Paste the title you are about to use. The site finds the posts of the past
 twelve months whose titles had the same *shape* — the same handful of
 measurable facts — and tells you what happened to them. Then it shows every
-post about your subject, the ones that worked **and** the ones that sank.
+post about your subject, the ones that were seen **and** the ones that were not.
 
 The page says "upvotes" throughout, and explains once that Hacker News calls
 an upvote a point. A test fails if any component writes "HN" on its own or
-puts "points" back in front of a reader. "Never seen" means under 30 upvotes, which is 96
-in 100; the stricter cut in the comparison columns is labelled **Ignored**,
-two upvotes or fewer, so one phrase never carries two thresholds.
+puts "points" back in front of a reader. One positive word throughout: a post is
+**seen** at 30 upvotes or more, which 4 in 100 manage. The stricter cut in
+the comparison columns is **Ignored**, two upvotes or fewer, so one phrase
+never carries two thresholds.
+
+The wheel drew this idea as "Show HN, what actually worked". The site shipped
+as "what actually got attention", because *worked* asks a question this data
+cannot answer — it measures attention, not outcomes. The draw record keeps
+the drawn name; only the product name changed.
 
 No account, no sign-in, nothing stored about what you type.
 
@@ -30,9 +36,9 @@ at least 48 hours old, because upvotes keep moving for about a day.
 |---|---|
 | The middle post | **2 upvotes**, one of which is your own |
 | Got no comment at all | **62%** |
-| Reached 30 upvotes | **4.1%** |
+| Seen (30 upvotes or more) | **4.1%** |
 | Reached 100 upvotes | **1.7%** |
-| Titles saying AI, LLM, GPT or agent | **31%** of all posts, and they reach 30 upvotes **2.9%** of the time against **4.6%** for everything else |
+| Titles saying AI, LLM, GPT or agent | **31%** of all posts, and they are seen **2.9%** of the time against **4.6%** for everything else |
 | Best hour vs worst hour | 17:00 UTC **5.6%**, 07:00 UTC **2.0%** |
 | 2011 vs 2026 | 2,980 posts at **12.7%**, against 36,100 posts at **4.0%** |
 
@@ -128,5 +134,5 @@ are `/api/topic` and `/api/og`, which are meant to be dynamic.
 Upvotes are not quality and this site cannot separate them: someone who writes
 a careful title usually built a careful thing. The numbers describe groups of
 posts, not yours. Deleted and flagged posts are not counted at all, so the
-worst launches are under-counted. "Worked" means 30 upvotes because Hacker News
-does not publish which posts reached the front page.
+worst launches are under-counted. "Seen" means 30 upvotes because Hacker News does
+not publish which posts reached the front page.
