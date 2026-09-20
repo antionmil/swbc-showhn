@@ -1,5 +1,5 @@
 /* Reading the monthly store. Shared by the data build and the fetch job. */
-import { readdirSync, readFileSync } from "node:fs";
+import { readdirSync, readFileSync, mkdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
 /* fileURLToPath, never URL.pathname: this repo lives under a directory whose
@@ -8,6 +8,14 @@ import { fileURLToPath } from "node:url";
 export const DATA_DIR = fileURLToPath(new URL("../data/", import.meta.url));
 export const SRC_DATA = fileURLToPath(new URL("../src/data/", import.meta.url));
 export const PUB_DATA = fileURLToPath(new URL("../public/data/", import.meta.url));
+
+/* Both directories hold only generated files, so .gitignore empties them and
+ * git does not track an empty directory. They exist on this laptop and did
+ * NOT exist on the build machine, where the first deploy died on ENOENT. */
+export function ensureDirs() {
+  mkdirSync(SRC_DATA, { recursive: true });
+  mkdirSync(PUB_DATA, { recursive: true });
+}
 
 export type Post = { i: string; t: string; p: number; c: number; s: number };
 

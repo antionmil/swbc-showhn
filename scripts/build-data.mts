@@ -10,7 +10,7 @@
  */
 import { writeFileSync, statSync } from "node:fs";
 import { FLAGS, WORKED, SANK, CELLS, cellIndex, shapeOf, bandOf, titleBody } from "../src/lib/flags.ts";
-import { readAll, SRC_DATA, DATA_DIR, PUB_DATA, type Post } from "./corpus.mts";
+import { readAll, ensureDirs, SRC_DATA, DATA_DIR, PUB_DATA, type Post } from "./corpus.mts";
 
 const DAY = 86400;
 const now = Math.floor(Date.now() / 1000);
@@ -20,6 +20,7 @@ const now = Math.floor(Date.now() / 1000);
 const SETTLED = now - 2 * DAY;
 const FROM = now - 365 * DAY;
 
+ensureDirs();
 const all = readAll();
 const win = all.filter((p) => p.s >= FROM && p.s <= SETTLED);
 const N = win.length;
