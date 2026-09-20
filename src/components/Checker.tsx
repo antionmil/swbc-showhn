@@ -12,6 +12,9 @@ const n0 = (x: number) => x.toLocaleString("en-US");
 
 export type Winner = { i: string; t: string; p: number; c: number; s: number };
 
+/** Shorter than this is not a title, it is a typo. */
+const MIN_TITLE = 8;
+
 /* The examples and the topic picker are 240 KB between them and only matter
  * once somebody checks a title. They load on first focus, so the page itself
  * stays small. */
@@ -45,18 +48,24 @@ export default function Checker({ examples }: { examples: string[] }) {
   const [ready, setReady] = useState(false);
   const out = useRef<HTMLDivElement>(null);
 
-  // A shared link brings its title with it.
+  // A shared link brings its title with it — through the same gate as the
+  // form. Without this, ?t=hi rendered a full verdict for a two-character
+  // title, which is the one version of this page a stranger is most likely
+  // to be handed.
   useEffect(() => {
     warm().then(() => setReady(true));
-    const t = new URLSearchParams(window.location.search).get("t");
-    if (t) { setTitle(t.slice(0, 120)); setChecked(t.slice(0, 120)); }
+    const t = new URLSearchParams(window.location.search).get("t")?.slice(0, 120);
+    if (!t) return;
+    setTitle(t);
+    if (t.trim().length >= MIN_TITLE) setChecked(t);
+    else setTooShort(true);
   }, []);
 
   const [tooShort, setTooShort] = useState(false);
 
   const submit = useCallback((value: string) => {
     const v = value.trim();
-    if (v.length < 8) { setTooShort(true); setChecked(null); return; }
+    if (v.length < MIN_TITLE) { setTooShort(true); setChecked(null); return; }
     setTooShort(false);
     setChecked(v);
     const url = new URL(window.location.href);

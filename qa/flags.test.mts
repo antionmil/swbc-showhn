@@ -1,5 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import { FLAGS, bandOf, describe, prefixAdded, shapeOf, titleBody, titleLength, resolve, cellIndex, MIN_N, IGNORED, type Cell } from "../src/lib/flags.ts";
 import cells from "../src/data/cells.json" with { type: "json" };
 
@@ -146,4 +147,14 @@ test("a 71-character body is over the limit once the prefix is counted", () => {
   // prefix against its own limit, so the page has to as well.
   assert.equal(titleLength("x".repeat(71)), 80);
   assert.equal(titleLength("x".repeat(72)), 81);
+});
+
+test("the shared-link path and the form agree on what is too short", () => {
+  // ?t=hi rendered a full verdict for a two-character title while the form
+  // refused the same input. A shared link is the version of this page a
+  // stranger is most likely to be handed.
+  const src = readFileSync("src/components/Checker.tsx", "utf8");
+  const gates = src.match(/length >= MIN_TITLE|length < MIN_TITLE/g) ?? [];
+  assert.ok(gates.length >= 2, "both the form and the ?t= path must apply the minimum");
+  assert.ok(!/length < 8\b/.test(src), "the minimum belongs in one named constant, not a literal");
 });
