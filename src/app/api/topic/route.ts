@@ -1,0 +1,75 @@
+/* The only server function on this site. It answers "what happened to the
+ * other posts about X" over the whole corpus — winners AND the ones that
+ * sank, which is the half nobody shows you.
+ *
+ * The corpus is a 17 MB text file built at deploy time and read once per
+ * instance. There is no database, so there is no quota to run into and no
+ * cold Neon connection to wait for. */
+import { readFileSync } from "node:fs";
+import path from "node:path";
+import { WORKED, SANK } from "@/lib/flags";
+import report from "@/data/report.json";
+
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
+
+type Row = { i: string; s: number; p: number; c: number; t: string };
+
+let LINES: string[] | null = null;
+let LOWER: string[] | null = null;
+
+function load() {
+  if (LINES && LOWER) return { LINES, LOWER };
+  const file = path.join(process.cwd(), "data", "search.txt");
+  LINES = readFileSync(file, "utf8").split("\n").filter(Boolean);
+  LOWER = LINES.map((l) => l.slice(l.indexOf("\t", l.indexOf("\t", l.indexOf("\t", l.indexOf("\t") + 1) + 1) + 1) + 1).toLowerCase());
+  return { LINES, LOWER };
+}
+
+function parse(line: string): Row {
+  const [i, s, p, c, ...rest] = line.split("\t");
+  return { i, s: +s, p: +p, c: +c, t: rest.join("\t") };
+}
+
+const trim = (r: Row) => ({ i: r.i, t: r.t, p: r.p, c: r.c, s: r.s });
+
+export async function GET(req: Request) {
+  const raw = new URL(req.url).searchParams.get("q") ?? "";
+  const q = raw.toLowerCase().replace(/[^\p{L}\p{N}+#. -]/gu, " ").trim().slice(0, 40);
+  if (q.length < 2) return Response.json({ error: "short" }, { status: 400 });
+
+  const terms = q.split(/\s+/).filter((t) => t.length >= 2).slice(0, 4);
+  if (!terms.length) return Response.json({ error: "short" }, { status: 400 });
+
+  const { LINES: lines, LOWER: lower } = load();
+  const hits: Row[] = [];
+  for (let k = 0; k < lower.length; k++) {
+    const t = lower[k];
+    let ok = true;
+    for (const term of terms) if (!t.includes(term)) { ok = false; break; }
+    if (ok) hits.push(parse(lines[k]));
+  }
+
+  const worked = hits.filter((r) => r.p >= WORKED).sort((a, b) => b.p - a.p);
+  const sank = hits.filter((r) => r.p <= SANK).sort((a, b) => b.s - a.s);
+  const settled = hits.filter((r) => r.s <= Date.now() / 1000 - 2 * 86400);
+
+  return Response.json(
+    {
+      q,
+      n: hits.length,
+      settled: settled.length,
+      worked: worked.length,
+      sank: sank.length,
+      rate: settled.length ? Math.round((1000 * settled.filter((r) => r.p >= WORKED).length) / settled.length) / 10 : null,
+      base: report.window.base,
+      topWorked: worked.slice(0, 5).map(trim),
+      topSank: sank.slice(0, 5).map(trim),
+      // a loop, not Math.min(...hits): a common word matches tens of
+      // thousands of posts and spreading that many arguments overflows the
+      // call stack — which is a 500 on the one query most likely to be tried
+      first: hits.reduce<number | null>((m, r) => (m === null || r.s < m ? r.s : m), null),
+    },
+    { headers: { "cache-control": "public, s-maxage=86400, stale-while-revalidate=604800" } },
+  );
+}

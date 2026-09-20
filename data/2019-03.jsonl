@@ -1,0 +1,873 @@
+{"i":"19276734","t":"Show HN: Working on a series of posts about creating Serverless apps with AWS","p":1,"c":0,"s":1551398723}
+{"i":"19276960","t":"Show HN: A serverless blog using CodePipeline, s3 and CloudFront","p":1,"c":0,"s":1551400972}
+{"i":"19276961","t":"Show HN: Ytt – YAML Templating Tool","p":2,"c":0,"s":1551400975}
+{"i":"19277221","t":"Show HN: Bukkeru","p":3,"c":1,"s":1551403857}
+{"i":"19277483","t":"Show HN: Plug and Play user notification system for web developers","p":2,"c":0,"s":1551407405}
+{"i":"19277765","t":"Show HN: XPress Compress v1.0 – A config-less compression algorithm","p":19,"c":13,"s":1551411980}
+{"i":"19277772","t":"Show HN: Westminster Chimes Using Launchd","p":1,"c":1,"s":1551412093}
+{"i":"19277801","t":"Show HN: Recipe-Finding Service","p":1,"c":0,"s":1551412591}
+{"i":"19278006","t":"Show HN: Random Wikipedia browser extension","p":15,"c":13,"s":1551416040}
+{"i":"19278605","t":"Show HN: Bag-of-Bag-of-Characters Model","p":1,"c":0,"s":1551425432}
+{"i":"19278724","t":"Show HN: Resume web tool maker CurriculumVitae.net","p":2,"c":3,"s":1551427631}
+{"i":"19279052","t":"Show HN: Minikube-Operator for (Kubernetes on Kubernetes)","p":2,"c":0,"s":1551432736}
+{"i":"19279545","t":"Show HN: Pdfvuer: Pdf Viewer for Vuejs","p":2,"c":0,"s":1551439013}
+{"i":"19279583","t":"Show HN: I wrote a book about Grokking Deep Learning","p":5,"c":2,"s":1551439407}
+{"i":"19279685","t":"Show HN: KubeVault – Tools for Running HashiCorp Vault on Kubernetes","p":8,"c":1,"s":1551440774}
+{"i":"19279763","t":"Show HN: Trainable FOSS Search Cloud","p":1,"c":0,"s":1551441940}
+{"i":"19279783","t":"Show HN: Compare your organic traffic with SEO changes done around the same time","p":5,"c":0,"s":1551442168}
+{"i":"19279786","t":"Show HN: Graphite V2 – Cross protocol decentralized productivity suite","p":17,"c":2,"s":1551442224}
+{"i":"19279951","t":"Show HN: One-liner curry decorator in Python","p":1,"c":0,"s":1551443632}
+{"i":"19280283","t":"Show HN: SpinMeNot – A Spun Content Detector","p":3,"c":2,"s":1551446388}
+{"i":"19280649","t":"Show HN: ThisResumeDoesNotExist – Tensorflow Resume Generator with TextGenRnn","p":2,"c":2,"s":1551448946}
+{"i":"19280842","t":"Show HN: Clojuredriven mid/enterprise CMS opens limited free beta","p":8,"c":1,"s":1551450375}
+{"i":"19281259","t":"Show HN: Reduct.tv – Watch Twitch Stream Summaries","p":1,"c":1,"s":1551452908}
+{"i":"19281497","t":"Show HN: Career Database – Salary and employment data on 550 careers","p":4,"c":3,"s":1551454342}
+{"i":"19281774","t":"Show HN: Upload files to AWS S3 directly from the browser (crazy performance)","p":8,"c":2,"s":1551455795}
+{"i":"19282098","t":"Show HN: csvdiff – a fast diff tool for comparing CSV files","p":21,"c":2,"s":1551457073}
+{"i":"19283221","t":"Show HN: Bolt – Just Like the App Store, but for Free Workout Routines","p":1,"c":0,"s":1551461750}
+{"i":"19283338","t":"Show HN: Interview Insider – Filter companies by interview type","p":1,"c":1,"s":1551462220}
+{"i":"19283707","t":"Show HN: Pastel – Collect design feedback on websites","p":5,"c":3,"s":1551464188}
+{"i":"19283831","t":"Show HN: Backtick – Issue Tracker for Humans","p":2,"c":0,"s":1551464999}
+{"i":"19284859","t":"Show HN: A media sharing platform with reputation-based votes","p":3,"c":1,"s":1551471541}
+{"i":"19284938","t":"Show HN: Croissant, a Lua REPL and Debugger","p":93,"c":6,"s":1551472135}
+{"i":"19286008","t":"Show HN: ModernRoboticsBook.jl – Julia package for Lynch and Park's book","p":6,"c":0,"s":1551479822}
+{"i":"19286159","t":"Show HN: DCGAN Face Generator","p":5,"c":0,"s":1551481337}
+{"i":"19286655","t":"Show HN: Yes or No – Unpopular Opinion App","p":3,"c":4,"s":1551487021}
+{"i":"19288386","t":"Show HN: Q&A platform which rewards crypto-incentives for good answers/votes","p":1,"c":0,"s":1551517678}
+{"i":"19288785","t":"Show HN: I made a site that lets you stream any torrent","p":71,"c":76,"s":1551526498}
+{"i":"19288968","t":"Show HN: A SaaS application managing rubrics","p":2,"c":0,"s":1551530029}
+{"i":"19288995","t":"Show HN: Emoji Alchemy","p":3,"c":0,"s":1551530645}
+{"i":"19289300","t":"Show HN: Discord Bot Library Written in Emojicode","p":4,"c":3,"s":1551535721}
+{"i":"19289329","t":"Show HN: A Vulkan Rendering API for JavaScript","p":18,"c":0,"s":1551536229}
+{"i":"19289416","t":"Show HN: Node-Rem: Rest Express Mongo in TypeScript, Passport, JWT, Docker, APIs","p":4,"c":3,"s":1551537292}
+{"i":"19289557","t":"Show HN: Hacker Hiring Hunt","p":1,"c":1,"s":1551540115}
+{"i":"19289643","t":"Show HN: World's first static code analysis tool for Go","p":1,"c":2,"s":1551541600}
+{"i":"19290317","t":"Show HN: RunMyCode Online – Run Code Online, Directly from GitHub","p":3,"c":1,"s":1551550416}
+{"i":"19290613","t":"Show HN: Combo Password: A (hopefully) new type of password","p":2,"c":8,"s":1551553902}
+{"i":"19291406","t":"Show HN: Calling native APIs, such as text-to-speech, at run-time via JavaScript","p":5,"c":1,"s":1551563995}
+{"i":"19291484","t":"Show HN: anonymous SMS with physical numbers and Zcoin","p":4,"c":1,"s":1551564921}
+{"i":"19292682","t":"Show HN: P2PSC, a fairly secure P2P chat service","p":1,"c":1,"s":1551586509}
+{"i":"19293755","t":"Show HN: A tool to upload/download files from command line","p":79,"c":48,"s":1551608776}
+{"i":"19293862","t":"Show HN: Timmi – A minimal private Time Tracker for your basic needs (no login)","p":2,"c":1,"s":1551610852}
+{"i":"19294013","t":"Show HN: Ping – schedule jobs by requesting webhooks","p":2,"c":1,"s":1551613607}
+{"i":"19294057","t":"Show HN: PivotHelper, utility for generating Pivot tables and charts","p":37,"c":11,"s":1551614459}
+{"i":"19294145","t":"Show HN: Exoplanets Data Visualisation Using D3.js","p":50,"c":5,"s":1551616035}
+{"i":"19294483","t":"Show HN: My Thoughts on In-House CMS Development","p":1,"c":0,"s":1551622246}
+{"i":"19294773","t":"Show HN: EduClan – Start Teaching Online at Lowest Cost","p":2,"c":1,"s":1551625936}
+{"i":"19294870","t":"Show HN: A drop and drag web builder (desktop only)","p":2,"c":1,"s":1551627054}
+{"i":"19294884","t":"Show HN: CLI Tool to Send Newsletters","p":1,"c":0,"s":1551627195}
+{"i":"19295171","t":"Show HN: AgentFoundation – HN for MIRI Research","p":1,"c":0,"s":1551629941}
+{"i":"19295196","t":"Show HN: Polystores an abstraction to interact with cloud storages","p":2,"c":1,"s":1551630271}
+{"i":"19296303","t":"Show HN: wordheart – The search and visualization engine For Books","p":2,"c":2,"s":1551641409}
+{"i":"19296410","t":"Show HN: Archie – Cross-compile to ARM and RISC-V without code changes","p":2,"c":0,"s":1551642672}
+{"i":"19296420","t":"Show HN: A New Blog Aims to Promote Machine Learning and Artificial Intelligence","p":1,"c":0,"s":1551642756}
+{"i":"19296691","t":"Show HN: Clio Programming Language","p":14,"c":7,"s":1551645490}
+{"i":"19296733","t":"Show HN: Wdio – Docker setup for WebdriverIO","p":49,"c":14,"s":1551645917}
+{"i":"19296855","t":"Show HN: PocketMoney – A React+MonzoAPI Weekend Project","p":1,"c":0,"s":1551647043}
+{"i":"19296936","t":"Show HN: IdBloc – Use a different email address for every website","p":10,"c":0,"s":1551647643}
+{"i":"19297016","t":"Show HN: Namer.ai, AI (RNN) powered domain name generator","p":2,"c":5,"s":1551648439}
+{"i":"19297507","t":"Show HN: 1% Management Fees – Mobile Real Estate Crowdfunding","p":1,"c":0,"s":1551654465}
+{"i":"19297593","t":"Show HN: Front End as a Service: Mason and Airtable","p":7,"c":0,"s":1551655483}
+{"i":"19299532","t":"Show HN: replies.cc – Get the replies to an email collected in a spreadsheet","p":3,"c":1,"s":1551685789}
+{"i":"19299760","t":"Show HN: An Easy Programming Language – Built with WebAssembly","p":144,"c":46,"s":1551689452}
+{"i":"19299882","t":"Show HN: S3sup – static site uploader for Amazon S3","p":2,"c":0,"s":1551691132}
+{"i":"19300046","t":"Show HN: ProductAPI – Extract E-commerce product information automatically","p":2,"c":0,"s":1551693273}
+{"i":"19300084","t":"Show HN: I wrote a book about Laravel testing","p":1,"c":0,"s":1551693918}
+{"i":"19300213","t":"Show HN: VSCode dev box, TMUX style dev in the Cloud","p":4,"c":0,"s":1551695638}
+{"i":"19300319","t":"Show HN: DotConfig – A super simple Webpack configuration wizard","p":2,"c":0,"s":1551697151}
+{"i":"19300591","t":"Show HN: Git Webhooks on AWS interactive architecture diagram","p":4,"c":0,"s":1551700911}
+{"i":"19300685","t":"Show HN: Change tracking for development/operations teams","p":1,"c":1,"s":1551702225}
+{"i":"19300800","t":"Show HN: REDasm Disassembler 2.0","p":128,"c":46,"s":1551703599}
+{"i":"19300893","t":"Show HN: One-on-one meeting software for attentive leaders","p":3,"c":0,"s":1551704740}
+{"i":"19300963","t":"Show HN: Progress Dashboard – A dashboard to stay productive with progress bars","p":59,"c":32,"s":1551705417}
+{"i":"19300976","t":"Show HN: A hand-picked selection of the worst computer puns on the Internet","p":58,"c":31,"s":1551705537}
+{"i":"19301018","t":"Show HN: My shell script for HTTP/HTTPS troubleshooting and profiling","p":155,"c":26,"s":1551705954}
+{"i":"19301258","t":"Show HN: Ancestor Chat – Let family chat with you after you die","p":1,"c":2,"s":1551708097}
+{"i":"19301347","t":"Show HN: Socket Wrench – Insomnia/Postman for Websocket Testing","p":23,"c":8,"s":1551708830}
+{"i":"19301523","t":"Show HN: Mission Patch – design NASA-style laptop stickers to celebrate success","p":30,"c":6,"s":1551710167}
+{"i":"19301565","t":"Show HN: FindCollabs: Find Collaborators. Build Projects.","p":1,"c":0,"s":1551710405}
+{"i":"19301647","t":"Show HN: Escape – The cheapest flight to every city in the world on any dates","p":9,"c":1,"s":1551710891}
+{"i":"19301737","t":"Show HN: Grafana Live Streaming Datasource Implementation","p":120,"c":13,"s":1551711599}
+{"i":"19301868","t":"Show HN: Chrome extension to turn Figma frames into a Google Slides presentation","p":1,"c":0,"s":1551712644}
+{"i":"19302069","t":"Show HN: Pygram11 – simple, fast histogramming in Python via pybind11 and OpenMP","p":4,"c":0,"s":1551714145}
+{"i":"19302099","t":"Show HN: Hsctl, a CLI for HomeSeer in Rust","p":1,"c":3,"s":1551714409}
+{"i":"19302582","t":"Show HN: Banana ripeness classifier (ML webapp)","p":32,"c":13,"s":1551717876}
+{"i":"19302636","t":"Show HN: Codegiant 2.0 – Developer Friendly Project Management Tools","p":2,"c":0,"s":1551718182}
+{"i":"19302832","t":"Show HN: I built a place to judge the internet","p":1,"c":1,"s":1551719418}
+{"i":"19302927","t":"Show HN: Vue.js Free Dashboard on DashboardPack.com","p":10,"c":1,"s":1551719894}
+{"i":"19303269","t":"Show HN: The State of Ecommerce – 2019 Report","p":1,"c":0,"s":1551721493}
+{"i":"19303368","t":"Show HN: Cool Fonts for Instagram, Facebook, Twitter","p":1,"c":1,"s":1551721905}
+{"i":"19303658","t":"Show HN: Build and distribute any go-gettable Go package","p":3,"c":0,"s":1551723364}
+{"i":"19303666","t":"Show HN: Spotup – Learn about any landmark by simply pointing your phone at it","p":6,"c":0,"s":1551723420}
+{"i":"19303726","t":"Show HN: A New Blog Aims to Promote Machine Learning and Artificial Intelligence","p":1,"c":0,"s":1551723706}
+{"i":"19303846","t":"Show HN: Create a webpack or Parcel app in the browser","p":3,"c":0,"s":1551724358}
+{"i":"19304245","t":"Show HN: Generating weekly O365-hosted mailbox statistics","p":2,"c":0,"s":1551726652}
+{"i":"19304471","t":"Show HN: Juniors in Tech – a newsletter and job board","p":1,"c":0,"s":1551727936}
+{"i":"19304890","t":"Show HN: A rap song about some issues in tech","p":6,"c":1,"s":1551730346}
+{"i":"19305408","t":"Show HN: Tile38 – Realtime geofencing and geospatial index","p":130,"c":24,"s":1551733209}
+{"i":"19305679","t":"Show HN: Golang auto loading env vars into unexported (private) struct fields","p":1,"c":1,"s":1551734648}
+{"i":"19306091","t":"Show HN: Multigrid Dreams with Hints of Recursion","p":3,"c":1,"s":1551737424}
+{"i":"19306176","t":"Show HN: Embed code to show random food on your website","p":1,"c":0,"s":1551738032}
+{"i":"19306571","t":"Show HN: Live Updating for Any CLI Command","p":2,"c":1,"s":1551740842}
+{"i":"19306898","t":"Show HN: The Marker Game, a turn-based combat game on a hexagonal grid","p":2,"c":2,"s":1551743821}
+{"i":"19307395","t":"Show HN: Electric Car Marketplace App","p":2,"c":1,"s":1551749770}
+{"i":"19307664","t":"Show HN: Colony Content – Premium articles to grow your business on autopilot","p":1,"c":1,"s":1551753547}
+{"i":"19307718","t":"Show HN: qcl, a Quick Command Line tool that works on top of NPM/yarn","p":2,"c":0,"s":1551754314}
+{"i":"19307921","t":"Show HN: Chrome extension showing comments on Hacker News for an article","p":1,"c":1,"s":1551757398}
+{"i":"19308877","t":"Show HN: Kanochart – Prioritize your product roadmap with confidence","p":3,"c":0,"s":1551771954}
+{"i":"19308919","t":"Show HN: English and Spanish news articles summarizer algorithm with word clouds","p":50,"c":11,"s":1551772371}
+{"i":"19309219","t":"Show HN: MQLess – actor model framework on top of AWS Lambda","p":4,"c":0,"s":1551776743}
+{"i":"19309235","t":"Show HN: Git externals that work like SVN externals","p":2,"c":0,"s":1551776982}
+{"i":"19309297","t":"Show HN: Postgres Temporal Tables and Logical Replication","p":2,"c":0,"s":1551777979}
+{"i":"19309564","t":"Show HN: Add Syntax Highlighting to Golang.org","p":1,"c":0,"s":1551781358}
+{"i":"19309696","t":"Show HN: Threat Intel List – Over 400 cyber threat intel feeds in one place","p":1,"c":1,"s":1551783195}
+{"i":"19309886","t":"Show HN: I wrote a book about learning ReactJS","p":3,"c":2,"s":1551786428}
+{"i":"19310296","t":"Show HN: JavaScript Tips from ES5 to ES10","p":2,"c":5,"s":1551791844}
+{"i":"19310630","t":"Show HN: Visual Indicator for Show HN","p":1,"c":0,"s":1551795525}
+{"i":"19310747","t":"Show HN: tor_ssh.sh – One command to enable SSH access via Tor","p":93,"c":65,"s":1551796603}
+{"i":"19310754","t":"Show HN: A Python package for structural design of slabs in punching shear","p":2,"c":0,"s":1551796666}
+{"i":"19310954","t":"Show HN: Lighthouse Keeper – Lighthouse Monitoring for Free","p":5,"c":0,"s":1551798432}
+{"i":"19311066","t":"Show HN: MiDrive – Self-hosted Dropbox-like interface for your S3 bucket","p":3,"c":3,"s":1551799414}
+{"i":"19311090","t":"Show HN: Deep Work Hours","p":112,"c":64,"s":1551799577}
+{"i":"19311653","t":"Show HN: A simple WebAssembly game employing the C. elegans neural network","p":3,"c":1,"s":1551803444}
+{"i":"19312070","t":"Show HN: Build your own crypto “DataFolio” and automate the trading execution","p":3,"c":1,"s":1551805926}
+{"i":"19312663","t":"Show HN: Fake 3D orthogonal grip map in JavaScript with mouse interaction","p":3,"c":0,"s":1551809516}
+{"i":"19312922","t":"Show HN: Afroic – The African Reddit","p":3,"c":0,"s":1551811081}
+{"i":"19313048","t":"Show HN: Kotlin Compiler Plugin Example","p":1,"c":0,"s":1551811878}
+{"i":"19313197","t":"Show HN: React component to render onScroll fetched data lists","p":3,"c":0,"s":1551812917}
+{"i":"19315024","t":"Show HN: M4b-tool 0.3.3 – a tool to merge, split and chapterize audiobooks","p":18,"c":0,"s":1551826585}
+{"i":"19315122","t":"Show HN: Interactively generate text using the public OpenAI GPT-2 model","p":9,"c":5,"s":1551827743}
+{"i":"19315256","t":"Show HN: The simplest binary tree possible, in JavaScript","p":2,"c":0,"s":1551829153}
+{"i":"19315288","t":"Show HN: A journey through the network – Hands on (Part 1)","p":2,"c":0,"s":1551829495}
+{"i":"19315467","t":"Show HN: Datarow.io – an easy to use data integration platform","p":7,"c":7,"s":1551831882}
+{"i":"19315968","t":"Show HN: Ecommerce CMS without a database attempt","p":1,"c":0,"s":1551839228}
+{"i":"19316084","t":"Show HN: Social Capital Data-Backed Online Art Gallery","p":1,"c":0,"s":1551840904}
+{"i":"19316948","t":"Show HN: Textstandup.com – Web application for text based stand-ups","p":9,"c":3,"s":1551856717}
+{"i":"19317257","t":"Show HN: Editdit – Video/Image/Meme Maker Using WebAssembly","p":8,"c":9,"s":1551860953}
+{"i":"19317304","t":"Show HN: Real Time Visitor Stats for All Your Websites in One Screen","p":4,"c":1,"s":1551861562}
+{"i":"19317460","t":"Show HN: TCK (template construction kit) Python","p":1,"c":1,"s":1551863780}
+{"i":"19317697","t":"Show HN: GitHub star trends of Bitcoin and Linux","p":3,"c":0,"s":1551866439}
+{"i":"19317719","t":"Show HN: Snap and Save Receipts (Telegram Bot as a Service)","p":2,"c":0,"s":1551866681}
+{"i":"19317825","t":"Show HN: An HTTP Snippet Generator for Swagger and Redoc","p":2,"c":0,"s":1551867819}
+{"i":"19317873","t":"Show HN: Get feedback on decks and get intros to VC's","p":1,"c":0,"s":1551868570}
+{"i":"19318136","t":"Show HN: OpenFaaS Cloud One-Click for Kubernetes","p":2,"c":0,"s":1551872330}
+{"i":"19318312","t":"Show HN: A Simple Imgur Alternative","p":5,"c":1,"s":1551874655}
+{"i":"19318320","t":"Show HN: TextlyAI – Free Google Chrome extension for checking writing online","p":1,"c":1,"s":1551874841}
+{"i":"19318355","t":"Show HN: Hyperbolic N-Space Embeddings for TensorFlow","p":2,"c":0,"s":1551875261}
+{"i":"19318495","t":"Show HN: Android Watermark Library, Add a Watermark to Images","p":3,"c":0,"s":1551876861}
+{"i":"19319555","t":"Show HN: Automate anything on your desktop – with a Chrome browser extension","p":14,"c":0,"s":1551886100}
+{"i":"19320117","t":"Show HN: Create Chart Images from a URL","p":204,"c":35,"s":1551889768}
+{"i":"19320135","t":"Show HN: Stack Overflow for Student Essays","p":1,"c":1,"s":1551889850}
+{"i":"19320204","t":"Show HN: GitHub Bot – Limit Number of Open PRs","p":1,"c":0,"s":1551890329}
+{"i":"19320253","t":"Show HN: Sincere – Read and write about feelings","p":6,"c":1,"s":1551890572}
+{"i":"19320553","t":"Show HN: Qase.io – a free test case management tool for Dev and QA teams","p":11,"c":3,"s":1551892034}
+{"i":"19320684","t":"Show HN: A Python-built Network, Visual link saving/sharing","p":1,"c":1,"s":1551892912}
+{"i":"19320770","t":"Show HN: It's Here Simple Ionic app build automation with new CircleCI 2.0","p":2,"c":0,"s":1551893549}
+{"i":"19321003","t":"Show HN: A CLI tool to access Product Hunt's products right from your terminal","p":4,"c":1,"s":1551895216}
+{"i":"19321044","t":"Show HN: Loresome – An RPG game that plays itself, and your TODOs aid the hero","p":25,"c":7,"s":1551895534}
+{"i":"19321307","t":"Show HN: Create Tiered Pricing Proposals Easily with SalesRight","p":1,"c":0,"s":1551897239}
+{"i":"19321413","t":"Show HN: A Foundation for Developing REST APIs with Express and Node.js","p":1,"c":0,"s":1551897924}
+{"i":"19321625","t":"Show HN: Tutorial how to send scheduled messages to Slack from any API","p":2,"c":0,"s":1551899217}
+{"i":"19322345","t":"Show HN: HN front page sorted by vote:comment ratio","p":4,"c":0,"s":1551903452}
+{"i":"19322625","t":"Show HN: Aiko Meet – AI Video Chat with Subtitles and Full Transcript","p":7,"c":3,"s":1551905433}
+{"i":"19323373","t":"Show HN: Integrating Packagr with Gitlab CI","p":2,"c":0,"s":1551909944}
+{"i":"19324698","t":"Show HN: RoadGoat – Get matched with travel destinations","p":1,"c":0,"s":1551920650}
+{"i":"19324971","t":"Show HN: Pipe To Me – Stream data over HTTP using curl","p":39,"c":13,"s":1551924194}
+{"i":"19324973","t":"Show HN: GitHub Pull Request Bot","p":2,"c":1,"s":1551924256}
+{"i":"19325293","t":"Show HN: An alternative to Apache / Nginx config hell","p":8,"c":4,"s":1551928925}
+{"i":"19325710","t":"Show HN: Two Kilo – A curses-based text editor in 2kb of code","p":67,"c":44,"s":1551936118}
+{"i":"19325980","t":"Show HN: Lets Get Arrested Project","p":5,"c":1,"s":1551940256}
+{"i":"19326564","t":"Show HN: Telegram bot sends a message with BTC price and updates it every minute","p":1,"c":0,"s":1551949133}
+{"i":"19327697","t":"Show HN: KGCNs – Machine Learning over Knowledge Graphs with TensorFlow","p":10,"c":0,"s":1551964275}
+{"i":"19327742","t":"Show HN: SimpleQuoter – Easy to Use Sales Quote Estimating Tool for Startups","p":3,"c":0,"s":1551964636}
+{"i":"19328242","t":"Show HN: BitBums – a classic PHP tick based game and crypto themed satire","p":1,"c":1,"s":1551969057}
+{"i":"19328533","t":"Show HN: Find Accessible Colors","p":11,"c":0,"s":1551971029}
+{"i":"19328637","t":"Show HN: A console audio tag editor: cursedtag","p":8,"c":2,"s":1551971723}
+{"i":"19328685","t":"Show HN: Deploy each branch to its own infra == super easy testing","p":4,"c":0,"s":1551972031}
+{"i":"19328777","t":"Show HN: Symfony HTTP Reponder: ADR Implemented","p":1,"c":0,"s":1551972618}
+{"i":"19328962","t":"Show HN: Public Art - Discover Street Art Nearby (iOS)","p":11,"c":4,"s":1551973690}
+{"i":"19330077","t":"Show HN: Database Janitor – Customizable Database Dumps","p":1,"c":0,"s":1551980222}
+{"i":"19330117","t":"Show HN: Women made all of these design tools, podcasts and other great things","p":7,"c":0,"s":1551980405}
+{"i":"19330254","t":"Show HN: jtreminio/volsync – A tool to reduce Docker for Mac volume slowness","p":1,"c":0,"s":1551981091}
+{"i":"19330862","t":"Show HN: Use the Touch Bar on Any Mac","p":5,"c":0,"s":1551984425}
+{"i":"19331412","t":"Show HN: Cryptocurrency Index Builder","p":37,"c":4,"s":1551987462}
+{"i":"19332203","t":"Show HN: Play a game inside your localStorage","p":2,"c":0,"s":1551991696}
+{"i":"19332351","t":"Show HN: Fulfilld – Your eco-friendly pantry on cruise control","p":2,"c":1,"s":1551992351}
+{"i":"19332946","t":"Show HN: Matplotlib bindings in Node.js","p":2,"c":0,"s":1551995863}
+{"i":"19333287","t":"Show HN: CryptoQokka – sentiment and opinion API for crypto developers / traders","p":4,"c":0,"s":1551998133}
+{"i":"19334934","t":"Show HN: Zokyo – Chrome Extension for GitHub Developers","p":1,"c":1,"s":1552017151}
+{"i":"19335392","t":"Show HN: Azartiz MediaMaker Demo","p":3,"c":0,"s":1552023604}
+{"i":"19336077","t":"Show HN: I'm a robot tech enthusiast and this is my robot website","p":195,"c":54,"s":1552035197}
+{"i":"19336287","t":"Show HN: SXSW19 Partyfinder Google Action","p":1,"c":0,"s":1552038351}
+{"i":"19336323","t":"Show HN: Find movies from IMDB watchlist","p":3,"c":0,"s":1552038776}
+{"i":"19336453","t":"Show HN: WomenGeekJobs – A platform to encourage women to pursue a tech career","p":1,"c":0,"s":1552040961}
+{"i":"19336459","t":"Show HN: Website(s) Logo Scraper for Node.js Written in TypeScript","p":2,"c":0,"s":1552041074}
+{"i":"19336531","t":"Show HN: Deploying Private Python Packages with GitHub and TravisCI","p":1,"c":0,"s":1552042331}
+{"i":"19336740","t":"Show HN: How to hold airlines accountable once and for all","p":1,"c":0,"s":1552045573}
+{"i":"19336757","t":"Show HN: Writing discord bot with speech recognition","p":1,"c":0,"s":1552045766}
+{"i":"19336803","t":"Show HN: Twttrshot – Tweet to Screenshot","p":6,"c":4,"s":1552046314}
+{"i":"19336816","t":"Show HN: Spring Boot Style Guide (WIP)","p":2,"c":0,"s":1552046533}
+{"i":"19336848","t":"Show HN: Platform to Solve Some of “First Impression Influence” Problem","p":2,"c":1,"s":1552047015}
+{"i":"19337107","t":"Show HN: Smooth UI System, a new way to style components","p":6,"c":0,"s":1552049922}
+{"i":"19337150","t":"Show HN: Learn R by Example","p":7,"c":1,"s":1552050488}
+{"i":"19337497","t":"Show HN: Lightdogs – Collect super dogs by using a focus timer","p":4,"c":0,"s":1552053603}
+{"i":"19337723","t":"Show HN: Ask Alexa, Is the L train running?","p":3,"c":0,"s":1552055384}
+{"i":"19337955","t":"Show HN: Pin Plz – A simple way to save bookmarks online","p":4,"c":0,"s":1552056901}
+{"i":"19338058","t":"Show HN: Brök – a command-line tool to check for broken links in text documents","p":5,"c":0,"s":1552057461}
+{"i":"19338781","t":"Show HN: Base69 Binary-to-Text Encoding. Like Base64 but NOICEr","p":4,"c":0,"s":1552061398}
+{"i":"19338854","t":"Show HN: Extensible STL style containers, iterators and algorithms in C","p":3,"c":0,"s":1552061748}
+{"i":"19339063","t":"Show HN: For SXSW, HotSpot – Find the hottest spots near you","p":5,"c":2,"s":1552062721}
+{"i":"19339396","t":"Show HN: Unity 3D WebView for Android and iOS","p":4,"c":0,"s":1552064499}
+{"i":"19339750","t":"Show HN: OOP Excel Library","p":18,"c":0,"s":1552066201}
+{"i":"19339792","t":"Show HN: Privacy-focused iOS hiking app","p":16,"c":13,"s":1552066386}
+{"i":"19340482","t":"Show HN: Unicode Calendar Generator","p":4,"c":0,"s":1552069726}
+{"i":"19341433","t":"Show HN: A new way to add additional links to Instagram","p":4,"c":0,"s":1552074097}
+{"i":"19341818","t":"Show HN: Cmt – write consistent Git commit messages","p":3,"c":0,"s":1552076610}
+{"i":"19343093","t":"Show HN: Hacking Kindness – how to make people behave better on the Internet","p":6,"c":4,"s":1552086234}
+{"i":"19344021","t":"Show HN: A bookmarklet to make your YC app PDF-friendly","p":2,"c":0,"s":1552097358}
+{"i":"19344146","t":"Show HN: My CV is also a bootloader","p":255,"c":50,"s":1552099791}
+{"i":"19344881","t":"Show HN: ReadersChatter – Come start a chatter on a book","p":12,"c":21,"s":1552114455}
+{"i":"19345080","t":"Show HN: Give a new look to your App using Bubble Navigation","p":2,"c":0,"s":1552119306}
+{"i":"19345357","t":"Show HN: I made a template to build Node.js Desktop Applications","p":9,"c":0,"s":1552124607}
+{"i":"19345799","t":"Show HN: Sane Tech Stack – job board for jobs without tool fatigue","p":1,"c":4,"s":1552134214}
+{"i":"19345875","t":"Show HN: Cell Automata Ventricle Puzzle in Elm and WebGL","p":43,"c":6,"s":1552135691}
+{"i":"19346034","t":"Show HN: SimpleQuoter – Easy to Use Sales Quote Estimating Tool for Startups","p":11,"c":0,"s":1552138733}
+{"i":"19346523","t":"Show HN: Best unpoisoned DNS resolver in China","p":1,"c":1,"s":1552144849}
+{"i":"19346728","t":"Show HN: CryptoTrader.Tax – Tax calculator for your crypto trading","p":1,"c":0,"s":1552147282}
+{"i":"19347763","t":"Show HN: An experimental news site that generates content from Reddit: Nowpaper","p":2,"c":3,"s":1552157655}
+{"i":"19348572","t":"Show HN: ForGrowth – Smart way to follow your favourite topics with full control","p":1,"c":0,"s":1552166625}
+{"i":"19349277","t":"Show HN: Owlet – Typed Spreadsheet UI Library for Scala.js, Now in 3D","p":2,"c":0,"s":1552174914}
+{"i":"19349321","t":"Show HN: Codetalks.tv – The best dev talks around the world","p":4,"c":0,"s":1552175632}
+{"i":"19349447","t":"Show HN: Cloud browser – headless Chrome and image maps","p":69,"c":31,"s":1552177501}
+{"i":"19349493","t":"Show HN: Wordpress Notification Plugin","p":1,"c":0,"s":1552178350}
+{"i":"19349540","t":"Show HN: Control Amazon.com use with facts and gorgeous photos of the Amazon","p":3,"c":2,"s":1552179214}
+{"i":"19349868","t":"Show HN: Chrome extension – Paste a copied image/GIF to immediately download","p":1,"c":0,"s":1552186201}
+{"i":"19350421","t":"Show HN: Freeciv-Web","p":212,"c":24,"s":1552194587}
+{"i":"19351017","t":"Show HN: Simple Benchmark Python Microframeworks","p":2,"c":0,"s":1552207161}
+{"i":"19351431","t":"Show HN: Chaos – Pastejacking Tool to Replace Semicolon with Greek Question Mark","p":2,"c":3,"s":1552215793}
+{"i":"19351454","t":"Show HN: Automatic analytics for apollo-client apps","p":2,"c":0,"s":1552216452}
+{"i":"19351485","t":"Show HN: DiceDice, get a random page from Wikimedia projects","p":1,"c":0,"s":1552216855}
+{"i":"19351718","t":"Show HN: Title Race – Race for the Premier League Title","p":1,"c":1,"s":1552222112}
+{"i":"19352068","t":"Show HN: An image annotation and object detection tool written in C","p":5,"c":0,"s":1552227269}
+{"i":"19352134","t":"Show HN: Cabinet, A visual, photo-first notepad for iOS","p":1,"c":0,"s":1552228426}
+{"i":"19352208","t":"Show HN: A Simple Lightning Network Plugin Based on JavaScript","p":8,"c":0,"s":1552229570}
+{"i":"19352486","t":"Show HN: I'm Looking for Python Stories","p":7,"c":4,"s":1552233573}
+{"i":"19352567","t":"Show HN: Postman/Gherkin tests generator from swagger spec","p":2,"c":2,"s":1552234524}
+{"i":"19352961","t":"Show HN: Quacker Tools – a collection of client side only online tools","p":2,"c":0,"s":1552238156}
+{"i":"19352967","t":"Show HN: Best Friend – Animation Short Film","p":1,"c":2,"s":1552238191}
+{"i":"19353474","t":"Show HN: A simple website uptime monitoring API","p":1,"c":0,"s":1552242977}
+{"i":"19354431","t":"Show HN: The Jankest Autonomous Drone Built and Programmed from Scratch","p":137,"c":37,"s":1552251312}
+{"i":"19354668","t":"Show HN: Memrey is an advanced yet beautiful notepad for passionate creatives","p":5,"c":1,"s":1552253453}
+{"i":"19354731","t":"Show HN: Feed of current articles for science lovers shortened to bullet points","p":94,"c":34,"s":1552254019}
+{"i":"19355134","t":"Show HN: Using random forest to cluster smart contract functions","p":3,"c":0,"s":1552257479}
+{"i":"19355516","t":"Show HN: Zokyo – A Chrome Extension for Developers to Track Their GitHub Issues","p":2,"c":0,"s":1552261400}
+{"i":"19356691","t":"Show HN: A Transformer Implementation in Keras' Imperative API for TensorFlow","p":6,"c":0,"s":1552278774}
+{"i":"19356970","t":"Show HN: Get custom notifications on your devices using Rest API","p":9,"c":1,"s":1552283587}
+{"i":"19357331","t":"Show HN: Elements that help you get started without code","p":1,"c":0,"s":1552290481}
+{"i":"19357376","t":"Show HN: State of Cloud Tech","p":2,"c":0,"s":1552291320}
+{"i":"19357507","t":"Show HN: traduora – translation management platform for teams","p":1,"c":0,"s":1552293780}
+{"i":"19357542","t":"Show HN: Poxa – Self Hosted Pusher Server","p":4,"c":0,"s":1552294459}
+{"i":"19357569","t":"Show HN: Goconf – Dead simple Go configuration file library","p":2,"c":1,"s":1552294931}
+{"i":"19357725","t":"Show HN: Breathly – open-source breathing training app built with React-Native","p":2,"c":0,"s":1552297406}
+{"i":"19357825","t":"Show HN: Norse Idle – A JavaScript Game for Mobile and Desktop","p":2,"c":0,"s":1552299168}
+{"i":"19357829","t":"Show HN: Better Django 404 Emails","p":2,"c":0,"s":1552299253}
+{"i":"19357852","t":"Show HN: Strans – Sed alternative that automatically learns from examples","p":158,"c":19,"s":1552299629}
+{"i":"19357866","t":"Show HN: VSCode in Browser – With Ansible, Liveshare etc.","p":1,"c":0,"s":1552299856}
+{"i":"19358008","t":"Show HN: Telegram bot that posts top of Reddit's posts to channels","p":2,"c":0,"s":1552302090}
+{"i":"19358202","t":"Show HN: Deleaker now finds leaks in Delphi and C++ Builder","p":2,"c":0,"s":1552304861}
+{"i":"19358979","t":"Show HN: 7DRL Challenge 2019, my CSS-only roguelike browser game (no JavaScript)","p":6,"c":0,"s":1552312598}
+{"i":"19359267","t":"Show HN: Boat – Big O analysis tool","p":24,"c":9,"s":1552314996}
+{"i":"19359336","t":"Show HN: Customize Your Apple Watch Face with WebHooks","p":1,"c":0,"s":1552315544}
+{"i":"19359659","t":"Show HN: A GitHub integration for Python code style","p":3,"c":0,"s":1552318093}
+{"i":"19359696","t":"Show HN: JSON-to-JSON mapping done easily","p":14,"c":5,"s":1552318359}
+{"i":"19359879","t":"Show HN: Generic IoT platform with triggers and visualization","p":1,"c":0,"s":1552319626}
+{"i":"19359967","t":"Show HN: Game Detection/Identification API Using Tensorflow and Go","p":5,"c":2,"s":1552320226}
+{"i":"19359979","t":"Show HN: Journali.sm, a Newsfeed for News","p":69,"c":40,"s":1552320314}
+{"i":"19360276","t":"Show HN: Sincere – Read and write about emotions","p":1,"c":0,"s":1552321942}
+{"i":"19360478","t":"Show HN: AI Powered Spam SMS Protection","p":1,"c":0,"s":1552323103}
+{"i":"19360535","t":"Show HN: Simple SSL Certificate Monitoring for You and Your Team","p":1,"c":1,"s":1552323396}
+{"i":"19360619","t":"Show HN: Houston – Find great problems to solve via a weekly newsletter","p":2,"c":0,"s":1552323920}
+{"i":"19360844","t":"Show HN: ApproveAPI – Real-Time user approvals via email, SMS, and push","p":183,"c":56,"s":1552325339}
+{"i":"19361148","t":"Show HN: Local HTTPS Examples with Docker Compose and mkcert","p":1,"c":0,"s":1552327139}
+{"i":"19361623","t":"Show HN: Threat Exchange – an online marketplace to buy and sell threat intel","p":1,"c":0,"s":1552329880}
+{"i":"19361833","t":"Show HN: Congress Graded","p":4,"c":0,"s":1552331314}
+{"i":"19361923","t":"Show HN: Kastfy – Extend Spotify / iTunes with Music Videos (Chromecast Enabled)","p":1,"c":0,"s":1552331920}
+{"i":"19362215","t":"Show HN: NomadList for Foodies","p":3,"c":0,"s":1552334239}
+{"i":"19362759","t":"Show HN: Apology API","p":1,"c":0,"s":1552337916}
+{"i":"19363042","t":"Show HN: A new type of company to raise money and give stakeholders a voice","p":3,"c":2,"s":1552339948}
+{"i":"19363595","t":"Show HN: Mixing WebGL and HTML, Both Rendered Out in React","p":129,"c":32,"s":1552344195}
+{"i":"19363720","t":"Show HN: Panini AI – A platform to serve ML/DL models at low latency","p":29,"c":24,"s":1552345261}
+{"i":"19363932","t":"Show HN: Lolight – Lightweight Syntax Highlighter","p":11,"c":0,"s":1552347044}
+{"i":"19364292","t":"Show HN: Three.js WebGL game with Phaser game logic","p":2,"c":0,"s":1552350707}
+{"i":"19365016","t":"Show HN: My 7 Days Startup","p":2,"c":1,"s":1552359824}
+{"i":"19365435","t":"Show HN: How to do private variables in JavaScript","p":2,"c":1,"s":1552365126}
+{"i":"19365729","t":"Show HN: EtherStake","p":2,"c":0,"s":1552369694}
+{"i":"19365830","t":"Show HN: Weaver – Sharding with Simpllcity – Open-Source","p":4,"c":0,"s":1552371545}
+{"i":"19366093","t":"Show HN: Idea Minr – Business Ideas Aggregator","p":173,"c":39,"s":1552375858}
+{"i":"19366141","t":"Show HN: Store – save commands used in the Terminal and sync between computers","p":1,"c":0,"s":1552376797}
+{"i":"19366153","t":"Show HN: Private Python Package Management with Poetry","p":2,"c":0,"s":1552377049}
+{"i":"19366416","t":"Show HN: Azure Services One-Stop Glossary with Doc Links","p":1,"c":0,"s":1552381405}
+{"i":"19366571","t":"Show HN: Growth Hacking Plugins and First Birthday","p":6,"c":0,"s":1552383744}
+{"i":"19366663","t":"Show HN: IdeasJab- Browse for ideas, startups and remote jobs at once","p":13,"c":0,"s":1552385065}
+{"i":"19367046","t":"Show HN: Mapipedia","p":61,"c":38,"s":1552389612}
+{"i":"19367057","t":"Show HN: Sincere – A place to share feelings","p":29,"c":26,"s":1552389673}
+{"i":"19367288","t":"Show HN: Cretter – Backup anything you tell the world is true","p":7,"c":2,"s":1552392014}
+{"i":"19367751","t":"Show HN: Yazz – Build Interactive Prototypes in Minutes","p":5,"c":1,"s":1552396367}
+{"i":"19367807","t":"Show HN: Debpack – Super simple Debian packages","p":15,"c":0,"s":1552396806}
+{"i":"19368322","t":"Show HN: Observable for Teams","p":15,"c":1,"s":1552400325}
+{"i":"19368361","t":"Show HN: Customizing pandoc to generate beautiful pdfs from markdown","p":1,"c":0,"s":1552400521}
+{"i":"19368616","t":"Show HN: Your Local Community – Explore X Ask","p":1,"c":0,"s":1552401995}
+{"i":"19368740","t":"Show HN: Dumbest AI + Blockchain Project in 100 lines","p":52,"c":7,"s":1552402692}
+{"i":"19369311","t":"Show HN: JobAdScanner – Attract Better Software Engineers","p":5,"c":3,"s":1552405619}
+{"i":"19369511","t":"Show HN: Scapehouse – A new take on group conversations","p":3,"c":1,"s":1552406466}
+{"i":"19369763","t":"Show HN: Airdyme.io – A Community Project to Map Global VC Ecosystem","p":1,"c":3,"s":1552407432}
+{"i":"19371027","t":"Show HN: Helpfultechjobs – A job board for finding jobs that have social impact","p":2,"c":0,"s":1552413280}
+{"i":"19371615","t":"Show HN: Chalkscore – Glassdoor for Education","p":23,"c":13,"s":1552416498}
+{"i":"19371942","t":"Show HN: Vpdate – a CLI to help keep your package.json version up to date","p":1,"c":0,"s":1552418418}
+{"i":"19372079","t":"Show HN: Vault as a Service","p":2,"c":1,"s":1552419415}
+{"i":"19372163","t":"Show HN: Hempesphere – Discover best community-curated CBD products","p":2,"c":0,"s":1552419895}
+{"i":"19372668","t":"Show HN: Download latest GitHub release binaries (for OS/arch) with wget or curl","p":1,"c":0,"s":1552422576}
+{"i":"19374012","t":"Show HN: Testcafe browser provider for iPhone and android","p":2,"c":1,"s":1552432176}
+{"i":"19374305","t":"Show HN: Scaffolding for New Terraform Modules","p":7,"c":0,"s":1552435088}
+{"i":"19374547","t":"Show HN: Building computer labs in schools in Africa","p":94,"c":36,"s":1552437251}
+{"i":"19375404","t":"Show HN: Data Structures Implementation in C (PT-BR)","p":1,"c":0,"s":1552447162}
+{"i":"19375695","t":"Show HN: An Electron + React + Hooks Boilerplate for Minimalists","p":6,"c":1,"s":1552450714}
+{"i":"19375850","t":"Show HN: New Lambda – the functional freelancing hub","p":2,"c":0,"s":1552452913}
+{"i":"19375946","t":"Show HN: I Made a Template to Build Node.js Desktop Applications","p":2,"c":0,"s":1552454338}
+{"i":"19376154","t":"Show HN: use Excel to read Shared Open Database","p":7,"c":2,"s":1552457139}
+{"i":"19376496","t":"Show HN: NodeJS Server-Side Rendering Engine for Professionals","p":2,"c":0,"s":1552462331}
+{"i":"19376569","t":"Show HN: Tech Companies Logo Made with Pure CSS","p":3,"c":0,"s":1552463008}
+{"i":"19376594","t":"Show HN: Exanaview Author – Real-Time Augmented Reality Spatial Authoring App","p":2,"c":1,"s":1552463389}
+{"i":"19377157","t":"Show HN: Box2d with React DOM","p":2,"c":3,"s":1552470583}
+{"i":"19377161","t":"Show HN: New Landing Page for Packagr.app","p":1,"c":0,"s":1552470602}
+{"i":"19377248","t":"Show HN: Attendfy – Attendance Reportcard for Your Institution or Organization","p":2,"c":0,"s":1552471624}
+{"i":"19377442","t":"Show HN: Powerfull apitesting tool, written in Golang with go templates support","p":3,"c":0,"s":1552473602}
+{"i":"19377488","t":"Show HN: I made a web-app to help me keep track of the books I'm reading","p":3,"c":1,"s":1552474187}
+{"i":"19378669","t":"Show HN: Mages – 3D multiplayer browser spell arena made with WebRTC","p":4,"c":0,"s":1552485743}
+{"i":"19378774","t":"Show HN: YouTube Code Along Editor","p":9,"c":7,"s":1552486426}
+{"i":"19379216","t":"Show HN: Edit Any SVG on the Internet with a URL","p":2,"c":1,"s":1552488843}
+{"i":"19379241","t":"Show HN: ConsultantPack – beautiful and ready to use documents templates","p":1,"c":0,"s":1552488988}
+{"i":"19379357","t":"Show HN: Stuff – An Alternative to Facebook Events","p":201,"c":95,"s":1552489586}
+{"i":"19379581","t":"Show HN: Chrome extension for saving code snippets","p":2,"c":0,"s":1552490666}
+{"i":"19379752","t":"Show HN: Flowlingo – Get fluent in a language with TV, news, and books","p":5,"c":1,"s":1552491648}
+{"i":"19379800","t":"Show HN: Graph Processing with Postgres and GraphBLAS","p":106,"c":12,"s":1552491924}
+{"i":"19380076","t":"Show HN: A Place for Entrepreneurs to Exchange Information About Investors","p":10,"c":0,"s":1552493420}
+{"i":"19380332","t":"Show HN: mailtolink – Turn any email into a shareable link","p":7,"c":3,"s":1552494683}
+{"i":"19380406","t":"Show HN: Rapport – Online retro facilitation tool for distributed teams","p":1,"c":0,"s":1552495017}
+{"i":"19380718","t":"Show HN: Health News – Hacker News for Health","p":66,"c":35,"s":1552496272}
+{"i":"19380970","t":"Show HN: Type-Checker – Type Check Python Values and Complex Data Structures","p":1,"c":4,"s":1552497458}
+{"i":"19381219","t":"Show HN: Free product management templates and resources","p":5,"c":0,"s":1552498538}
+{"i":"19381266","t":"Show HN: Dilisense – A free sanction screening search engine","p":1,"c":0,"s":1552498789}
+{"i":"19381461","t":"Show HN: WayScript – Form Submission to Google Sheet in 4 Minutes","p":1,"c":0,"s":1552499697}
+{"i":"19381772","t":"Show HN: Flutter Plug-In for Vim","p":2,"c":0,"s":1552501378}
+{"i":"19381830","t":"Show HN: DeepCamera – Turn Camera into AI-Powered with Embedded/Android/Pi etc.","p":14,"c":4,"s":1552501637}
+{"i":"19382460","t":"Show HN: Riter PM tool has announced its full support for startups","p":1,"c":0,"s":1552504453}
+{"i":"19383241","t":"Show HN: Tinkersynth, a whimsical generative art machine","p":105,"c":30,"s":1552507929}
+{"i":"19383297","t":"Show HN: The Orbital Index","p":1,"c":0,"s":1552508295}
+{"i":"19384254","t":"Show HN: ZapChart – a fast way to create and share simple charts","p":2,"c":0,"s":1552513868}
+{"i":"19384385","t":"Show HN: The Boolean Game","p":3,"c":0,"s":1552514783}
+{"i":"19384769","t":"Show HN: Every Site Knows","p":17,"c":9,"s":1552517497}
+{"i":"19385418","t":"Show HN: Mirror of all PDFs from the IACR's eprint archive in a Git repo","p":8,"c":0,"s":1552523516}
+{"i":"19386093","t":"Show HN: This Question Does Not Exist","p":274,"c":141,"s":1552531047}
+{"i":"19386335","t":"Show HN: Rust Solver for the NYT's Letter Boxed Puzzle","p":1,"c":0,"s":1552534508}
+{"i":"19386428","t":"Show HN: Hugo Documentation Theme – Hugo Whisper","p":4,"c":0,"s":1552535945}
+{"i":"19386485","t":"Show HN: Tool for testing sites and apps on slow connections","p":35,"c":38,"s":1552536901}
+{"i":"19386509","t":"Show HN: Customizing pandoc to generate beautiful pdfs from markdown","p":1,"c":0,"s":1552537279}
+{"i":"19387398","t":"Show HN: I found my WHY, which trumps passion anytime","p":1,"c":2,"s":1552552238}
+{"i":"19387698","t":"Show HN: Graphql2chartjs: Realtime Charts Made Easy with GraphQL and ChartJS","p":96,"c":8,"s":1552556652}
+{"i":"19387788","t":"Show HN: PyDriller: Python Framework to Analyze Git Repositories","p":2,"c":0,"s":1552557704}
+{"i":"19387902","t":"Show HN: AdhocFax: Fax as needed, pay as you go","p":1,"c":0,"s":1552558967}
+{"i":"19387975","t":"Show HN: ApiWha Ruby Gem","p":2,"c":0,"s":1552559698}
+{"i":"19388304","t":"Show HN: Mathigon – an interactive, personalised mathematics textbook","p":22,"c":2,"s":1552563735}
+{"i":"19388579","t":"Show HN: Bookmarklet to Change Every Google Page to English","p":3,"c":1,"s":1552566532}
+{"i":"19388630","t":"Show HN: Updatefy: Google Sheet to embed product updates page widget","p":2,"c":0,"s":1552566949}
+{"i":"19388851","t":"Show HN: FAANGWatch – End of day stock prices of key tech giants","p":2,"c":0,"s":1552568979}
+{"i":"19388867","t":"Show HN: PerfectPixel Browser Extension","p":10,"c":2,"s":1552569113}
+{"i":"19389265","t":"Show HN: Google Scholar Accelerated – An Extension Enhancing GS's Case Search","p":1,"c":0,"s":1552572202}
+{"i":"19389307","t":"Show HN: FastAPI: Python 3.6, high performance, fast to code, production-ready","p":3,"c":0,"s":1552572473}
+{"i":"19390567","t":"Show HN: Learn to sell and find your first customers in 21 days","p":2,"c":0,"s":1552579816}
+{"i":"19390908","t":"Show HN: Social Objects – Prioritize and engage your target Audience on Twitter","p":2,"c":0,"s":1552581666}
+{"i":"19390918","t":"Show HN: A simple JavaScript library to animate elements when you scrolllll","p":1,"c":0,"s":1552581724}
+{"i":"19391008","t":"Show HN: Curls 2.0 – Thoughtfully crafted and easy-to-use color palettes","p":6,"c":0,"s":1552582160}
+{"i":"19391060","t":"Show HN: Fi – launches first LTE CAT M1 low energy dog collar","p":13,"c":7,"s":1552582451}
+{"i":"19391365","t":"Show HN: Packagr-CLI – A CLI for Packagr","p":2,"c":0,"s":1552584251}
+{"i":"19391591","t":"Show HN: C++17 In Detail, a book that will move you from C++11/14 to C++17","p":12,"c":0,"s":1552585626}
+{"i":"19391613","t":"Show HN: Top level domain HTTP://ai/","p":1,"c":2,"s":1552585771}
+{"i":"19391658","t":"Show HN: SmartPodX – Hyper-Scale Computing Immersion Cooling","p":2,"c":1,"s":1552586064}
+{"i":"19391684","t":"Show HN: Screenshot API with Email Actions, Webhooks and Zapier Integration","p":2,"c":0,"s":1552586274}
+{"i":"19393032","t":"Show HN: Download Instagram Posts by Username or Hashtag","p":10,"c":8,"s":1552593783}
+{"i":"19393279","t":"Show HN: A retro video game console I've been working on in my free time","p":2690,"c":210,"s":1552595103}
+{"i":"19393521","t":"Show HN: SiriControl – Port Siri Voice Commands into Python","p":4,"c":0,"s":1552596403}
+{"i":"19394607","t":"Show HN: Orbital Index","p":11,"c":0,"s":1552603245}
+{"i":"19395339","t":"Show HN: Space Age Hand Tools in the Maker Age","p":66,"c":20,"s":1552610157}
+{"i":"19395579","t":"Show HN: Fast bulk thumbnails image explorer and classification tool for ML","p":13,"c":0,"s":1552612574}
+{"i":"19395728","t":"Show HN: HN Domain Leaderboard 2019","p":8,"c":1,"s":1552614296}
+{"i":"19395836","t":"Show HN: Spicetify – Customize Spotify Desktop Client","p":2,"c":0,"s":1552615778}
+{"i":"19396346","t":"Show HN: Acmeish for Vscode","p":1,"c":0,"s":1552622145}
+{"i":"19396428","t":"Show HN: Clipboard History Script for Sway","p":1,"c":0,"s":1552622995}
+{"i":"19396673","t":"Show HN: DockEnv – Safely and easily run untrusted Python using Docker","p":1,"c":0,"s":1552625310}
+{"i":"19396878","t":"Show HN: vs. debug visualizer for `Expression` + VB/C# string representation","p":2,"c":0,"s":1552628471}
+{"i":"19397626","t":"Show HN: Winter Is Coming","p":2,"c":1,"s":1552637345}
+{"i":"19398352","t":"Show HN: Ventanium – Database/Network/HTTP C Library","p":5,"c":2,"s":1552645886}
+{"i":"19398369","t":"Show HN: Marbot – A Slack bot detecting and managing incidents on AWS","p":2,"c":0,"s":1552646215}
+{"i":"19398932","t":"Show HN: A simple Prolog Interpreter written in a few lines of Python 3","p":149,"c":20,"s":1552652062}
+{"i":"19399248","t":"Show HN: Accessibility for Managers","p":3,"c":0,"s":1552654825}
+{"i":"19400009","t":"Show HN: Pipe File – PGP Backed File Upload Forms","p":1,"c":1,"s":1552660238}
+{"i":"19400354","t":"Show HN - third party risk wrt security or gdpr","p":2,"c":2,"s":1552662549}
+{"i":"19400698","t":"Show HN: Dockerised Pgmodeler launched from cross-platform GTK Rust application","p":1,"c":1,"s":1552664593}
+{"i":"19400867","t":"Show HN: Cited News – news aggregation based on wikipedia references","p":1,"c":0,"s":1552665656}
+{"i":"19401896","t":"Show HN: Music Portraits as Computer Art","p":3,"c":1,"s":1552670440}
+{"i":"19403011","t":"Show HN: Eventual, a tidy compositional alternative to EventEmitter","p":2,"c":0,"s":1552676378}
+{"i":"19403391","t":"Show HN: Automatic Game Stream Classification Using Tensorflow and Go","p":2,"c":0,"s":1552678640}
+{"i":"19403690","t":"Show HN: Traffic in Flanders Visualized with Leaflet.js","p":2,"c":0,"s":1552680276}
+{"i":"19403949","t":"Show HN: Watch how much you earn in real time","p":1,"c":1,"s":1552681555}
+{"i":"19404636","t":"Show HN: Steamosaic: Generate a mosaic of your steam account","p":1,"c":0,"s":1552686498}
+{"i":"19404921","t":"Show HN: Compare all daycare inspection results in California","p":2,"c":1,"s":1552689017}
+{"i":"19404986","t":"Show HN: grep for GOT – A UI Experiment","p":1,"c":0,"s":1552689623}
+{"i":"19405064","t":"Show HN: Civilization 6 Timeline Visualizer","p":2,"c":2,"s":1552690310}
+{"i":"19405435","t":"Show HN: Road Trips in India","p":3,"c":0,"s":1552694145}
+{"i":"19405449","t":"Show HN: Jupyter extension to track and reproduce notebooks","p":13,"c":0,"s":1552694411}
+{"i":"19405488","t":"Show HN: p2 Inspector – Inspect p2 Repositories Easily via a REST API","p":1,"c":0,"s":1552694908}
+{"i":"19405546","t":"Show HN: DIY WiFi Temp/Humidity Sensor (Using NodeMCU, DHT22, HomeAssistant)","p":2,"c":0,"s":1552695715}
+{"i":"19405577","t":"Show HN: PacketStream – World's First Opt-In Residential IP Marketplace","p":2,"c":1,"s":1552696118}
+{"i":"19406741","t":"Show HN: You Know Nothing Jon Snow","p":2,"c":0,"s":1552720388}
+{"i":"19406900","t":"Show HN: Pawnbarian, a chess-deckbuilding-roguelike game I made for 7DRL gamejam","p":4,"c":0,"s":1552723859}
+{"i":"19407188","t":"Show HN: Small, secure Nginx Docker image","p":38,"c":5,"s":1552732847}
+{"i":"19408007","t":"Show HN: Two minutes in pink challenge to raise smartphone overuse awareness","p":4,"c":0,"s":1552747224}
+{"i":"19408329","t":"Show HN: A browser extension which blocks chat/helpdesk widgets","p":510,"c":226,"s":1552750651}
+{"i":"19408399","t":"Show HN: Thinking note taking application now with GitHub flavored Markdown IDE","p":1,"c":0,"s":1552751665}
+{"i":"19408401","t":"Show HN: Would you like to play rock paper and scissor against a neural network?","p":3,"c":4,"s":1552751692}
+{"i":"19408413","t":"Show HN: Most Popular Web Browsers (2002 – 2019)","p":1,"c":2,"s":1552751824}
+{"i":"19408439","t":"Show HN: A LinkedIn Bot (in Java) that will fully endorse all your connections","p":6,"c":0,"s":1552752201}
+{"i":"19408467","t":"Show HN: Trello PowerUp which adds contacts and automation to your cards","p":1,"c":0,"s":1552752428}
+{"i":"19408981","t":"Show HN: Jobs for English speakers in Germany","p":3,"c":1,"s":1552757353}
+{"i":"19409080","t":"Show HN: Simple App for Self Reflection","p":6,"c":0,"s":1552758345}
+{"i":"19409183","t":"Show HN: Nzb – Get things done with the slick command line app for Nozbe","p":2,"c":0,"s":1552759239}
+{"i":"19409284","t":"Show HN: Majority, a quiz game where the majority always wins","p":1,"c":0,"s":1552760349}
+{"i":"19409401","t":"Show HN: Embed your Google Sheet as nice widgets anywhere","p":1,"c":0,"s":1552761599}
+{"i":"19409845","t":"Show HN: The easiest way to get emailed from your site","p":2,"c":2,"s":1552766133}
+{"i":"19409990","t":"Show HN: We are robot tech enthusiasts","p":2,"c":3,"s":1552767301}
+{"i":"19410742","t":"Show HN: CryptoTrader.Tax – A Cryptocurrency Tax Calculator","p":3,"c":1,"s":1552774937}
+{"i":"19411159","t":"Show HN: LaraOne – Ultimate workstation for programmers","p":44,"c":29,"s":1552779829}
+{"i":"19411462","t":"Show HN: Curated Video Game Essays","p":2,"c":0,"s":1552784155}
+{"i":"19411863","t":"Show HN: Tunnel Rat, A 3D webgl game to work your memory and spatial orientation","p":5,"c":0,"s":1552790323}
+{"i":"19412256","t":"Show HN: Daily emails featuring the most insightful and popular posts from HN","p":1,"c":1,"s":1552797131}
+{"i":"19412719","t":"Show HN: Daily Habit Tracker","p":3,"c":2,"s":1552807487}
+{"i":"19412778","t":"Show HN: Unicode Trust on First Use","p":6,"c":0,"s":1552808699}
+{"i":"19413193","t":"Show HN: Eventkit, event-driven data pipelines for Python","p":6,"c":0,"s":1552816749}
+{"i":"19413205","t":"Show HN: The “main” button of Hacker News","p":1,"c":0,"s":1552816912}
+{"i":"19413284","t":"Show HN: Tutorial on React Hooks and HTML Canvas","p":6,"c":2,"s":1552818394}
+{"i":"19413447","t":"Show HN: Cannia, the open source strains explorer web app","p":2,"c":0,"s":1552821911}
+{"i":"19413635","t":"Show HN: Tomato Bot – Gain faster feedback for your tests, in GitHub","p":5,"c":6,"s":1552825662}
+{"i":"19413811","t":"Show HN: Allun.ga – open-source URL shortner","p":1,"c":0,"s":1552828135}
+{"i":"19413900","t":"Show HN: I'm a robot tech enthusiasts and this is my robot website","p":2,"c":0,"s":1552829215}
+{"i":"19414061","t":"Show HN: Scheme with first-class call/cc in 700 lines of Go code","p":1,"c":1,"s":1552831379}
+{"i":"19414173","t":"Show HN: Docker Image Promoter That Needs No Privileges (Or Docker)","p":3,"c":0,"s":1552832868}
+{"i":"19414203","t":"Show HN: A Chrome extension which blocks annoying website notification requests","p":1,"c":0,"s":1552833329}
+{"i":"19414765","t":"Show HN: Kanye.rest – A Free REST API for Random Kanye West Quotes","p":56,"c":32,"s":1552839784}
+{"i":"19415188","t":"Show HN: Swave, a customizable web audio player with visualizations","p":2,"c":0,"s":1552844305}
+{"i":"19415236","t":"Show HN: Java-Crypto-Utils: Java Cryptographic, Encoding and Hash Utilities","p":2,"c":0,"s":1552844860}
+{"i":"19415522","t":"Show HN: IoT device management using Ethereum blockchain platform","p":2,"c":0,"s":1552847637}
+{"i":"19415587","t":"Show HN: How to Craft Programming Functions","p":1,"c":0,"s":1552848180}
+{"i":"19416032","t":"Show HN: AlgoDaily – One-a-day programming challenges for web developers","p":21,"c":6,"s":1552851619}
+{"i":"19416037","t":"Show HN: FLIR in Airships to Prevent Elephant Poaching","p":3,"c":0,"s":1552851659}
+{"i":"19416167","t":"Show HN: SynbioIDE","p":12,"c":2,"s":1552852704}
+{"i":"19417241","t":"Show HN: Never ask someone more than once to do something - iPrompted","p":16,"c":25,"s":1552862726}
+{"i":"19417913","t":"Show HN: Find potential investors for biotherapeutics startups","p":1,"c":0,"s":1552871196}
+{"i":"19417929","t":"Show HN: Declarative JSON – JSON Converter","p":2,"c":0,"s":1552871357}
+{"i":"19418176","t":"Show HN: HonestRepair Cloud, Free, Unlimited, & Open-Source Cloud Storage","p":5,"c":2,"s":1552874626}
+{"i":"19418617","t":"Show HN: Always use Google's URL Inspection tool when launching a new Site","p":6,"c":3,"s":1552881890}
+{"i":"19418770","t":"Show HN: Applying Machine Learning to March Madness","p":97,"c":26,"s":1552885000}
+{"i":"19419486","t":"Show HN: Bit v0.5.0 – Bitcoin made easy, now with SegWit support","p":63,"c":8,"s":1552898215}
+{"i":"19419560","t":"Show HN: SSL Timer – Certificate expiry countdown timer","p":2,"c":3,"s":1552899562}
+{"i":"19419568","t":"Show HN: React component data loading with same code on client and server render","p":1,"c":0,"s":1552899637}
+{"i":"19419611","t":"Show HN: IoT device management using Ethereum blockchain platform","p":1,"c":0,"s":1552900182}
+{"i":"19419619","t":"Show HN: repher.me, a referral network for tech employees","p":4,"c":4,"s":1552900254}
+{"i":"19419688","t":"Show HN: A modern bookmarks and tabs manager","p":11,"c":18,"s":1552901368}
+{"i":"19419735","t":"Show HN: Crowdsourced list of travel scams people are likely to encounter","p":2,"c":1,"s":1552901992}
+{"i":"19419868","t":"Show HN: Winter Is Coming - grep for GOT","p":1,"c":2,"s":1552903855}
+{"i":"19420037","t":"Show HN: LandingStock – Free images for your landing page","p":2,"c":1,"s":1552906215}
+{"i":"19420114","t":"Show HN: Markdown-embeddable k8s monitoring built in kotlin","p":1,"c":0,"s":1552907202}
+{"i":"19420177","t":"Show HN: Tokamak – React-like framework for native UI written in pure Swift","p":8,"c":0,"s":1552908106}
+{"i":"19420681","t":"Show HN: Learn to Code by Making Art","p":2,"c":0,"s":1552914432}
+{"i":"19420756","t":"Show HN: A weekly 1 minute summary of top tech news for busy people (text/video)","p":14,"c":2,"s":1552915204}
+{"i":"19421199","t":"Show HN: Updatefy – Create Embed Widgets Out of Google Sheet","p":5,"c":1,"s":1552918854}
+{"i":"19421301","t":"Show HN: Transistor, a Python web scraping framework for intelligent use cases","p":12,"c":3,"s":1552919377}
+{"i":"19421486","t":"Show HN: Kubernetes dashboard alternative with streaming status updates and more","p":10,"c":0,"s":1552920593}
+{"i":"19421710","t":"Show HN: Open, fully-trustless solution for passing on your digital legacy","p":2,"c":0,"s":1552921967}
+{"i":"19422591","t":"Show HN: A New UI for Pomodoro Technique. Schedule Your Time with a Clock","p":1,"c":2,"s":1552926916}
+{"i":"19422664","t":"Show HN: Real time pitch detector built with Rust and WebAssembly","p":1,"c":0,"s":1552927364}
+{"i":"19422921","t":"Show HN: Check out what developers are using","p":8,"c":0,"s":1552929097}
+{"i":"19422975","t":"Show HN: Word Caricature: $10 and Your Photo = We Do Your Caricature. With Words","p":1,"c":0,"s":1552929442}
+{"i":"19423012","t":"Show HN: Beforetheban.com, a decentralized index of social media users","p":10,"c":1,"s":1552929671}
+{"i":"19423054","t":"Show HN: An App to Find the Cheapest EVs in the SF Bay Area","p":3,"c":0,"s":1552929904}
+{"i":"19423411","t":"Show HN: We made a dataset differ! (Free, Open source)","p":5,"c":0,"s":1552932096}
+{"i":"19424004","t":"Show HN: Deepcluster.io, A cheap and easy to use GPU cluster for deep learning","p":5,"c":0,"s":1552935536}
+{"i":"19424614","t":"Show HN: WinSpd – create “SCSI disks” as user mode processes on Windows","p":46,"c":33,"s":1552939221}
+{"i":"19424681","t":"Show HN: FaastRuby 0.5 Brings Local: An SDK for Ruby and Crystal Serverless Apps","p":2,"c":0,"s":1552939646}
+{"i":"19424852","t":"Show HN: Compose and Share Info Boards from Internet Resources with Nanosai","p":1,"c":0,"s":1552940673}
+{"i":"19424940","t":"Show HN: Repher.me, Referral network for tech employees","p":3,"c":0,"s":1552941065}
+{"i":"19425012","t":"Show HN: RequestCreative, a website builder for your freelance business","p":1,"c":0,"s":1552941416}
+{"i":"19425487","t":"Show HN: Is Law School Obsolete? Ace Law School Exams with AI","p":4,"c":3,"s":1552944373}
+{"i":"19425579","t":"Show HN: IoT device management using Ethereum blockchain platform","p":1,"c":0,"s":1552945007}
+{"i":"19426474","t":"Show HNs: LZB: LZ77 data compression in pure Bash language","p":1,"c":0,"s":1552952252}
+{"i":"19426660","t":"Show HN: Analyzing 1000s of HD twitch videos to track players in Apex Legends","p":12,"c":4,"s":1552953879}
+{"i":"19426762","t":"Show HN: Achieve the goals you’ve never achieved before","p":1,"c":1,"s":1552954781}
+{"i":"19427332","t":"Show HN: Drogon – A C++14/17 based high performance HTTP application framework","p":189,"c":105,"s":1552960060}
+{"i":"19428208","t":"Show HN: GNU Bash Manual (Pandoc Markdown)","p":9,"c":0,"s":1552971821}
+{"i":"19428380","t":"Show HN: Indian Rupee formatting and word conversion for Ruby","p":10,"c":15,"s":1552974284}
+{"i":"19428961","t":"Show HN: Devilbox v1.0.0 Released - docker LAMP/MEAN stack","p":11,"c":2,"s":1552983261}
+{"i":"19429410","t":"Show HN: Lookup details about any IP address","p":13,"c":10,"s":1552989512}
+{"i":"19430302","t":"Show HN: Angular for Dads","p":2,"c":1,"s":1553000236}
+{"i":"19430524","t":"Show HN: GraphQL and jq inspired JSON processing tool (CLI+Browser)","p":9,"c":0,"s":1553001873}
+{"i":"19430541","t":"Show HN: Nonsense Cafe: Just tweets, no social","p":3,"c":0,"s":1553001946}
+{"i":"19430868","t":"Show HN: Git Releases – The missing link to your latest GitHub release asset","p":14,"c":2,"s":1553004250}
+{"i":"19430869","t":"Show HN: Email privacy network accessed from any platform and any device","p":6,"c":0,"s":1553004271}
+{"i":"19431689","t":"Show HN: Planning Poker via Slack for Jira Tasks","p":1,"c":0,"s":1553009199}
+{"i":"19431795","t":"Show HN: Machine Learning cluster setup (AWS)","p":4,"c":0,"s":1553009763}
+{"i":"19431802","t":"Show HN: Mapping 17 years of US electric generation","p":11,"c":2,"s":1553009814}
+{"i":"19432000","t":"Show HN: A Web Command Line Interface via NUS Using Web Bluetooth","p":1,"c":0,"s":1553010882}
+{"i":"19432415","t":"Show HN: Plectica – Diagram almost anything, together","p":7,"c":3,"s":1553013138}
+{"i":"19432812","t":"Show HN: Fast, Simple, Brutalist Live Blogging","p":2,"c":0,"s":1553015023}
+{"i":"19433030","t":"Show HN: Electric Dollar Store","p":18,"c":1,"s":1553016119}
+{"i":"19433594","t":"Show HN: ETH Madness – NCAA Bracket Contest on Ethereum","p":2,"c":0,"s":1553018609}
+{"i":"19433936","t":"Show HN: An AI Powered HR Assistant for Every Employee – Workbud","p":4,"c":1,"s":1553020112}
+{"i":"19434008","t":"Show HN: Tablecloth – a new standard library for OCaml and ReasonML","p":4,"c":0,"s":1553020487}
+{"i":"19434041","t":"Show HN: Textile Notes: A Replacement for Squarespace Note App","p":6,"c":1,"s":1553020663}
+{"i":"19434064","t":"Show HN: Image Generator – Drawing Cartoons with Generative Adversarial Networks","p":3,"c":0,"s":1553020769}
+{"i":"19434745","t":"Show HN: Fastlane – a simple redis and docker based queueing service","p":2,"c":2,"s":1553023906}
+{"i":"19435634","t":"Show HN: Tab Tosser – Automatically close tabs you have ignored","p":2,"c":0,"s":1553028306}
+{"i":"19435635","t":"Show HN: H2 Forth CPU","p":120,"c":26,"s":1553028316}
+{"i":"19436083","t":"Show HN: Windtalk – Simplest way to work with iframes","p":2,"c":0,"s":1553030697}
+{"i":"19436567","t":"Show HN: Cliperado – Automatically take screenshots of your whole service","p":8,"c":3,"s":1553033336}
+{"i":"19437216","t":"Show HN: OneTool.app – One Tool to rule them all","p":4,"c":1,"s":1553037777}
+{"i":"19439305","t":"Show HN: Simple React Hooks for React-Redux","p":2,"c":0,"s":1553060127}
+{"i":"19439765","t":"Show HN: Get big picture with logos of your subscribers based on their emails","p":2,"c":1,"s":1553066472}
+{"i":"19439819","t":"Show HN: The live billboard – digital pixel marketplace","p":3,"c":0,"s":1553067504}
+{"i":"19440825","t":"Show HN: List of robots to buy or built yourself","p":4,"c":0,"s":1553079287}
+{"i":"19441054","t":"Show HN: Remote Circle – Remote Jobs that are hiring in your timezone","p":15,"c":1,"s":1553081876}
+{"i":"19441195","t":"Show HN: FastAPI: build Python APIs with Go-like speed and automatic UI docs","p":88,"c":71,"s":1553083305}
+{"i":"19441262","t":"Show HN: Build a decentralized web chat in 15 minutes","p":11,"c":5,"s":1553083941}
+{"i":"19441315","t":"Show HN: Get notified when your town imposes water restrictions","p":2,"c":0,"s":1553084456}
+{"i":"19443027","t":"Show HN: Git History v1 – Quickly browse the history of a file from any Git repo","p":1,"c":0,"s":1553095107}
+{"i":"19443150","t":"Show HN: Register PHP imports at runtime via JSON","p":2,"c":0,"s":1553095712}
+{"i":"19443232","t":"Show HN: Pager Team, a Simple Alternative to Pager Duty, OpsGenie, and VictorOps","p":3,"c":1,"s":1553096173}
+{"i":"19443340","t":"Show HN: Using machine learning to tackle bias in machine learning","p":1,"c":0,"s":1553096756}
+{"i":"19443370","t":"Show HN: GIFbert – Dilbert Comic as a GIF powered by deep learning","p":6,"c":2,"s":1553096950}
+{"i":"19443677","t":"Show HN: Open-Source Serverless Mixpanel with Snowplow and Cube.js","p":11,"c":1,"s":1553098587}
+{"i":"19443714","t":"Show HN: Webassembly with only clang/LLVM 8","p":7,"c":3,"s":1553098845}
+{"i":"19443733","t":"Show HN: Songcraft – Online Songwriting Platform and Guitar Tab Builder","p":152,"c":63,"s":1553098906}
+{"i":"19443972","t":"Show HN: Monarch Trips – Plan Your Trip in Minutes","p":3,"c":1,"s":1553100200}
+{"i":"19444738","t":"Show HN: Simple PRNG from Btoa() and Xor","p":1,"c":1,"s":1553103959}
+{"i":"19444746","t":"Show HN: Data Monkey – data transformation made easy","p":3,"c":1,"s":1553104031}
+{"i":"19444797","t":"Show HN: Woyera – Automatically Detect Errors in Your Data","p":2,"c":2,"s":1553104278}
+{"i":"19444960","t":"Show HN: I made a database of remote companies","p":171,"c":38,"s":1553105031}
+{"i":"19444983","t":"Show HN: Would love some feedback on our pre-launch page (find the Easter egg)","p":1,"c":1,"s":1553105134}
+{"i":"19445448","t":"Show HN: Must-have tool for your job search","p":8,"c":2,"s":1553107610}
+{"i":"19446122","t":"Show HN: A dating app that shows you singles in bars and cafés around you","p":5,"c":1,"s":1553111396}
+{"i":"19446348","t":"Show HN: Face Generator – Generating Artificial Faces with Machine Learning 🧑","p":2,"c":0,"s":1553112763}
+{"i":"19446356","t":"Show HN: Redux-Views (Reselect done right)","p":2,"c":0,"s":1553112803}
+{"i":"19446747","t":"Show HN: Tornado – Web-First BitTorrent Client Beta 0.1.0","p":11,"c":0,"s":1553115096}
+{"i":"19447012","t":"Show HN: Packagr.app – a cloud hosted PyPI server for Python developers","p":2,"c":0,"s":1553116506}
+{"i":"19447163","t":"Show HN: MXtract a Memory Extractor and Analyzer","p":3,"c":0,"s":1553117503}
+{"i":"19447607","t":"Show HN: SuperVoc Text to Speech with Google, IBM Watson, Azure and Amazon Polly","p":9,"c":5,"s":1553120547}
+{"i":"19447852","t":"Show HN: Customizable DuckDuckGo Search Bangs Service","p":7,"c":0,"s":1553122816}
+{"i":"19448434","t":"Show HN: Container Marketplace","p":6,"c":1,"s":1553129643}
+{"i":"19449126","t":"Show HN: A Tax Calculator for India","p":63,"c":26,"s":1553139796}
+{"i":"19449154","t":"Show HN: TechStop, on Demand Tech Services","p":2,"c":0,"s":1553140110}
+{"i":"19449724","t":"Show HN: Dollar Shave Club for Juul Pods","p":2,"c":2,"s":1553151424}
+{"i":"19450097","t":"Show HN: VSC Github Trending – Explore GitHub Trending Directly from VSCode","p":2,"c":0,"s":1553156679}
+{"i":"19451512","t":"Show HN: Made a website to search all other dev jobs websites","p":6,"c":0,"s":1553171393}
+{"i":"19451644","t":"Show HN: Gratia – Share and Collaborate on Research","p":3,"c":1,"s":1553172375}
+{"i":"19452369","t":"Show HN: Localname – Provide Access to Your Local Development Server [macOS]","p":7,"c":1,"s":1553176639}
+{"i":"19452515","t":"Show HN: Robots Are My Passion","p":6,"c":8,"s":1553177461}
+{"i":"19452599","t":"Show HN: Airport wi-fi, power, transit tips and advice","p":1,"c":0,"s":1553177906}
+{"i":"19452781","t":"Show HN: A Faceted Search Bar Component for Angular","p":1,"c":1,"s":1553178891}
+{"i":"19453264","t":"Show HN: Safe-SVG: SVG validator to prevent XSS","p":5,"c":0,"s":1553181195}
+{"i":"19453481","t":"Show HN: INDI Robot Combat Competition (Dutch)","p":6,"c":0,"s":1553182360}
+{"i":"19454039","t":"Show HN: ReactION – React Component Visualizer for vs. Code","p":2,"c":0,"s":1553184957}
+{"i":"19454271","t":"Show HN: \"basetheme” – R package implementing themes for base graphics","p":5,"c":0,"s":1553186085}
+{"i":"19454280","t":"Show HN: Easily Connect AirPods to Your Mac with Alfred Workflows","p":6,"c":0,"s":1553186117}
+{"i":"19454783","t":"Show HN: Cheap Transcription offers the cheapest and fastest transcription","p":10,"c":2,"s":1553188525}
+{"i":"19454863","t":"Show HN: Blogcast – Generate audio versions of your articles","p":72,"c":28,"s":1553188934}
+{"i":"19454962","t":"Show HN: A raycaster that renders to random dot stereogram (like Magic Eye)","p":277,"c":88,"s":1553189315}
+{"i":"19455441","t":"Show HN: A Color Picker I Made","p":591,"c":106,"s":1553191704}
+{"i":"19456988","t":"Show HN: Generate ASM Descriptors and Signatures from Java TypeMirrors/Elements","p":3,"c":0,"s":1553200375}
+{"i":"19457400","t":"Show HN: No Cookie – Show your website visitors you don’t use cookies","p":29,"c":19,"s":1553202934}
+{"i":"19457757","t":"Show HN: A CLI Tool for Viewing and Search UK Gov Petitions","p":2,"c":0,"s":1553205235}
+{"i":"19457842","t":"Show HN: IDE for Learning RISC-V","p":105,"c":30,"s":1553206083}
+{"i":"19457881","t":"Show HN: Forget about React Router. Modern and clean routing with hooks","p":11,"c":13,"s":1553206321}
+{"i":"19457988","t":"Show HN: If Siri asked YOU questions, in a true conversation.","p":3,"c":0,"s":1553207399}
+{"i":"19458057","t":"Show HN: Simple realtime two-way sync with SSH, fswatch and rsync","p":71,"c":35,"s":1553207952}
+{"i":"19459132","t":"Show HN: Mosaic – A declarative, front-end JavaScript library for building UIs","p":63,"c":20,"s":1553221081}
+{"i":"19460232","t":"Show HN: Learn about your favorite Avengers","p":1,"c":0,"s":1553239091}
+{"i":"19460246","t":"Show HN: San Francisco housing sold vs. listed price","p":2,"c":0,"s":1553239392}
+{"i":"19460287","t":"Show HN: Winnow Vision – computer vision enabled food waste analytics","p":3,"c":0,"s":1553240156}
+{"i":"19461125","t":"Show HN: Toshokan, an anime/manga tracking site with a recommendation system","p":2,"c":0,"s":1553250618}
+{"i":"19461203","t":"Show HN: Design your own unique poster of your holiday","p":1,"c":4,"s":1553251557}
+{"i":"19461555","t":"Show HN: Calendar-plus- Python library for calendar that displays query objects","p":2,"c":0,"s":1553254657}
+{"i":"19461557","t":"Show HN: A list of Open Source projects offering jobs","p":1,"c":0,"s":1553254678}
+{"i":"19461574","t":"Show HN: Work in Product – Find the Latest Product Management Roles in London","p":3,"c":2,"s":1553254891}
+{"i":"19461663","t":"Show HN: Pure Prompt for PowerShell","p":1,"c":0,"s":1553255780}
+{"i":"19461776","t":"Show HN: ContextCue – Create and host private, ethical ads","p":80,"c":45,"s":1553256980}
+{"i":"19461819","t":"Show HN: JavaScript Proxy Wrapper for Promise","p":1,"c":0,"s":1553257300}
+{"i":"19462038","t":"Show HN: Price comparison for attraction tickets, tours, and activties","p":49,"c":35,"s":1553259117}
+{"i":"19462132","t":"Show HN: I made a API to prevent disposable, non-existent emails","p":1,"c":2,"s":1553259989}
+{"i":"19462815","t":"Show HN: Demo-CLI – create web-based canned demos of CLI tools","p":9,"c":0,"s":1553264962}
+{"i":"19462823","t":"Show HN: I made a live Loadshedding status page in React","p":1,"c":2,"s":1553264990}
+{"i":"19463121","t":"Show HN: I3-env – make apps aware of your i3 workspaces (workdir)","p":1,"c":0,"s":1553266704}
+{"i":"19463213","t":"Show HN: Messengerturn.com, a new support platform for small businesses","p":1,"c":1,"s":1553267128}
+{"i":"19463308","t":"Show HN: New Time-Travel Debugger for React UseReducer","p":2,"c":2,"s":1553267621}
+{"i":"19463428","t":"Show HN: The future of dating: no swipes, no online chats","p":5,"c":2,"s":1553268275}
+{"i":"19463568","t":"Show HN: \"Interactive” Risk Report for Bitcoin and Alternative Assets Investment","p":1,"c":0,"s":1553268987}
+{"i":"19463792","t":"Show HN: Open-source jobs – get paid working on open source projects","p":2,"c":0,"s":1553270264}
+{"i":"19463836","t":"Show HN: Palbum – Resume playing Spotify back from where you left","p":2,"c":0,"s":1553270543}
+{"i":"19464148","t":"Show HN: Fire CI – Local CI server for GitHub with peer-to-peer option for teams","p":11,"c":7,"s":1553272117}
+{"i":"19464896","t":"Show HN: My first B2B app for CRE tech [commutestudy]","p":4,"c":1,"s":1553276431}
+{"i":"19465426","t":"Show HN: Compare benefits across tech companies","p":3,"c":2,"s":1553279179}
+{"i":"19465551","t":"Show HN: Yipgo – stripped down workflow manager","p":4,"c":4,"s":1553279892}
+{"i":"19465738","t":"Show HN: Tcl/Tk Slack Client","p":7,"c":0,"s":1553281095}
+{"i":"19466492","t":"Show HN: How to add emoji support to a React chatroom","p":4,"c":0,"s":1553285936}
+{"i":"19467602","t":"Show HN: Red pepper chef – distinguish parts of a red pepper to keep vs. discard","p":51,"c":15,"s":1553294166}
+{"i":"19467934","t":"Show HN: Blog Reader – Listen to webpages via a personal podcast","p":4,"c":6,"s":1553297558}
+{"i":"19468993","t":"Show HN: Everything I Know Wiki","p":434,"c":119,"s":1553313617}
+{"i":"19469080","t":"Show HN: DropCSS – A simple, thorough and fast unused-CSS cleaner","p":134,"c":25,"s":1553315774}
+{"i":"19469474","t":"Show HN: I Build a Simple Yelp NoWait Using AWS","p":1,"c":1,"s":1553327023}
+{"i":"19469485","t":"Show HN: Architectural floor plans for Airbnb hosts","p":3,"c":1,"s":1553327322}
+{"i":"19469509","t":"Show HN: Stupid RSS Reader – PWA RSS Client on Angular 7","p":3,"c":1,"s":1553327868}
+{"i":"19470090","t":"Show HN: Full-Stack Developer Jobs – Job Board for Full-Stack Devs Only","p":3,"c":2,"s":1553342536}
+{"i":"19470131","t":"Show HN: Banana for Scale – A Tool for Learning Scales on the Guitar","p":6,"c":0,"s":1553343458}
+{"i":"19470139","t":"Show HN: Creating Pre-Launch Buzz","p":2,"c":2,"s":1553343700}
+{"i":"19470276","t":"Show HN: CoinBlick – Beautiful Designed and Personalised Crypto News Aggregator","p":1,"c":0,"s":1553346150}
+{"i":"19470327","t":"Show HN: Change the way visitors contact you","p":1,"c":0,"s":1553347189}
+{"i":"19470628","t":"Show HN: Cache-Control Header Builder","p":12,"c":0,"s":1553352000}
+{"i":"19471078","t":"Show HN: Fast, unopinionated, minimalist web framework for Arduino","p":9,"c":3,"s":1553358401}
+{"i":"19471133","t":"Show HN: ElectronMail v3 – desktop app for ProtonMail and Tutanota","p":2,"c":0,"s":1553359078}
+{"i":"19471253","t":"Show HN: Auto responsive images with JavaScript plugin","p":1,"c":3,"s":1553360701}
+{"i":"19471318","t":"Show HN: JavaScript Moving and Zooming Handler","p":1,"c":0,"s":1553361552}
+{"i":"19471482","t":"Show HN: Keyboardbattle – keyboard search and metric site","p":1,"c":0,"s":1553363722}
+{"i":"19471678","t":"Show HN: Doctest: Fastest C++ Testing Framework v2.3 is out With XML reporter","p":2,"c":0,"s":1553365898}
+{"i":"19471735","t":"Show HN: Functional Programming in PHP with 89% CodeCov","p":1,"c":0,"s":1553366562}
+{"i":"19471868","t":"Show HN: Gauge generator for your next dashboard design [React app]","p":4,"c":0,"s":1553368411}
+{"i":"19471924","t":"Show HN: Gramchat, answer live chat messages via Telegram","p":9,"c":0,"s":1553369004}
+{"i":"19472041","t":"Show HN: Harness: A featherweight microservices framework for Apache Camel","p":2,"c":0,"s":1553370624}
+{"i":"19472389","t":"Show HN: Automatic GatsbyJS App Landing Page","p":7,"c":0,"s":1553375636}
+{"i":"19472461","t":"Show HN: How to Find a Job as a Software Developer in Switzerland – Guide","p":107,"c":35,"s":1553376663}
+{"i":"19472691","t":"Show HN: CryptoTrader.Tax – Tax calculator for your crypto trading","p":3,"c":2,"s":1553380303}
+{"i":"19474742","t":"Show HN: A social platform to record and debate predictions of the future","p":78,"c":39,"s":1553408089}
+{"i":"19474853","t":"Show HN: Editable, royalty-free SVG illustrations","p":295,"c":43,"s":1553410357}
+{"i":"19475610","t":"Show HN: Sheet2Site – Turn Your Google Sheet into Website","p":9,"c":1,"s":1553424884}
+{"i":"19475826","t":"Show HN: A Heroku plugin that allows you to use vim in a dyno","p":3,"c":0,"s":1553428590}
+{"i":"19476230","t":"Show HN: Easy to Deploy Serverless Blog","p":1,"c":0,"s":1553434238}
+{"i":"19476600","t":"Show HN: FastDom – Lightweight replacement of React and MobX","p":41,"c":8,"s":1553438520}
+{"i":"19476879","t":"Show HN: ClashHoles – Clash Royale clan management made simple","p":1,"c":0,"s":1553441523}
+{"i":"19476993","t":"Show HN: Object Detection in 50ms on a CPU","p":6,"c":0,"s":1553442866}
+{"i":"19477480","t":"Show HN: QA Lint, Product Testing Made Easy","p":2,"c":0,"s":1553447873}
+{"i":"19477552","t":"Show HN: Nameof Operator for Modern C++","p":65,"c":23,"s":1553448778}
+{"i":"19477703","t":"Show HN: Computer Assisted Debugging","p":1,"c":0,"s":1553450407}
+{"i":"19477782","t":"Show HN: List of games that let you write programs and/or design hardware","p":3,"c":3,"s":1553451246}
+{"i":"19477819","t":"Show HN: Kern – Modular C++ logging library inspired by the Rust crate fern","p":3,"c":0,"s":1553451487}
+{"i":"19477831","t":"Show HN: React webapp to showcase the stories of the New Zealand victims","p":1,"c":1,"s":1553451565}
+{"i":"19477850","t":"Show HN: Git-crecord to interactively select changes to commit or stage","p":1,"c":0,"s":1553451647}
+{"i":"19477888","t":"Show HN: Harmopark – Web tool to visually build chords and progressions","p":153,"c":35,"s":1553451987}
+{"i":"19479332","t":"Show HN: CryptoTrader.Tax – A Cryptocurrency Tax Calculator","p":1,"c":1,"s":1553469689}
+{"i":"19479443","t":"Show HN: 17871 Color-Names & color tools","p":5,"c":0,"s":1553471870}
+{"i":"19479592","t":"Show HN: (For YC) Improvised Quora to Solve “First Impression Influence” Problem","p":2,"c":0,"s":1553474839}
+{"i":"19479723","t":"Show HN: Kaffae – Chrome extension to track your online reading","p":1,"c":0,"s":1553477442}
+{"i":"19479947","t":"Show HN: The Legend of Trykon, a 3D Zelda-like exploration/puzzle game","p":6,"c":4,"s":1553481260}
+{"i":"19480130","t":"Show HN: McLaren College – an online bootcamp for Indians with no up-front fees","p":1,"c":1,"s":1553484674}
+{"i":"19481085","t":"Show HN: RTX Real-Time Ray Tracing in JavaScript","p":5,"c":2,"s":1553503697}
+{"i":"19481147","t":"Show HN: A framework to make it easier to work with AWS CloudFormation files","p":1,"c":0,"s":1553505173}
+{"i":"19481191","t":"Show HN: Kube-cleaner – Cleanup your Kubernetes config file","p":1,"c":0,"s":1553506293}
+{"i":"19481280","t":"Show HN: UK MP Scraper – Contact info and other public data","p":2,"c":0,"s":1553507905}
+{"i":"19481443","t":"Show HN: VoiceJobs – Job Board for Amazon Alexa, Google Home, Voice UX, and More","p":1,"c":0,"s":1553510809}
+{"i":"19481516","t":"Show HN: Axcept – Visual Regression Testing Platform","p":5,"c":2,"s":1553511968}
+{"i":"19481521","t":"Show HN: Kubernetes Update Manager","p":2,"c":0,"s":1553512120}
+{"i":"19481549","t":"Show HN: Optimizing Go Programs by AVX2 Using Auto-Vectorization in LLVM","p":1,"c":0,"s":1553512425}
+{"i":"19481606","t":"Show HN: JavaScript debug inspector made with ES6 and web components","p":1,"c":0,"s":1553513100}
+{"i":"19481939","t":"Show HN: Live Demo of ReactronicJS (Transactionally Reactive State Management)","p":2,"c":1,"s":1553517377}
+{"i":"19482136","t":"Show HN: Micro – A Microservice Toolkit","p":25,"c":0,"s":1553519404}
+{"i":"19482170","t":"Show HN: K3d – A fast kubernetes dev environment","p":11,"c":0,"s":1553519812}
+{"i":"19482242","t":"Show HN: Pushmaze – A marketing tool for Re-targeting your website visitors","p":2,"c":0,"s":1553520635}
+{"i":"19482280","t":"Show HN: Baxx – Unix-friendly backup service","p":424,"c":198,"s":1553520964}
+{"i":"19482651","t":"Show HN: Auto-Generate R SDK for REST APIs Using OpenAPI Generator","p":3,"c":0,"s":1553524052}
+{"i":"19482658","t":"Show HN: Send real postcards like updating your social media","p":2,"c":1,"s":1553524108}
+{"i":"19482826","t":"Show HN: Animated Progress Bar on Favicon","p":4,"c":1,"s":1553525082}
+{"i":"19482870","t":"Show HN: Find jobs related to machine learning","p":1,"c":0,"s":1553525327}
+{"i":"19483138","t":"Show HN: Autumn (macOS window manager) is going open source","p":13,"c":2,"s":1553526592}
+{"i":"19483333","t":"Show HN: ClapOrSlap – Tinder️ for Products","p":4,"c":1,"s":1553527609}
+{"i":"19483460","t":"Show HN: Built for Us, Robots Lovers","p":1,"c":0,"s":1553528249}
+{"i":"19483462","t":"Show HN: Jify – index and query large JSON files","p":1,"c":0,"s":1553528264}
+{"i":"19483590","t":"Show HN: Kisana – A modern to-do list that deals with procrastination","p":2,"c":1,"s":1553528986}
+{"i":"19483702","t":"Show HN: Project Gutenberg Typography","p":8,"c":0,"s":1553529718}
+{"i":"19484017","t":"Show HN: Workplace List – Find the best places to work from","p":1,"c":1,"s":1553531627}
+{"i":"19484789","t":"Show HN: Arengu – Easily build and optimize your sign-up process","p":2,"c":1,"s":1553536249}
+{"i":"19486741","t":"Show HN: What's My Aircraft?","p":73,"c":86,"s":1553548038}
+{"i":"19486899","t":"Show HN: SubGit-sync – subtree/submodule alternative for continously syncd repos","p":1,"c":2,"s":1553549326}
+{"i":"19487331","t":"Show HN: Checkmate Champ – a training tool for chess tactics","p":3,"c":1,"s":1553552912}
+{"i":"19487416","t":"Show HN: Find Instagram Microinfluencers – Free Trial (No CC Required.)","p":3,"c":2,"s":1553553618}
+{"i":"19487840","t":"Show HN: GifHub pull request – Chrome extension to find GIFs for your PRs","p":1,"c":0,"s":1553557129}
+{"i":"19488671","t":"Show HN: Make koajs middleware more reusable","p":1,"c":0,"s":1553565720}
+{"i":"19488772","t":"Show HN: Crowdsourced map of workplaces around the world","p":1,"c":0,"s":1553566945}
+{"i":"19488813","t":"Show HN: Using YouTube's code to restore annotations","p":2,"c":0,"s":1553567548}
+{"i":"19489039","t":"Show HN: E-Nguyen – Music Visualization in Rust","p":4,"c":0,"s":1553570632}
+{"i":"19489579","t":"Show HN: graphql-rest-proxy - Turn any REST api into GraphQL server","p":8,"c":0,"s":1553580017}
+{"i":"19489922","t":"Show HN: Modern Digital Art I've Made","p":1,"c":0,"s":1553586571}
+{"i":"19489980","t":"Show HN: Learning Games – Coded with a Self-Created Programming Language","p":5,"c":6,"s":1553587402}
+{"i":"19490365","t":"Show HN: Saito Arcade (Boardgames on the Blockchain)","p":3,"c":4,"s":1553593599}
+{"i":"19490754","t":"Show HN: Pong – Host your own uptime monitor with push/email alerts","p":1,"c":0,"s":1553599867}
+{"i":"19490843","t":"Show HN: Parameter Validation in Javalin (Kotlin)","p":1,"c":1,"s":1553601092}
+{"i":"19492008","t":"Show HN: SLAO. Node.js and Express monitoring the simple way","p":1,"c":0,"s":1553609656}
+{"i":"19492271","t":"Show HN: Hacker news for book related news, makers and writers","p":15,"c":2,"s":1553611294}
+{"i":"19492406","t":"Show HN: Provide a CSV and a target field, generate a model and code to run it","p":172,"c":26,"s":1553612175}
+{"i":"19492457","t":"Show HN: Our weekly space industry newsletter is out of beta","p":6,"c":1,"s":1553612534}
+{"i":"19492700","t":"Show HN: Fluidkeys 1.0: simplify and automate PGP for your team","p":16,"c":2,"s":1553614077}
+{"i":"19492718","t":"Show HN: VoiceJobs – Job Board for Amazon Alexa, Google Home, Voice UX, and More","p":1,"c":0,"s":1553614189}
+{"i":"19493064","t":"Show HN: Career assistance to PhD candidates – current / past","p":1,"c":2,"s":1553616263}
+{"i":"19493648","t":"Show HN: Send company news in the new browser tab of your team members","p":2,"c":0,"s":1553619437}
+{"i":"19493698","t":"Show HN: Using data to figure out where to live","p":3,"c":3,"s":1553619674}
+{"i":"19493722","t":"Show HN: Tag – Clickable product tags on any image for shops, blogs and social","p":9,"c":1,"s":1553619811}
+{"i":"19494051","t":"Show HN: Packagr – Private Python package and dependency manager","p":2,"c":0,"s":1553621381}
+{"i":"19494845","t":"Show HN: Create embeddings from JSON collections","p":2,"c":0,"s":1553626044}
+{"i":"19495014","t":"Show HN: Fsev – OS X file event watcher under 50 lines","p":22,"c":3,"s":1553627203}
+{"i":"19495304","t":"Show HN: Pdfvuer: Pdf.js Based Pdf Viewer for VueJS","p":6,"c":0,"s":1553629126}
+{"i":"19495358","t":"Show HN: How to Save $1M Building AI Edge Solutions","p":1,"c":0,"s":1553629561}
+{"i":"19495370","t":"Show HN: A good excuse to explore that side project idea","p":17,"c":0,"s":1553629664}
+{"i":"19495582","t":"Show HN: SentCode – Unlimited Web Development for $290 per Month","p":2,"c":1,"s":1553631179}
+{"i":"19495766","t":"Show HN: Demo Remote – a live coding demos snippet manager","p":4,"c":1,"s":1553632493}
+{"i":"19496595","t":"Show HN: Sliding Puzzle – Solving Search Problem with Iterative Deepening A*","p":5,"c":0,"s":1553639531}
+{"i":"19497142","t":"Show HN: IP-Api.io – Geolocation by IP","p":36,"c":37,"s":1553645950}
+{"i":"19497940","t":"Show HN: Generate Scala Play server stub using OpenAPI Generator in 3 steps","p":1,"c":0,"s":1553657029}
+{"i":"19498057","t":"Show HN: lineflow – Simple NLP Data Loader for PyTorch, etc.","p":5,"c":0,"s":1553658829}
+{"i":"19498323","t":"Show HN: Wise Notifications – the missing web push notifications for iOS","p":2,"c":1,"s":1553663926}
+{"i":"19498353","t":"Show HN: Sell your own SaaS subscriptions","p":2,"c":0,"s":1553664290}
+{"i":"19498697","t":"Show HN: Personal Assistants for $4.99 / hr (free interviews)","p":3,"c":0,"s":1553671061}
+{"i":"19498700","t":"Show HN: Golang local disc document storage with queries","p":1,"c":0,"s":1553671124}
+{"i":"19498962","t":"Show HN: I made a tiny app generator for myself, maybe you will find it useful","p":5,"c":2,"s":1553675568}
+{"i":"19499423","t":"Show HN: Yet another forum base on React and Go","p":6,"c":0,"s":1553681218}
+{"i":"19499461","t":"Show HN: Resin v0.3a – Language model framework","p":2,"c":0,"s":1553681738}
+{"i":"19499844","t":"Show HN: Dislack – Form creation for the modern maker","p":7,"c":1,"s":1553686608}
+{"i":"19499865","t":"Show HN: I've collected, categorized and tagged 500 email newsletters","p":6,"c":2,"s":1553686819}
+{"i":"19500079","t":"Show HN: Deskguru.io’ a team wellness app for Slack","p":1,"c":1,"s":1553688870}
+{"i":"19500086","t":"Show HN: In response to the new EU copyright laws, an API to filter user uploads","p":1,"c":5,"s":1553688931}
+{"i":"19500188","t":"Show HN: Serverless Blog Options","p":2,"c":1,"s":1553689920}
+{"i":"19500791","t":"Show HN: Pineapple – Pen = Iapple","p":1,"c":0,"s":1553694831}
+{"i":"19500859","t":"Show HN: Mongoku, a Web-Scale GUI for MongoDB","p":18,"c":3,"s":1553695405}
+{"i":"19501081","t":"Show HN: What's Your Personal MRR?","p":2,"c":1,"s":1553696901}
+{"i":"19501463","t":"Show HN: Anwendo – the simplest way to get UI tests work for you","p":5,"c":3,"s":1553698834}
+{"i":"19501525","t":"Show HN: FORM6 – Named &ltfieldset&gt for nested form fields","p":1,"c":0,"s":1553699127}
+{"i":"19502033","t":"Show HN: Opyn.io, a content and opinion aggregation community","p":3,"c":1,"s":1553701388}
+{"i":"19502712","t":"Show HN: Yet Another Forum Base on React, Go and PostgreSQL","p":6,"c":2,"s":1553704624}
+{"i":"19502873","t":"Show HN: Simple gdb debugging of CPython extensions","p":11,"c":0,"s":1553705341}
+{"i":"19502960","t":"Show HN: Zeus: A mobile Bitcoin Lightning wallet for node operators","p":2,"c":0,"s":1553705809}
+{"i":"19503114","t":"Show HN: OpenArena Live – In-Browser Quake with Multiplayer Using WebRTC","p":6,"c":3,"s":1553706676}
+{"i":"19503120","t":"Show HN: ByProxy – A different way of thinking of web client-server RPC","p":3,"c":0,"s":1553706721}
+{"i":"19503406","t":"Show HN: U.S. 10-Year Employment Outlook [BLS Data 2016-2026)","p":5,"c":0,"s":1553707874}
+{"i":"19503707","t":"Show HN: Experiment Tracking for Machine Learning","p":5,"c":0,"s":1553708988}
+{"i":"19503726","t":"Show HN: Scribble is a simple, no BS blog-writing subscription for busy startups","p":10,"c":0,"s":1553709058}
+{"i":"19503745","t":"Show HN: SocialAmnesia – Open-source tool that auto-erases old Reddits/tweets","p":71,"c":23,"s":1553709127}
+{"i":"19504295","t":"Show HN: DeepTraffic – DQN Tuning for Traffic Navigation (Top 2%)","p":1,"c":0,"s":1553711363}
+{"i":"19505847","t":"Show HN: Build Docker Webapps in Minutes","p":2,"c":1,"s":1553719596}
+{"i":"19508278","t":"Show HN: Prefect – A workflow engine designed for modern data engineering","p":59,"c":4,"s":1553736880}
+{"i":"19508339","t":"Show HN: DevTracker, track time spent working based on your working directory","p":2,"c":1,"s":1553737497}
+{"i":"19508516","t":"Show HN: JavaScript Grammar","p":2,"c":0,"s":1553739138}
+{"i":"19508948","t":"Show HN: Find craft beer you'll like from breweries within 10 miles (US only)","p":1,"c":0,"s":1553743557}
+{"i":"19509101","t":"Show HN: A Framework for CSS Grids","p":1,"c":0,"s":1553745312}
+{"i":"19509516","t":"Show HN: Elvis operator implementation for TypeScript compiler","p":1,"c":0,"s":1553750923}
+{"i":"19510212","t":"Show HN: Janos' Cloud Scanner","p":3,"c":0,"s":1553759972}
+{"i":"19511134","t":"Show HN: Multi process twemproxy with config reload online","p":12,"c":0,"s":1553772889}
+{"i":"19511150","t":"Show HN: Open-source app for managing iOS localizations","p":1,"c":0,"s":1553773031}
+{"i":"19511222","t":"Show HN: NatUIve 2.0 – lightweight, rich, open web","p":54,"c":47,"s":1553773633}
+{"i":"19511852","t":"Show HN: MЯO (ORM backwards) write SQL then generate its host-language wrapper","p":20,"c":6,"s":1553779035}
+{"i":"19511936","t":"Show HN: Stretchpaper, an Infinite Drawing App for iPad","p":5,"c":1,"s":1553779650}
+{"i":"19512019","t":"Show HN: Causal logging for scientific computing with Eliot","p":1,"c":0,"s":1553780156}
+{"i":"19512235","t":"Show HN: After Machine Learning Is Everywhere","p":1,"c":0,"s":1553781685}
+{"i":"19512273","t":"Show HN: Solid – An Ultra Quick, WC Friendly, Modern JavaScript UI Library","p":2,"c":3,"s":1553781929}
+{"i":"19512641","t":"Show HN: Top Papers and Documents on Hacker News","p":2,"c":0,"s":1553784191}
+{"i":"19512751","t":"Show HN: Medius News – A news aggregator that optimizes for neutral sources","p":4,"c":2,"s":1553784896}
+{"i":"19513813","t":"Show HN: ReqView introduces Volere Software Requirements Specification Template","p":2,"c":0,"s":1553790793}
+{"i":"19514540","t":"Show HN: Unaware – Prevent people from realizing they're in a simulation","p":7,"c":0,"s":1553794582}
+{"i":"19515111","t":"Show HN: Voxels – An ApplePencil based 3D drawing app for iPad","p":2,"c":0,"s":1553797754}
+{"i":"19515425","t":"Show HN: CryptoTrader.Tax – Capital gains reporting for crypto","p":1,"c":0,"s":1553799850}
+{"i":"19515510","t":"Show HN: Wall, a live communal drawing app","p":2,"c":1,"s":1553800318}
+{"i":"19515798","t":"Show HN: Reef Tracks – Live Marine Life Tracking on the Great Barrier Reef","p":1,"c":0,"s":1553801984}
+{"i":"19515943","t":"Show HN: Editing crypto index like editing a word doc","p":1,"c":1,"s":1553802947}
+{"i":"19515967","t":"Show HN: Nurse turns Dev to create emoji EMR","p":4,"c":1,"s":1553803099}
+{"i":"19516162","t":"Show HN: Code Along with YouTube Tutorials","p":2,"c":0,"s":1553804290}
+{"i":"19516226","t":"Show HN: Manage multiple kubernetes clusters on bare metal fedora 29","p":2,"c":0,"s":1553804681}
+{"i":"19516558","t":"Show HN: Vue.js developer tool, prototype your component architecture","p":8,"c":0,"s":1553806879}
+{"i":"19516893","t":"Show HN: TypedStructures – Bring Data Structures and LINQ to TypeScript","p":4,"c":0,"s":1553809064}
+{"i":"19517001","t":"Show HN: Mgrt – Simple SQL Migrations","p":2,"c":3,"s":1553809966}
+{"i":"19518605","t":"Show HN: Lazily-evaluated graphs from sympy expressions","p":5,"c":0,"s":1553826151}
+{"i":"19518815","t":"Show HN: Googol Game or “You should learn when to quit ” – A JavaScript game","p":1,"c":0,"s":1553828812}
+{"i":"19519227","t":"Show HN: MXtract a Memory Extractor and Analyzer","p":4,"c":0,"s":1553835015}
+{"i":"19519607","t":"Show HN: Hacker News Digest","p":2,"c":0,"s":1553841508}
+{"i":"19519907","t":"Show HN: A Free API to kick-out disposable, invalid emails","p":2,"c":2,"s":1553846523}
+{"i":"19519908","t":"Show HN: Goodbye Office How to Make the Most Out of Hiring and Working Remotely","p":2,"c":0,"s":1553846528}
+{"i":"19520137","t":"Show HN: Write-only command-line Discord webhook integration in 100% Bash","p":2,"c":0,"s":1553850708}
+{"i":"19520160","t":"Show HN: Excel Price Feed – Live and Streaming Financial Prices in Excel","p":6,"c":1,"s":1553851215}
+{"i":"19520260","t":"Show HN: ByteScout SQL Trainer Part 2: Advanced SQL Queries","p":4,"c":1,"s":1553852647}
+{"i":"19520487","t":"Show HN: Learn R by Example","p":3,"c":0,"s":1553856357}
+{"i":"19520631","t":"Show HN: Immerframe – immutable Python deep updates","p":2,"c":0,"s":1553858410}
+{"i":"19520636","t":"Show HN: JavaScript functions' implementation inspired by PHP and Laravel","p":2,"c":0,"s":1553858456}
+{"i":"19520865","t":"Show HN: APIs to use reviews in your apps","p":6,"c":2,"s":1553861124}
+{"i":"19521230","t":"Show HN: GNUplot with sixel – Mix images, ANSI colors and plots","p":110,"c":53,"s":1553864661}
+{"i":"19521680","t":"Show HN: Why we moved our servers to Iceland","p":14,"c":5,"s":1553867628}
+{"i":"19521871","t":"Show HN: A Simple IDE for LilyPond","p":2,"c":0,"s":1553869058}
+{"i":"19521942","t":"Show HN: The future of dating → no swipes, no online chats","p":4,"c":2,"s":1553869538}
+{"i":"19521960","t":"Show HN: Multi-Platform Chatbot Modeling and Deployment with Jarvis","p":4,"c":0,"s":1553869666}
+{"i":"19522368","t":"Show HN: Purely Static – a simple guide to build and publish a static website","p":2,"c":2,"s":1553872480}
+{"i":"19522795","t":"Show HN: A Colorized Hexdump Tool","p":3,"c":0,"s":1553875287}
+{"i":"19522883","t":"Show HN: Install specific versions of Homebrew packages","p":1,"c":0,"s":1553875817}
+{"i":"19523334","t":"Show HN: A Complete View of Your Cloud Security Posture for AWS","p":4,"c":0,"s":1553878328}
+{"i":"19523598","t":"Show HN: GraphQL at the Edge","p":16,"c":3,"s":1553879796}
+{"i":"19523996","t":"Show HN: Docute – Create documentation for your projects in seconds","p":1,"c":0,"s":1553882206}
+{"i":"19524129","t":"Show HN: Style Transfer – Styling Images with Convolutional Neural Networks","p":3,"c":0,"s":1553883316}
+{"i":"19524348","t":"Show HN: never miss Free","p":5,"c":0,"s":1553884752}
+{"i":"19524460","t":"Show HN: Electric Car Lease Prices by US State","p":7,"c":2,"s":1553885604}
+{"i":"19525224","t":"Show HN: Make language learning flash cards from YouTube video clips","p":1,"c":0,"s":1553890594}
+{"i":"19525362","t":"Show HN: Audit your ISP with a speedtest cronjob","p":12,"c":6,"s":1553891413}
+{"i":"19525693","t":"Show HN: Xaval – Web-based playground for OpenCV and computer vision","p":4,"c":2,"s":1553893672}
+{"i":"19527158","t":"Show HN: A Website for HTTP Status Codes","p":22,"c":13,"s":1553911572}
+{"i":"19527326","t":"Show HN: Ember.js Angle brackets invocation codemod using jscodeshift","p":3,"c":0,"s":1553913920}
+{"i":"19527753","t":"Show HN: A Site to Provide Better Explanations to Coding Interview Problems","p":8,"c":2,"s":1553919932}
+{"i":"19528110","t":"Show HN: Throttler for Asyncio Python","p":3,"c":0,"s":1553927420}
+{"i":"19528179","t":"Show HN: An Open Source Docker IDE","p":3,"c":0,"s":1553928600}
+{"i":"19528525","t":"Show HN: SyncHole – AWS Glacier data archive utility","p":1,"c":0,"s":1553936623}
+{"i":"19529282","t":"Show HN: Discover Newsletters on Letterlist","p":1,"c":0,"s":1553952362}
+{"i":"19529635","t":"Show HN: Inference over Stochastic L-Systems","p":3,"c":0,"s":1553956980}
+{"i":"19529921","t":"Show HN: Grassland – Real-Life SimCity","p":184,"c":138,"s":1553960133}
+{"i":"19530161","t":"Show HN: Clean My Feed – Clean Up the Twitter Accounts You Follow","p":5,"c":3,"s":1553962545}
+{"i":"19530318","t":"Show HN: Emissary – a Slack bot for running and scheduling shell commands","p":1,"c":1,"s":1553963932}
+{"i":"19530796","t":"Show HN: A Web for gradients, palettes and tools for web developers & designers","p":1,"c":1,"s":1553968990}
+{"i":"19531420","t":"Show HN: Flask-Dance: Easy OAuth with Flask","p":2,"c":0,"s":1553975755}
+{"i":"19531659","t":"Show HN: No more fat jars Deploy and run from Maven","p":9,"c":0,"s":1553977909}
+{"i":"19531686","t":"Show HN: Client Side Encrypted Backups – easy to use and no chance of corruption","p":7,"c":6,"s":1553978208}
+{"i":"19531874","t":"Show HN: Be Your Hero – Get matched with purpose-driven companies","p":4,"c":0,"s":1553980224}
+{"i":"19532069","t":"Show HN: Contextually App – Improving Development Workflow","p":3,"c":1,"s":1553982275}
+{"i":"19532512","t":"Show HN: Multiplayer 2D game for Windows 10","p":6,"c":0,"s":1553986806}
+{"i":"19532631","t":"Show HN: Road Trips in Canada","p":4,"c":0,"s":1553988468}
+{"i":"19532643","t":"Show HN: Tinytetris – 80 x 23 Terminal Tetris","p":147,"c":52,"s":1553988643}
+{"i":"19532930","t":"Show HN: Missing Thread – a search engine for fabric","p":3,"c":1,"s":1553993127}
+{"i":"19532934","t":"Show HN: Confused about What to Watch?","p":2,"c":2,"s":1553993173}
+{"i":"19533012","t":"Show HN: zpkg: use applications from other distros","p":1,"c":0,"s":1553994097}
+{"i":"19533021","t":"Show HN: Tour, a 21st-Century Trip Planning App","p":1,"c":0,"s":1553994189}
+{"i":"19533208","t":"Show HN: Library to render guitar chords in the browser","p":3,"c":0,"s":1553996856}
+{"i":"19533648","t":"Show HN: Transfer Learning Intuition for Text Classification","p":1,"c":0,"s":1554003349}
+{"i":"19533743","t":"Show HN: Bookmarklet to get 12 month Gitlab contributions","p":1,"c":0,"s":1554004840}
+{"i":"19534106","t":"Show HN: EduClan","p":1,"c":0,"s":1554010964}
+{"i":"19534245","t":"Show HN: Thoughtfully Crafted Color Palettes","p":2,"c":0,"s":1554014488}
+{"i":"19534332","t":"Show HN: Shoperr","p":3,"c":1,"s":1554016859}
+{"i":"19534566","t":"Show HN: Pursuing Multiple Ideas","p":2,"c":1,"s":1554022660}
+{"i":"19534728","t":"Show HN: The CO₂ Emissions for Flying","p":5,"c":3,"s":1554026274}
+{"i":"19535332","t":"Show HN: slim - Build micro-vms from Dockerfiles","p":14,"c":3,"s":1554037026}
+{"i":"19535427","t":"Show HN: Self-Study Curriculum for Environmental Science","p":3,"c":0,"s":1554038351}
+{"i":"19536190","t":"Show HN: Easily Develop and Serve Plotly Dash Apps in Jupyter Notebook","p":2,"c":0,"s":1554047412}
+{"i":"19536560","t":"Show HN: Play Rock-Paper-Scissors Against a Neural Network","p":4,"c":3,"s":1554050911}
+{"i":"19537460","t":"Show HN: Online Drum Machine","p":2,"c":0,"s":1554058267}
+{"i":"19537919","t":"Show HN: Flua, fengari wrapper for running Lua in the browser easily","p":1,"c":0,"s":1554061851}
+{"i":"19538022","t":"Show HN: Airbnb 'clone' built without code","p":9,"c":6,"s":1554062833}
+{"i":"19538024","t":"Show HN: A Side Project to Show Off Your Side Projects","p":4,"c":0,"s":1554062856}
+{"i":"19538307","t":"Show HN: Dead simple user account system so easy a cow could do it","p":2,"c":0,"s":1554065618}
+{"i":"19538918","t":"Show HN: Choosing meaningful work with Python Pandas data analysis","p":16,"c":2,"s":1554072237}
+{"i":"19539252","t":"Show HN: Language Map of the United States","p":7,"c":4,"s":1554075951}

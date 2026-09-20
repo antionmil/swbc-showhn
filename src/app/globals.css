@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+/* ONE palette, one file. Every ratio below was measured with the WCAG formula
+   against the surface the text actually sits on, not the page behind it.
+   Light: ink 17.3 on paper / 18.5 on card · muted 5.6 / 6.0 · accent 5.0 / 5.4
+          · green 6.1 / 6.5 · white on accent 5.4 · ink on hot 5.9
+   Dark:  ink 16.2 on ground / 14.9 on surface · muted 7.1 / 6.5
+          · accent 7.3 / 6.7 · green 9.2 / 8.5 · ground on hot 7.3
+   Rules and hairlines are decoration, never text. */
+@theme {
+  --color-ground: #faf7f2;
+  --color-surface: #ffffff;
+  --color-ink: #17130f;
+  --color-muted: #6b625a;
+  --color-rule: #e3dcd2;
+  --color-accent: #c6350b;
+  --color-hot: #ff5a1f;
+  --color-green: #1e6b3a;
+  --color-bar: #ded4c6;
+  --font-display: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-mono-plex), ui-monospace, SFMono-Regular, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-ground: #14110e;
+    --color-surface: #1e1a16;
+    --color-ink: #f2ede6;
+    --color-muted: #a79d93;
+    --color-rule: #332c26;
+    --color-accent: #ff7a45;
+    --color-hot: #ff7a45;
+    --color-green: #63c98c;
+    --color-bar: #3b332c;
+  }
+}
+:root[data-theme="dark"] {
+  --color-ground: #14110e;
+  --color-surface: #1e1a16;
+  --color-ink: #f2ede6;
+  --color-muted: #a79d93;
+  --color-rule: #332c26;
+  --color-accent: #ff7a45;
+  --color-hot: #ff7a45;
+  --color-green: #63c98c;
+  --color-bar: #3b332c;
+}
+
+html, body { background: var(--color-ground); color: var(--color-ink); }
+body { font-family: var(--font-body); -webkit-font-smoothing: antialiased; }
+
+/* 16px or larger on every field. Anything smaller makes iOS Safari zoom the
+   page on focus, and the visitor is left zoomed in for the rest of the visit
+   with no way back that they will look for. */
+input, select, textarea { font-size: 16px; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .rise { animation: rise .32s cubic-bezier(.2,.7,.3,1) both; }
+  @keyframes rise { from { opacity: 0; transform: translateY(6px) } to { opacity: 1; transform: none } }
+}

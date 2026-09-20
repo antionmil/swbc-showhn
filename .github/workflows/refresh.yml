@@ -1,0 +1,42 @@
+name: Refresh the corpus
+
+# The return mechanic: the corpus has to visibly grow. About 115 Show HN posts
+# land every day, and points keep moving for a day after that, so the job also
+# re-reads the last 8 days rather than only appending.
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.18.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm refresh
+      - name: Check the corpus before publishing it
+        run: |
+          pnpm data
+          pnpm test
+      - name: Commit the new posts
+        run: |
+          git config user.name "corpus bot"
+          git config user.email "actions@github.com"
+          if git diff --quiet -- data; then
+            echo "nothing new — no commit, no deploy"
+            exit 0
+          fi
+          git add data
+          git commit -m "Corpus refresh: $(date -u +%Y-%m-%d)"
+          git push
