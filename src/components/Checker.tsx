@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { BANDS, FLAGS, MAX_TITLE, WORKED, bandOf, cellIndex, resolve, shapeOf, titleBody, type Cell } from "@/lib/flags";
+import { BANDS, FLAGS, MAX_TITLE, WORKED, bandOf, cellIndex, describe, resolve, shapeOf, titleBody, type Cell } from "@/lib/flags";
 import cellsRaw from "@/data/cells.json";
 import report from "@/data/report.json";
 import TopicPanel from "./TopicPanel";
@@ -52,9 +52,12 @@ export default function Checker({ examples }: { examples: string[] }) {
     if (t) { setTitle(t.slice(0, 120)); setChecked(t.slice(0, 120)); }
   }, []);
 
+  const [tooShort, setTooShort] = useState(false);
+
   const submit = useCallback((value: string) => {
     const v = value.trim();
-    if (v.length < 8) return;
+    if (v.length < 8) { setTooShort(true); setChecked(null); return; }
+    setTooShort(false);
     setChecked(v);
     const url = new URL(window.location.href);
     url.searchParams.set("t", v);
@@ -99,6 +102,11 @@ export default function Checker({ examples }: { examples: string[] }) {
       </div>
 
       <div ref={out} className="scroll-mt-6">
+        {tooShort && (
+          <p className="mt-6 rounded-xl border border-rule bg-surface px-4 py-3 text-[14.5px] text-muted">
+            That is too short to look up. Paste the whole title, the way you would post it.
+          </p>
+        )}
         {checked && <Verdict title={checked} ready={ready} />}
       </div>
     </div>
@@ -171,9 +179,9 @@ function Verdict({ title, ready }: { title: string; ready: boolean }) {
               ) : null,
             )}
             <Factor
-              good={band < 2}
+              good={report.bands[band].rate >= base}
               text={`It is ${title.length} characters — ${BANDS[band].label}.`}
-              note={`${pc(report.lengths.find((l) => Math.min(Math.floor(title.length / 10) * 10, 80) === l.lo)?.rate ?? base)}`}
+              note={`${pc(report.bands[band].rate)} · ${n0(report.bands[band].n)} posts`}
             />
             {!shape.flags.some(Boolean) && (
               <Factor good text="It carries none of the words that move the numbers either way." note="" />
@@ -189,9 +197,8 @@ function Verdict({ title, ready }: { title: string; ready: boolean }) {
 
         {!res.bandKept || res.kept.length < FLAGS.length ? (
           <p className="mt-5 border-t border-rule pt-4 text-[13px] text-muted">
-            Too few posts carried every one of those at once, so the group above is the closest one the corpus can
-            actually count: {res.kept.length ? res.kept.map((k) => FLAGS.find((f) => f.key === k)!.label).join(", ") : "every Show HN post"}
-            {res.bandKept ? `, ${BANDS[shape.band].short} characters` : ""}.
+            Too few posts carried all of that at once. The {n0(res.n)} above are the closest group the corpus can
+            actually count: {describe(res.kept, shape.flags, res.bandKept ? shape.band : null)}.
           </p>
         ) : null}
       </div>
@@ -213,7 +220,9 @@ function Verdict({ title, ready }: { title: string; ready: boolean }) {
 
       {winners.length > 0 && (
         <div className="mt-4 rounded-2xl border border-rule bg-surface p-6 sm:p-7">
-          <p className="font-mono text-[12px] uppercase tracking-[.13em] text-muted">Titles this shape that worked anyway</p>
+          <p className="font-mono text-[12px] uppercase tracking-[.13em] text-muted">
+            Titles this shape that worked{rate < base ? " anyway" : ""}
+          </p>
           <div className="mt-2">
             {winners.map((p) => <Row key={p.i} p={p} />)}
           </div>

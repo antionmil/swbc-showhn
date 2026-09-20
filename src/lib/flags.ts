@@ -11,9 +11,11 @@
 
 export type FlagKey = "ai" | "number" | "lang" | "free" | "oss" | "person";
 
-export const FLAGS: { key: FlagKey; label: string; on: string; off: string; test: (body: string, title: string) => boolean }[] = [
+export const FLAGS: { key: FlagKey; label: string; on: string; off: string; yes: string; no: string; test: (body: string, title: string) => boolean }[] = [
   {
     key: "ai",
+    yes: "say AI, LLM, GPT or agent",
+    no: "say none of AI, LLM, GPT or agent",
     on: "with the AI wording in it",
     off: "with no AI, LLM, GPT or agent in it",
     label: "says AI, LLM, GPT or agent",
@@ -21,6 +23,8 @@ export const FLAGS: { key: FlagKey; label: string; on: string; off: string; test
   },
   {
     key: "number",
+    yes: "contain a number",
+    no: "contain no number",
     on: "with a number in the title",
     off: "with no number in it",
     label: "has a number in it",
@@ -28,6 +32,8 @@ export const FLAGS: { key: FlagKey; label: string; on: string; off: string; test
   },
   {
     key: "lang",
+    yes: "name a programming language",
+    no: "name no language",
     on: "naming a programming language",
     off: "naming no language",
     label: "names a programming language",
@@ -35,6 +41,8 @@ export const FLAGS: { key: FlagKey; label: string; on: string; off: string; test
   },
   {
     key: "free",
+    yes: "say free or no signup",
+    no: "never say free",
     on: "saying free, or no signup",
     off: "not saying free",
     label: "says free, or no signup",
@@ -42,6 +50,8 @@ export const FLAGS: { key: FlagKey; label: string; on: string; off: string; test
   },
   {
     key: "oss",
+    yes: "say open source",
+    no: "never say open source",
     on: "saying open source",
     off: "not saying open source",
     label: "says open source",
@@ -49,6 +59,8 @@ export const FLAGS: { key: FlagKey; label: string; on: string; off: string; test
   },
   {
     key: "person",
+    yes: "say I built it",
+    no: "never say who built it",
     on: "saying you built it yourself",
     off: "not saying who built it",
     label: "says I built it",
@@ -76,6 +88,20 @@ export function titleBody(title: string): string {
 export function bandOf(title: string): 0 | 1 | 2 {
   const n = title.length;
   return n < 50 ? 0 : n < 70 ? 1 : 2;
+}
+
+/** How to SAY what a resolved group is. A flag kept as ABSENT still describes
+ *  the group, and describing it in the positive ("has a number in it") names a
+ *  group the visitor is not in. It shipped that way for one deploy. */
+export function describe(kept: FlagKey[], flags: boolean[], band: 0 | 1 | 2 | null): string {
+  const parts = kept.map((k) => {
+    const i = FLAGS.findIndex((f) => f.key === k);
+    return flags[i] ? FLAGS[i].yes : FLAGS[i].no;
+  });
+  if (band !== null) parts.push(`run to ${BANDS[band].label}`);
+  if (!parts.length) return "every Show HN post of the past year";
+  const last = parts.pop()!;
+  return `titles that ${parts.length ? `${parts.join(", ")} and ${last}` : last}`;
 }
 
 /** The concrete shape of one title: six booleans and a band. */

@@ -9,7 +9,7 @@
  *   data/search.txt        one line per post, read by the topic API at runtime
  */
 import { writeFileSync, statSync } from "node:fs";
-import { FLAGS, WORKED, SANK, CELLS, cellIndex, shapeOf, bandOf, titleBody } from "../src/lib/flags.ts";
+import { FLAGS, WORKED, SANK, CELLS, BANDS, cellIndex, shapeOf, bandOf, titleBody } from "../src/lib/flags.ts";
 import { readAll, ensureDirs, SRC_DATA, DATA_DIR, PUB_DATA, type Post } from "./corpus.mts";
 
 const DAY = 86400;
@@ -76,6 +76,13 @@ const lengths = [10, 20, 30, 40, 50, 60, 70, 80].map((lo) => {
   const rows = win.filter((p) => Math.min(Math.floor(p.t.length / 10) * 10, 80) === lo);
   return { lo, n: rows.length, share: r2(pct(rows.length, N)), rate: r2(rate(rows)) };
 });
+/* The three bands the checker names, with the rate for that band and not for
+   a 10-character bucket inside it — the label and the number must be the same
+   group or the card contradicts itself. */
+const bands = BANDS.map((b) => {
+  const rows = win.filter((p) => bandOf(p.t) === b.key);
+  return { key: b.key, label: b.label, n: rows.length, share: r2(pct(rows.length, N)), rate: r2(rate(rows)) };
+});
 const aiIdx = FLAGS.findIndex((f) => f.key === "ai");
 const years: { y: number; n: number; rate: number; ai: number; median: number }[] = [];
 for (let y = new Date(all[0].s * 1000).getUTCFullYear(); y <= new Date().getUTCFullYear(); y++) {
@@ -137,7 +144,7 @@ const report = {
     sank: win.filter((p) => p.p <= SANK).length,
     WORKED, SANK,
   },
-  hours, weekdays, lengths, years, flags: flagStats,
+  hours, weekdays, lengths, bands, years, flags: flagStats,
   best: hours.reduce((a, b) => (b.rate > a.rate ? b : a)),
   worst: hours.reduce((a, b) => (b.rate < a.rate ? b : a)),
   bestDay: weekdays.reduce((a, b) => (b.rate > a.rate ? b : a)),

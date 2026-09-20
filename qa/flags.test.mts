@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { FLAGS, bandOf, shapeOf, titleBody, resolve, cellIndex, MIN_N, IGNORED, type Cell } from "../src/lib/flags.ts";
+import { FLAGS, bandOf, describe, shapeOf, titleBody, resolve, cellIndex, MIN_N, IGNORED, type Cell } from "../src/lib/flags.ts";
 import cells from "../src/data/cells.json" with { type: "json" };
 
 const flag = (key: string) => FLAGS.findIndex((f) => f.key === key);
@@ -98,4 +98,19 @@ test("the back-off keeps the strongest signal and drops the weakest first", () =
   const r = resolve(C, shapeOf(loaded));
   assert.ok(r.kept.includes("ai"), "the flag with the largest effect must never be dropped");
   assert.ok(!r.kept.includes("person"), "the weakest flag should go first");
+});
+
+test("a group is described by what it IS, absent flags included", () => {
+  // The bug this catches shipped live: a flag kept as ABSENT was printed in
+  // the positive, so a group with no number in it read "has a number in it".
+  const line = describe(["ai", "number", "lang"], [true, false, false, false, false, false], 2);
+  assert.match(line, /say AI, LLM, GPT or agent/);
+  assert.match(line, /contain no number/);
+  assert.match(line, /name no language/);
+  assert.ok(!/contain a number/.test(line), `"${line}" claims a number the group does not have`);
+  assert.match(line, /70 characters or more/);
+});
+
+test("describing nothing at all still reads as a sentence", () => {
+  assert.equal(describe([], [false, false, false, false, false, false], null), "every Show HN post of the past year");
 });
