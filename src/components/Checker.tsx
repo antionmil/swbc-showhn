@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { BANDS, FLAGS, MAX_TITLE, WORKED, bandOf, cellIndex, describe, resolve, shapeOf, titleBody, type Cell } from "@/lib/flags";
+import { BANDS, FLAGS, MAX_TITLE, PREFIX, WORKED, bandOf, cellIndex, describe, prefixAdded, resolve, shapeOf, titleBody, titleLength, type Cell } from "@/lib/flags";
 import cellsRaw from "@/data/cells.json";
 import report from "@/data/report.json";
 import TopicPanel from "./TopicPanel";
@@ -75,8 +75,8 @@ export default function Checker({ examples }: { examples: string[] }) {
           value={title}
           onChange={(e) => setTitle(e.target.value)}
           onFocus={() => warm().then(() => setReady(true))}
-          placeholder="Show HN: the title you are about to post"
-          aria-label="The Show HN title you are about to post"
+          placeholder="Write the title you are about to post"
+          aria-label="The title you are about to post"
           spellCheck={false}
           className="min-w-0 flex-1 rounded-xl border-2 border-ink bg-surface px-4 py-3.5 text-ink outline-none placeholder:text-muted focus:border-accent"
         />
@@ -119,6 +119,8 @@ function Verdict({ title, ready }: { title: string; ready: boolean }) {
   const base = report.window.base;
   const rate = res.n ? (100 * res.worked) / res.n : 0;
   const band = bandOf(title);
+  const length = titleLength(title);
+  const added = prefixAdded(title);
 
   /* What the same title looks like with one thing changed. Every one of these
    * is a real group of real posts, counted — not a prediction. */
@@ -150,7 +152,7 @@ function Verdict({ title, ready }: { title: string; ready: boolean }) {
   }).slice(0, 4);
 
   const topic = topicOf(title, wordsCache);
-  const tooLong = title.length > MAX_TITLE;
+  const tooLong = length > MAX_TITLE;
 
   return (
     <div className="rise mt-8">
@@ -180,7 +182,7 @@ function Verdict({ title, ready }: { title: string; ready: boolean }) {
             )}
             <Factor
               good={report.bands[band].rate >= base}
-              text={`It is ${title.length} characters — ${BANDS[band].label}.`}
+              text={`It is ${length} characters — ${BANDS[band].label}.`}
               note={`${pc(report.bands[band].rate)} · ${n0(report.bands[band].n)} posts`}
             />
             {!shape.flags.some(Boolean) && (
@@ -189,9 +191,16 @@ function Verdict({ title, ready }: { title: string; ready: boolean }) {
           </div>
         </div>
 
+        {added && (
+          <p className="mt-5 border-t border-rule pt-4 text-[13px] text-muted">
+            Counted as <b className="text-ink">{PREFIX}</b>{titleBody(title)} — Hacker News shows that prefix and
+            counts it against the {MAX_TITLE}-character limit, so the length above includes it.
+          </p>
+        )}
+
         {tooLong && (
           <p className="mt-5 rounded-lg bg-hot/12 px-4 py-3 text-[13.5px]">
-            <b>It will not fit.</b> Hacker News cuts the title at {MAX_TITLE} characters, and yours is {title.length}.
+            <b>It will not fit.</b> Hacker News cuts the title at {MAX_TITLE} characters, and yours is {length}.
           </p>
         )}
 

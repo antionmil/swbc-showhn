@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { FLAGS, bandOf, describe, shapeOf, titleBody, resolve, cellIndex, MIN_N, IGNORED, type Cell } from "../src/lib/flags.ts";
+import { FLAGS, bandOf, describe, prefixAdded, shapeOf, titleBody, titleLength, resolve, cellIndex, MIN_N, IGNORED, type Cell } from "../src/lib/flags.ts";
 import cells from "../src/data/cells.json" with { type: "json" };
 
 const flag = (key: string) => FLAGS.findIndex((f) => f.key === key);
@@ -44,11 +44,17 @@ test("'I built' fires on the forms people write, not on 'It'", () => {
   assert.ok(!has("Show HN: It builds itself", "person"));
 });
 
-test("length bands split where they say they do, on the WHOLE title", () => {
-  assert.equal(bandOf("x".repeat(49)), 0);
-  assert.equal(bandOf("x".repeat(50)), 1);
-  assert.equal(bandOf("x".repeat(69)), 1);
-  assert.equal(bandOf("x".repeat(70)), 2);
+test("length bands split where they say they do, on the title as Hacker News shows it", () => {
+  // The prefix is nine characters and counts, so the bands are checked on the
+  // whole thing — typed with the prefix or not, which must not matter.
+  const full = (n: number) => "Show HN: " + "x".repeat(n - 9);
+  assert.equal(bandOf(full(49)), 0);
+  assert.equal(bandOf(full(50)), 1);
+  assert.equal(bandOf(full(69)), 1);
+  assert.equal(bandOf(full(70)), 2);
+  assert.equal(bandOf("x".repeat(40)), 0, "40 + 9 = 49, still under 50");
+  assert.equal(bandOf("x".repeat(41)), 1, "41 + 9 = 50, the band above");
+  assert.equal(bandOf("x".repeat(61)), 2, "61 + 9 = 70");
 });
 
 /* ---- the cell table ---- */
@@ -113,4 +119,31 @@ test("a group is described by what it IS, absent flags included", () => {
 
 test("describing nothing at all still reads as a sentence", () => {
   assert.equal(describe([], [false, false, false, false, false, false], null), "every Show HN post of the past year");
+});
+
+test("a title measures the same whether or not the person typed the prefix", () => {
+  // The placeholder used to read "Show HN: ..." and taught people to include
+  // it. It now reads "Write the title you are about to post", so most people
+  // will not — and nine characters is enough to move a title into a different
+  // length band and quote the rate of a group it is not in.
+  const bare = "A tiny Rust parser for 3 config formats";
+  const full = `Show HN: ${bare}`;
+  assert.equal(titleLength(bare), titleLength(full));
+  assert.equal(titleLength(full), full.length);
+  assert.deepEqual(shapeOf(bare), shapeOf(full));
+  assert.equal(bandOf(bare), bandOf(full));
+});
+
+test("the page knows when it added the prefix itself", () => {
+  assert.equal(prefixAdded("A tiny parser"), true);
+  assert.equal(prefixAdded("Show HN: A tiny parser"), false);
+  assert.equal(prefixAdded("show hn – A tiny parser"), false);
+  assert.equal(prefixAdded("  Show HN: A tiny parser"), false);
+});
+
+test("a 71-character body is over the limit once the prefix is counted", () => {
+  // 71 + 9 = 80 exactly, which fits; 72 + 9 does not. Hacker News counts the
+  // prefix against its own limit, so the page has to as well.
+  assert.equal(titleLength("x".repeat(71)), 80);
+  assert.equal(titleLength("x".repeat(72)), 81);
 });

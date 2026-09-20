@@ -79,6 +79,16 @@ data/search.txt         one line per post, read by /api/topic     17 MB
   the last 8 days. A commit to `data/` triggers the deploy that rebuilds every
   number above.
 
+### Typing the title
+
+The field says "Write the title you are about to post", so most people will
+not type the `Show HN: ` prefix. That prefix is nine characters, Hacker News
+shows it, and it counts against the 80-character limit — every title in the
+corpus carries it. So the page normalises: strip whatever prefix was typed,
+put the canonical one back, and measure that. A title lands in the same
+length band whether or not the visitor typed it, and the card says so when
+the page added it.
+
 ### The title shape
 
 `src/lib/flags.ts` is the contract between the build and the browser: six

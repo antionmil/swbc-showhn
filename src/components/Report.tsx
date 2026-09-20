@@ -104,7 +104,7 @@ export default function Report() {
         <h3 className="font-display text-[23px] font-semibold tracking-[-.02em]">Short titles win, and almost nobody writes one.</h3>
         <p className="mt-2 max-w-[62ch] text-[15px] text-muted">
           {pc(long.share)} of posts use 70 characters or more — the largest group on the site, and the weakest at{" "}
-          {pc(long.rate)}. <b className="text-ink">{r.shortestWinner.t}</b> is {r.shortestWinner.t.length} characters
+          {pc(long.rate)}. <b className="text-ink">{r.shortestWinner.t}</b> is {r.shortestWinner.len} characters
           and took {n0(r.shortestWinner.p)} upvotes.
         </p>
         <Bars

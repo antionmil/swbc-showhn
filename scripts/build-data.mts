@@ -9,7 +9,7 @@
  *   data/search.txt        one line per post, read by the topic API at runtime
  */
 import { writeFileSync, statSync } from "node:fs";
-import { FLAGS, WORKED, SANK, CELLS, BANDS, cellIndex, shapeOf, bandOf, titleBody } from "../src/lib/flags.ts";
+import { FLAGS, WORKED, SANK, CELLS, BANDS, cellIndex, shapeOf, bandOf, titleBody, titleLength } from "../src/lib/flags.ts";
 import { readAll, ensureDirs, SRC_DATA, DATA_DIR, PUB_DATA, type Post } from "./corpus.mts";
 
 const DAY = 86400;
@@ -73,7 +73,7 @@ const weekdays = Array.from({ length: 7 }, (_, d) => {
   return { d, n: rows.length, rate: r2(rate(rows)) };
 });
 const lengths = [10, 20, 30, 40, 50, 60, 70, 80].map((lo) => {
-  const rows = win.filter((p) => Math.min(Math.floor(p.t.length / 10) * 10, 80) === lo);
+  const rows = win.filter((p) => Math.min(Math.floor(titleLength(p.t) / 10) * 10, 80) === lo);
   return { lo, n: rows.length, share: r2(pct(rows.length, N)), rate: r2(rate(rows)) };
 });
 /* The three bands the checker names, with the rate for that band and not for
@@ -153,7 +153,10 @@ const report = {
   /* The best post with a very short title, for the length section. Named in
      prose, so it is read from the corpus rather than typed — its points move
      with every refresh. */
-  shortestWinner: [...win].filter((p) => p.t.length < 30).sort((a, b) => b.p - a.p)[0],
+  shortestWinner: (() => {
+    const w = [...win].filter((p) => titleLength(p.t) < 30).sort((a, b) => b.p - a.p)[0];
+    return { ...w, len: titleLength(w.t) };
+  })(),
   /* Three REAL titles for the "try one" row. Never an invented example: the
      whole site is an argument that these numbers are measured. */
   samples: [

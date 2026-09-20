@@ -85,8 +85,25 @@ export function titleBody(title: string): string {
   return title.replace(/^\s*show\s*[hn]{2}\s*[:\-–—]\s*/i, "").trim();
 }
 
+export const PREFIX = "Show HN: ";
+
+/** Every title in the corpus carries the "Show HN: " prefix, because Hacker
+ *  News shows it and its 80-character limit counts it. Somebody typing into
+ *  this page may or may not include it, and the difference is nine
+ *  characters — enough to move a title into a different length band and quote
+ *  a rate for the wrong group. So the length is always measured on the title
+ *  as Hacker News would show it. */
+export function normalise(input: string): string {
+  return PREFIX + titleBody(input);
+}
+
+/** true when the visitor did not type the prefix and this page added it. */
+export function prefixAdded(input: string): boolean {
+  return !/^\s*show\s*[hn]{2}\s*[:\-–—]/i.test(input);
+}
+
 export function bandOf(title: string): 0 | 1 | 2 {
-  const n = title.length;
+  const n = normalise(title).length;
   return n < 50 ? 0 : n < 70 ? 1 : 2;
 }
 
@@ -109,6 +126,9 @@ export function shapeOf(title: string): { flags: boolean[]; band: 0 | 1 | 2 } {
   const body = titleBody(title);
   return { flags: FLAGS.map((f) => f.test(body, title)), band: bandOf(title) };
 }
+
+/** The length the page reports and checks against Hacker News's limit. */
+export const titleLength = (input: string) => normalise(input).length;
 
 /* ---------- cell addressing ----------
  * Each flag is a trit: 0 absent, 1 present, 2 not looked at.
