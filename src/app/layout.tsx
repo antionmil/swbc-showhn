@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, IBM_Plex_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import report from "@/data/report.json";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
@@ -8,8 +9,11 @@ const plex = IBM_Plex_Mono({ subsets: ["latin"], weight: ["400", "600"], variabl
 
 const SITE = "https://showhn.onedaybuilt.com";
 const TITLE = "Show HN, what actually worked";
+/* Built from the corpus, never typed. A hardcoded total shipped once and was
+ * stale the next night, in the one place nobody re-reads: the share card. */
 const DESC =
-  "208,287 Show HN posts since 2011, every one of them. Paste the title you are about to post and see what happened to the posts shaped like it.";
+  `${report.corpus.total.toLocaleString("en-US")} Show HN posts since 2011, every one of them. Paste the title you are ` +
+  "about to post and see what happened to the posts shaped like it.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),

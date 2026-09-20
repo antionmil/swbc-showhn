@@ -23,7 +23,7 @@ export default function Home() {
       </header>
 
       <h1 className="mt-9 max-w-[15ch] font-display text-[40px] font-bold leading-[1.03] tracking-[-.038em] sm:text-[52px]">
-        Most Show HN posts get two points.
+        Most Show HN posts get {spell(r.window.median)} points.
       </h1>
       <p className="mt-4 max-w-[54ch] text-[17px] text-muted">
         Paste the title you are about to post. This looks up the posts of the past year whose titles had the same
@@ -105,6 +105,11 @@ export default function Home() {
     </main>
   );
 }
+
+/* The headline says "two points" because the median IS two. If the corpus
+ * moves, the headline moves with it rather than quietly becoming false. */
+const WORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
+const spell = (n: number) => (Number.isInteger(n) && n >= 0 && n <= 10 ? WORDS[n] : String(n));
 
 function Stat({ n, t, hot }: { n: string; t: string; hot?: boolean }) {
   return (

@@ -65,3 +65,14 @@ test("every colour the page paints comes from a token", () => {
     assert.deepEqual(plain, [], `${f} paints ${plain.join(", ")}, which has no dark-scheme counterpart`);
   }
 });
+
+test("no file types a number the corpus is supposed to supply", () => {
+  // The share card shipped "208,287 Show HN posts" as a string literal. It was
+  // stale the next night, in the one place nobody re-reads.
+  for (const f of ["src/app/layout.tsx", "src/app/page.tsx", "src/components/Report.tsx",
+    "src/components/Checker.tsx", "src/components/TopicPanel.tsx", "src/components/TopicSearch.tsx"]) {
+    const src = readFileSync(f, "utf8");
+    const typed = src.match(/\b\d{1,3},\d{3}\b/g) ?? [];
+    assert.deepEqual(typed, [], `${f} hardcodes ${typed.join(", ")} — read it from report.json instead`);
+  }
+});

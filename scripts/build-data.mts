@@ -150,6 +150,10 @@ const report = {
   bestDay: weekdays.reduce((a, b) => (b.rate > a.rate ? b : a)),
   worstDay: weekdays.reduce((a, b) => (b.rate < a.rate ? b : a)),
   topAllTime: [...all].sort((a, b) => b.p - a.p).slice(0, 12),
+  /* The best post with a very short title, for the length section. Named in
+     prose, so it is read from the corpus rather than typed — its points move
+     with every refresh. */
+  shortestWinner: [...win].filter((p) => p.t.length < 30).sort((a, b) => b.p - a.p)[0],
   /* Three REAL titles for the "try one" row. Never an invented example: the
      whole site is an argument that these numbers are measured. */
   samples: [
