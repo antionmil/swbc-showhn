@@ -60,5 +60,8 @@ test("the commonest word in the corpus does not blow up the route", async () => 
 
 test("the answer is cacheable, because it is the same for everyone", async () => {
   const res = await call("chess");
-  assert.match(res.headers.get("cache-control") ?? "", /s-maxage=\d+/);
+  // The lifetime lives on the CDN headers: Next rewrites cache-control on a
+  // dynamic route and the edge cached nothing at all until this moved.
+  assert.match(res.headers.get("vercel-cdn-cache-control") ?? "", /s-maxage=\d+/);
+  assert.match(res.headers.get("cdn-cache-control") ?? "", /s-maxage=\d+/);
 });

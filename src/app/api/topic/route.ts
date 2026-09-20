@@ -70,6 +70,17 @@ export async function GET(req: Request) {
       // call stack — which is a 500 on the one query most likely to be tried
       first: hits.reduce<number | null>((m, r) => (m === null || r.s < m ? r.s : m), null),
     },
-    { headers: { "cache-control": "public, s-maxage=86400, stale-while-revalidate=604800" } },
+    {
+      /* Next strips s-maxage from cache-control on a dynamic route handler —
+       * the header went out as a bare "public" and every repeat search was a
+       * MISS on the edge. Vercel's own CDN headers are not rewritten, so the
+       * lifetime goes there. The answer is identical for everyone, so a day
+       * at the edge costs nothing and saves the function. */
+      headers: {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cdn-cache-control": "public, s-maxage=86400, stale-while-revalidate=604800",
+        "vercel-cdn-cache-control": "public, s-maxage=86400, stale-while-revalidate=604800",
+      },
+    },
   );
 }

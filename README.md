@@ -55,7 +55,9 @@ data/search.txt         one line per post, read by /api/topic     17 MB
 - `/` is **static**. The title check runs entirely in the browser against
   `cells.json`; there is no request and nothing to rate-limit.
 - `/api/topic` is the only dynamic route. It scans the corpus for a word and
-  returns both columns, cached at the edge for a day.
+  returns both columns, cached at the edge for a day — through
+  `vercel-cdn-cache-control`, because Next rewrites `cache-control` on a
+  dynamic route and the edge was caching nothing.
 - `/api/og` renders the share card.
 - `.github/workflows/refresh.yml` adds the new posts every night and re-reads
   the last 8 days. A commit to `data/` triggers the deploy that rebuilds every
