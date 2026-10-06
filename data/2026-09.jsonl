@@ -3382,7 +3382,7 @@
 {"i":"49879183","t":"Show HN: Online RTSP camera simulator for testing AI vision or VMS","p":1,"c":0,"s":1790607858}
 {"i":"49879233","t":"Show HN: Enterprise Postgres for AI and more, from prototype to production","p":7,"c":0,"s":1790607994}
 {"i":"49879268","t":"Show HN: Yengi, a local-first AIdevelopment environment for coding,Blender/Unity","p":2,"c":0,"s":1790608108}
-{"i":"49879401","t":"Show HN: HN.watch – Videos of all Hacker News posts","p":224,"c":97,"s":1790608573}
+{"i":"49879401","t":"Show HN: HN.watch – Videos of all Hacker News posts","p":225,"c":97,"s":1790608573}
 {"i":"49879513","t":"Show HN: Short film made using MiniMax H3 on my home PC","p":5,"c":2,"s":1790609044}
 {"i":"49879515","t":"Show HN: Android-on-Device Harness – N8N Meets Tasker Meets AI","p":6,"c":0,"s":1790609047}
 {"i":"49879629","t":"Show HN: Agentic Engineered Social Connections and Travel App","p":7,"c":3,"s":1790609446}
@@ -3396,7 +3396,7 @@
 {"i":"49880278","t":"Show HN: Assay – a QA CLI that finds bugs with no LLM and no tests written","p":1,"c":0,"s":1790611771}
 {"i":"49880443","t":"Show HN: Low Poly Earth – The whole planet in 3D, built from OpenStreetMap data","p":6,"c":5,"s":1790612493}
 {"i":"49880505","t":"Show HN: Cordum Edge – A local firewall to sandbox AI coding agents","p":1,"c":0,"s":1790612732}
-{"i":"49880601","t":"Show HN: Destroy Any Website with Stickman","p":198,"c":42,"s":1790613088}
+{"i":"49880601","t":"Show HN: Destroy Any Website with Stickman","p":199,"c":42,"s":1790613088}
 {"i":"49880704","t":"Show HN: ChuteChat – Browser-based E2EE chat with no accounts required","p":2,"c":0,"s":1790613430}
 {"i":"49881201","t":"Show HN: I'm a dermatologist and I vibe coded a 3D biophysical skin model","p":9,"c":0,"s":1790615575}
 {"i":"49881210","t":"Show HN: Open Source AMS for Bambu Labs","p":1,"c":2,"s":1790615601}
@@ -3434,7 +3434,7 @@
 {"i":"49886390","t":"Show HN: Jauvex 1.2, two-way voice chat harness for Claude+Codex+Grok+Jev","p":5,"c":1,"s":1790641904}
 {"i":"49886404","t":"Show HN: Jylus – give AI systems evidence from changing data.","p":7,"c":0,"s":1790641991}
 {"i":"49886422","t":"Show HN: Corral – Kill every command your agent starts","p":19,"c":6,"s":1790642105}
-{"i":"49886535","t":"Show HN: Dental Scope – Interactive 3D dental anatomy","p":132,"c":72,"s":1790642839}
+{"i":"49886535","t":"Show HN: Dental Scope – Interactive 3D dental anatomy","p":132,"c":73,"s":1790642839}
 {"i":"49886643","t":"Show HN: Terminal Typing SVG","p":1,"c":0,"s":1790643658}
 {"i":"49886647","t":"Show HN: Diabetes Risk Analyzer (Flask-based web app)","p":1,"c":1,"s":1790643682}
 {"i":"49887056","t":"Show HN: Interactive Diesel Price Forecaster","p":7,"c":0,"s":1790646417}
@@ -3599,7 +3599,7 @@
 {"i":"49902837","t":"Show HN: EventSend – Event tracking and routing for solo founders and SaaS teams","p":3,"c":2,"s":1790728393}
 {"i":"49902852","t":"Show HN: InfiniHash App Store – compliance tools built end-to-end by AI agents","p":1,"c":1,"s":1790728499}
 {"i":"49903052","t":"Show HN: Spoondle (Daily Word Puzzle)","p":1,"c":0,"s":1790729916}
-{"i":"49903180","t":"Show HN: Momentum Mouse – slide your phone on a desk and the PC cursor follows","p":3,"c":0,"s":1790731066}
+{"i":"49903180","t":"Show HN: Momentum Mouse – slide your phone on a desk and the PC cursor follows","p":3,"c":1,"s":1790731066}
 {"i":"49903234","t":"Show HN: Reflex Engine Beats Both Llama.cpp and vLLM on Cold-Start to TTFT","p":1,"c":0,"s":1790731479}
 {"i":"49903249","t":"Show HN: Alter Zero – RAM-efficient agent for coding, security and automation","p":1,"c":0,"s":1790731553}
 {"i":"49903470","t":"Show HN: Moching – AI desktop agent with 219 built-in tools (Rust)","p":2,"c":0,"s":1790733613}
@@ -3668,10 +3668,10 @@
 {"i":"49909317","t":"Show HN: My notes on Personal AI and why chat-based agents don't work","p":1,"c":0,"s":1790777726}
 {"i":"49909483","t":"Show HN: Tracelane.dev- OSS Rust LLM Gateway with a tamper-evident ledger","p":1,"c":1,"s":1790778420}
 {"i":"49909545","t":"Show HN: Select text, right click to fact-check","p":1,"c":0,"s":1790778738}
-{"i":"49909555","t":"Show HN: Singapore MRT announcements app – Built for my son","p":2,"c":1,"s":1790778766}
+{"i":"49909555","t":"Show HN: Singapore MRT announcements app – Built for my son","p":3,"c":1,"s":1790778766}
 {"i":"49909599","t":"Show HN: Burning Man for Agents","p":1,"c":0,"s":1790778911}
 {"i":"49909624","t":"Show HN: Paperweight – local-first, open-source email cleanup and privacy tool","p":3,"c":0,"s":1790779018}
-{"i":"49909648","t":"Show HN: Lathoa, a math app for kids where the AI is wrong on purpose","p":53,"c":51,"s":1790779137}
+{"i":"49909648","t":"Show HN: Lathoa, a math app for kids where the AI is wrong on purpose","p":54,"c":51,"s":1790779137}
 {"i":"49909686","t":"Show HN: Offlineisbetter: Efficient Models for Text on CPU","p":3,"c":1,"s":1790779376}
 {"i":"49909695","t":"Show HN: Riffle – Switch between windows of the current Mac app with Option-Tab","p":6,"c":1,"s":1790779450}
 {"i":"49909700","t":"Show HN: Jauvex 1.3 released. Turn any agent task into automated workflows","p":1,"c":1,"s":1790779467}
@@ -3689,7 +3689,7 @@
 {"i":"49910179","t":"Show HN: Karma Compass – Agentic board management for nonprofits","p":2,"c":0,"s":1790781757}
 {"i":"49910273","t":"Show HN: Focusgrid– keyboard-controlled webapps like tmux","p":5,"c":0,"s":1790782198}
 {"i":"49910275","t":"Show HN: A CLI with better autocomplete and bookmarks","p":2,"c":0,"s":1790782209}
-{"i":"49910328","t":"Show HN: Parrot – Open-Source Smart Meeting Recorder with Co-Pilot on Mac","p":39,"c":35,"s":1790782392}
+{"i":"49910328","t":"Show HN: Parrot – Open-Source Smart Meeting Recorder with Co-Pilot on Mac","p":39,"c":38,"s":1790782392}
 {"i":"49910383","t":"Show HN: SyntaxCue Pro – interview assistant, local speech-to-text, BYOK","p":1,"c":0,"s":1790782647}
 {"i":"49910385","t":"Show HN: Glance – Build, evaluate, and monitor AI agents","p":1,"c":1,"s":1790782656}
 {"i":"49910400","t":"Show HN: Skymap – From earth to the edge of the universe in WebGPU","p":1,"c":0,"s":1790782730}
@@ -3706,7 +3706,7 @@
 {"i":"49911193","t":"Show HN: RuleReceipt – check if your coding agent followed your Claude.md","p":3,"c":1,"s":1790786336}
 {"i":"49911411","t":"Show HN: Datastory, Data storytelling with AI and an open knowledge graph","p":6,"c":0,"s":1790787161}
 {"i":"49911464","t":"Show HN: Sedum – Playwright tests in English, cheap enough to run on every PR","p":3,"c":1,"s":1790787353}
-{"i":"49911500","t":"Show HN: Open-source model routing for coding agents at Astra-level performance","p":119,"c":42,"s":1790787504}
+{"i":"49911500","t":"Show HN: Open-source model routing for coding agents at Astra-level performance","p":122,"c":42,"s":1790787504}
 {"i":"49911523","t":"Show HN: An OSS text to CAD MCP and API","p":3,"c":0,"s":1790787590}
 {"i":"49911559","t":"Show HN: Died of Exposure","p":4,"c":0,"s":1790787787}
 {"i":"49911745","t":"Show HN: Transcrever Entrevista – browser-based interview transcription","p":3,"c":0,"s":1790788620}
