@@ -3526,7 +3526,7 @@
 {"i":"49894378","t":"Show HN: GoTournamint – Wordle where you choose words for friends","p":1,"c":0,"s":1790693623}
 {"i":"49894384","t":"Show HN: We built a real-time desktop companion for patient's telehealth visits","p":1,"c":0,"s":1790693629}
 {"i":"49894416","t":"Show HN: Libyears – dependency debt in years, across every repo you maintain","p":1,"c":0,"s":1790693727}
-{"i":"49894500","t":"Show HN: Postgres MCP server with a context file the agent can add to","p":1,"c":1,"s":1790693998}
+{"i":"49894500","t":"Show HN: Postgres MCP server with a context file the agent can add to","p":2,"c":1,"s":1790693998}
 {"i":"49894667","t":"Show HN: Squidbrake – self-hosted approval gateway for AI agent tool calls","p":1,"c":0,"s":1790694582}
 {"i":"49894784","t":"Show HN: ProgressCove, calm and smart to-do app with Home Assistant integration","p":1,"c":2,"s":1790694925}
 {"i":"49894951","t":"Show HN: Sensored – streaming-first PII/PHI redaction","p":1,"c":0,"s":1790695556}
@@ -3624,7 +3624,7 @@
 {"i":"49905963","t":"Show HN: HairColorChangeAI – AI hair color try-on in the browser","p":1,"c":0,"s":1790756486}
 {"i":"49906193","t":"Show HN: Layout – Order food anywhere with AI","p":6,"c":2,"s":1790758538}
 {"i":"49906221","t":"Show HN: A React data grid that sorts and filters in a Web Worker","p":1,"c":0,"s":1790758799}
-{"i":"49906286","t":"Show HN: I built a proxy scraper that checks 700 sources and verifies proxy","p":1,"c":1,"s":1790759331}
+{"i":"49906286","t":"Show HN: I built a proxy scraper that checks 700 sources and verifies proxy","p":1,"c":2,"s":1790759331}
 {"i":"49906493","t":"Show HN: Fast, Lightroom-compatible RAW photo editor for Linux and macOS","p":9,"c":0,"s":1790760958}
 {"i":"49906508","t":"Show HN:I built an AI agent team that recreates the style of any video","p":1,"c":0,"s":1790761066}
 {"i":"49906683","t":"Show HN: A crypto trading demo using WebGPU and QuestDB","p":4,"c":0,"s":1790762468}
@@ -3678,7 +3678,7 @@
 {"i":"49909720","t":"Show HN: An App that names each cell in a spreadsheet","p":1,"c":1,"s":1790779587}
 {"i":"49909747","t":"Show HN: Dad Joke Archive","p":1,"c":1,"s":1790779678}
 {"i":"49909784","t":"Show HN: GLYP – A shared canvas you can draw on via SSH","p":2,"c":2,"s":1790779825}
-{"i":"49909913","t":"Show HN: Strata – an expressive semantic layer that can say no to your LLM","p":24,"c":16,"s":1790780397}
+{"i":"49909913","t":"Show HN: Strata – an expressive semantic layer that can say no to your LLM","p":25,"c":16,"s":1790780397}
 {"i":"49909925","t":"Show HN: BreachProbe, find out if your app leaks its database","p":4,"c":1,"s":1790780437}
 {"i":"49909962","t":"Show HN: Mingbird – an agent harness that makes a 2B model finish real tasks","p":5,"c":0,"s":1790780652}
 {"i":"49909963","t":"Show HN: Bongard-mini – An open-weight Jev-like model built on T5","p":2,"c":0,"s":1790780653}
