@@ -3642,7 +3642,7 @@
 {"i":"49907631","t":"Show HN: Db Sound Meter","p":2,"c":0,"s":1790769532}
 {"i":"49907653","t":"Show HN: See how fintech features perform before you build yours","p":3,"c":1,"s":1790769628}
 {"i":"49907663","t":"Show HN: Rhubarb – build, edit, publish custom JavaScript/D3 data visualizations","p":1,"c":0,"s":1790769703}
-{"i":"49907682","t":"Show HN: TabX – recall closed Chrome tabs by meaning","p":1,"c":4,"s":1790769810}
+{"i":"49907682","t":"Show HN: TabX – recall closed Chrome tabs by meaning","p":2,"c":4,"s":1790769810}
 {"i":"49907782","t":"Show HN: QuatEngine 4^8 – A Base-4^8 Quaternary OS and hardware simulator","p":1,"c":0,"s":1790770565}
 {"i":"49907790","t":"Show HN: FinTrace – point-in-time guardrails for financial LLM agents","p":3,"c":0,"s":1790770597}
 {"i":"49907815","t":"Show HN: MeetTwins- Send an AI twin to your Google Meet standups","p":1,"c":0,"s":1790770690}
@@ -3658,7 +3658,7 @@
 {"i":"49908379","t":"Show HN: Overads, a superapp for marketing (content, publishing, ads, CRM)","p":1,"c":0,"s":1790773487}
 {"i":"49908434","t":"Show HN: AgentX – Run Claude Code, Codex or Any LLM from Your Chats and GitHub","p":1,"c":0,"s":1790773741}
 {"i":"49908459","t":"Show HN: Dapr Dev Dashboard, a local tool for Dapr developers (incl workflows)","p":3,"c":0,"s":1790773900}
-{"i":"49908484","t":"Show HN: Explainroo, Open Source Framework to Make Explainer Videos with Claude","p":6,"c":2,"s":1790774007}
+{"i":"49908484","t":"Show HN: Explainroo, Open Source Framework to Make Explainer Videos with Claude","p":7,"c":2,"s":1790774007}
 {"i":"49908550","t":"Show HN: Groundtrack – Continual learning for coding agents","p":1,"c":0,"s":1790774341}
 {"i":"49908611","t":"Show HN: Range – open a 1TB Linux environment in under a second","p":5,"c":0,"s":1790774682}
 {"i":"49908655","t":"Show HN: Zerikai Memory: local code-memory MCP server, now with Jev","p":1,"c":0,"s":1790774875}
@@ -3711,7 +3711,7 @@
 {"i":"49911559","t":"Show HN: Died of Exposure","p":4,"c":0,"s":1790787787}
 {"i":"49911745","t":"Show HN: Transcrever Entrevista – browser-based interview transcription","p":3,"c":0,"s":1790788620}
 {"i":"49911899","t":"Show HN: Honorfit – a pushup app blocker for your phone","p":5,"c":4,"s":1790789411}
-{"i":"49911910","t":"Show HN: Token compression CLI to save Codex/Astra costs","p":12,"c":5,"s":1790789454}
+{"i":"49911910","t":"Show HN: Token compression CLI to save Codex/Astra costs","p":13,"c":5,"s":1790789454}
 {"i":"49911931","t":"Show HN: I built a free Burp/Caido alternative but, zero setup - API Testing","p":32,"c":5,"s":1790789530}
 {"i":"49911977","t":"Show HN: Kyno – Direction as a first-class primitive for AI agents","p":4,"c":0,"s":1790789759}
 {"i":"49912062","t":"Show HN: Let's Chat – A retro mIRC-style web chat app","p":1,"c":0,"s":1790790226}
