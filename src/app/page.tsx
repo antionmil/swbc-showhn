@@ -99,7 +99,7 @@ export default function Home() {
           </li>
         </ul>
         <p className="mt-6">
-          Built in a day by <a className="underline decoration-rule underline-offset-2 hover:decoration-accent" href="https://onedaybuilt.com" target="_blank" rel="noopener noreferrer">onedaybuilt.com</a>
+          Built by <a className="underline decoration-rule underline-offset-2 hover:decoration-accent" href="https://onedaybuilt.com" target="_blank" rel="noopener noreferrer">Antoine Koerber</a>
           {" "}· no account, no tracking of what you type, nothing stored · last rebuilt {built.toISOString().slice(0, 10)}
         </p>
       </footer>
