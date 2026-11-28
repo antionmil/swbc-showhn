@@ -3101,7 +3101,7 @@
 {"i":"50589001","t":"Show HN: Boxling – A macOS sandbox for untrusted code","p":1,"c":0,"s":1795267518}
 {"i":"50589036","t":"Show HN: Atlas of Money","p":3,"c":0,"s":1795267820}
 {"i":"50589127","t":"Show HN: NitroView","p":4,"c":2,"s":1795268535}
-{"i":"50589184","t":"Show HN: I made a PS1 style racing game","p":52,"c":39,"s":1795268865}
+{"i":"50589184","t":"Show HN: I made a PS1 style racing game","p":52,"c":40,"s":1795268865}
 {"i":"50589210","t":"Show HN: My encrypted agent OS gives OpenClaw and Hermes an Unreal Engine avatar","p":1,"c":0,"s":1795269041}
 {"i":"50589229","t":"Show HN: Accounting built like Git, with files in your own storage","p":1,"c":0,"s":1795269163}
 {"i":"50589235","t":"Show HN: agent-mcts – Monte Carlo tree search on top of Claude Code","p":16,"c":2,"s":1795269188}
@@ -3109,7 +3109,7 @@
 {"i":"50589936","t":"Show HN: Klistra – Make launch videos and product demos, all in one AI studio","p":1,"c":3,"s":1795273613}
 {"i":"50590023","t":"Show HN: Hackerllion – A daily trivia game where rare answers get you root","p":1,"c":0,"s":1795274084}
 {"i":"50590215","t":"Show HN: Bashbots – program bots in Python to battle other players","p":2,"c":0,"s":1795275146}
-{"i":"50590279","t":"Show HN: Zero C# – C# without a runtime or GC","p":181,"c":137,"s":1795275549}
+{"i":"50590279","t":"Show HN: Zero C# – C# without a runtime or GC","p":182,"c":138,"s":1795275549}
 {"i":"50590571","t":"Show HN: Plazzle – todays level is quite the challenge","p":1,"c":3,"s":1795277089}
 {"i":"50590827","t":"Show HN: Gemini-Based Agent for Households","p":1,"c":1,"s":1795278593}
 {"i":"50590838","t":"Show HN: Direct weight edits turn a 0.5B model into an expert species classifier","p":7,"c":1,"s":1795278668}
@@ -3189,8 +3189,8 @@
 {"i":"50598531","t":"Show HN: Shrinking and distilling the 17.4M-line Riemann Hypothesis Lean proof","p":1,"c":0,"s":1795346021}
 {"i":"50598552","t":"Show HN: Building 1M+ RPS Distributed Engines in Go and Rust","p":2,"c":0,"s":1795346162}
 {"i":"50598580","t":"Show HN: The Yang–Mills Mass Gap on Pure R^4 as a Zugzwang (Lean 4, 224 Checks)","p":4,"c":0,"s":1795346380}
-{"i":"50598709","t":"Show HN: A Lichess client for playing chess and puzzles on Kobo e-readers","p":5,"c":0,"s":1795347654}
-{"i":"50598756","t":"Show HN: Coma – Bilingual ES/EN language with LLVM back end and C runtime","p":1,"c":6,"s":1795348154}
+{"i":"50598709","t":"Show HN: A Lichess client for playing chess and puzzles on Kobo e-readers","p":6,"c":0,"s":1795347654}
+{"i":"50598756","t":"Show HN: Coma – Bilingual ES/EN language with LLVM back end and C runtime","p":2,"c":6,"s":1795348154}
 {"i":"50598787","t":"Show HN: Dawdle, compete with friends and family in a daily 5 minute word puzzle","p":1,"c":0,"s":1795348516}
 {"i":"50598811","t":"Show HN: SettledByAI, a neutral second opinion for everyday disputes","p":1,"c":3,"s":1795348671}
 {"i":"50598813","t":"Show HN: Codeint – Measure duplication and complexity drift in AI-written code","p":1,"c":0,"s":1795348684}
@@ -3243,7 +3243,7 @@
 {"i":"50602685","t":"Show HN: I made a manifestation film tool in 5 days","p":1,"c":0,"s":1795373573}
 {"i":"50602812","t":"Show HN: A one-time $5 API pass for text,image,and audio models","p":1,"c":0,"s":1795374358}
 {"i":"50602892","t":"Show HN: Lanlan Jam – a multiplayer DJ booth in the browser","p":3,"c":1,"s":1795374884}
-{"i":"50602894","t":"Show HN: A simple decision layer for coding agents","p":2,"c":0,"s":1795374899}
+{"i":"50602894","t":"Show HN: A simple decision layer for coding agents","p":2,"c":1,"s":1795374899}
 {"i":"50603015","t":"Show HN: Eleria OS – A Debian 13 Based Distro with an HTML Desktop Shell","p":2,"c":0,"s":1795375699}
 {"i":"50603018","t":"Show HN: Convert bank statements to QuickBooks or Xero files in the browser","p":4,"c":0,"s":1795375729}
 {"i":"50603195","t":"Show HN: Enjoy the Silence, a software factory on a box that isn't yours","p":1,"c":0,"s":1795376896}
@@ -3347,7 +3347,7 @@
 {"i":"50611511","t":"Show HN: AnvilCAD, a FOSS Solidworks Alternative","p":2,"c":0,"s":1795441988}
 {"i":"50611545","t":"Show HN: MOPy Fish (1997) reverse engineered with AI agents to run in a browser","p":2,"c":1,"s":1795442253}
 {"i":"50611577","t":"Show HN: CodeOtter – Self-hosted AI code review with scores and merge gates","p":3,"c":0,"s":1795442420}
-{"i":"50611593","t":"Show HN: An agent skill that optimizes code with falsifiable hypotheses","p":134,"c":13,"s":1795442535}
+{"i":"50611593","t":"Show HN: An agent skill that optimizes code with falsifiable hypotheses","p":136,"c":14,"s":1795442535}
 {"i":"50611650","t":"Show HN: Wall of 2026 – one line about your year, sealed Dec 31","p":3,"c":0,"s":1795442779}
 {"i":"50611748","t":"Show HN: I built a 3D museum where you can walk through your own photos","p":4,"c":0,"s":1795443083}
 {"i":"50611780","t":"Show HN: Treasure Map – Ghidra-based firmware map of call sites and patch diffs","p":3,"c":0,"s":1795443202}
@@ -3403,7 +3403,7 @@
 {"i":"50616069","t":"Show HN: MCPfolio – see which AI prompts recommend your MCP server","p":2,"c":0,"s":1795456347}
 {"i":"50616081","t":"Show HN: Pattern Dump, HTML-first style guides after Pattern Lab was archived","p":2,"c":0,"s":1795456376}
 {"i":"50616102","t":"Show HN: RailCall – Local Mac agent execution with zero API markup","p":2,"c":0,"s":1795456469}
-{"i":"50616115","t":"Show HN: Minymaton – SQLite event based no polling token waste MCP message bus","p":3,"c":1,"s":1795456521}
+{"i":"50616115","t":"Show HN: Minymaton – SQLite event based no polling token waste MCP message bus","p":4,"c":1,"s":1795456521}
 {"i":"50616117","t":"Show HN: Device kernels for gfx900 (Vega) in the radiance inference engine","p":2,"c":0,"s":1795456527}
 {"i":"50616164","t":"Show HN: Ding – Toast notifications that morph instead of stacking","p":3,"c":0,"s":1795456709}
 {"i":"50616257","t":"Show HN: An in-browser checker for AI agent transcripts (nothing is uploaded)","p":2,"c":0,"s":1795457074}
@@ -3465,7 +3465,7 @@
 {"i":"50623010","t":"Show HN: Graticule, turn oscilloscope screenshots into CSV data and plots","p":5,"c":0,"s":1795488959}
 {"i":"50623038","t":"Show HN: FireVoice, free open-source voice studio on your own GPU","p":15,"c":3,"s":1795489100}
 {"i":"50623175","t":"Show HN: Juncts, one DM inbox for five apps that Claude and ChatGPT can work in","p":9,"c":0,"s":1795490218}
-{"i":"50623232","t":"Show HN: Synth Patch Hero","p":144,"c":28,"s":1795490662}
+{"i":"50623232","t":"Show HN: Synth Patch Hero","p":149,"c":30,"s":1795490662}
 {"i":"50623636","t":"Show HN: SlashObserve – an observability workspace for humans and agents","p":6,"c":0,"s":1795493832}
 {"i":"50623712","t":"Show HN: Benchline, 61 free dev tools that are also MCP tools","p":1,"c":0,"s":1795494525}
 {"i":"50623965","t":"Show HN: Genesis Map – Visualize your agent's changes. See where they can break","p":14,"c":1,"s":1795496681}
@@ -3475,7 +3475,7 @@
 {"i":"50624636","t":"Show HN: QuadletGen – Docker Compose to Podman Quadlet, in the Browser","p":1,"c":0,"s":1795503404}
 {"i":"50624651","t":"Show HN: Eznix – UI for NixOS, Nix-Darwin and home-manager","p":2,"c":0,"s":1795503502}
 {"i":"50624664","t":"Show HN: One hour of AlphaZero-style Othello training on only one MacBook Air","p":4,"c":1,"s":1795503621}
-{"i":"50624684","t":"Show HN: Rchive – Every drive I've owned since the 90s, searchable in one window","p":54,"c":26,"s":1795503813}
+{"i":"50624684","t":"Show HN: Rchive – Every drive I've owned since the 90s, searchable in one window","p":56,"c":26,"s":1795503813}
 {"i":"50624787","t":"Show HN: Envcheck – a small Python .env file checker","p":1,"c":0,"s":1795504790}
 {"i":"50624910","t":"Show HN: Try living a random life, 1 in 8B","p":1,"c":0,"s":1795505816}
 {"i":"50625035","t":"Show HN: Temporary hot reloading for your Home Manager/Nix backed config files","p":1,"c":0,"s":1795506591}
@@ -3548,7 +3548,7 @@
 {"i":"50628282","t":"Show HN: Zeplo – Managed HTTP queue (retries, delays, cron) without SQS/workers","p":1,"c":0,"s":1795528809}
 {"i":"50628286","t":"Show HN: status: an emoji and your status, built with SvelteKit and Claude","p":1,"c":1,"s":1795528836}
 {"i":"50628288","t":"Show HN: ParaViz – Scientific visualization studio in Rust and WebGPU","p":2,"c":0,"s":1795528847}
-{"i":"50628387","t":"Show HN: TransparentGIFMaker – remove GIF backgrounds frame by frame","p":1,"c":1,"s":1795529212}
+{"i":"50628387","t":"Show HN: TransparentGIFMaker – remove GIF backgrounds frame by frame","p":2,"c":1,"s":1795529212}
 {"i":"50628400","t":"Show HN: PHP-WebVPN – Turn any shared PHP hosting into a stealth VPN and proxy","p":1,"c":0,"s":1795529263}
 {"i":"50628421","t":"Show HN: 3D story maps in JupyterLab, written in Python, run in the browser","p":10,"c":2,"s":1795529366}
 {"i":"50628489","t":"Show HN: Pi-maestro – spec driven development for Pi","p":1,"c":0,"s":1795529590}
@@ -3577,7 +3577,7 @@
 {"i":"50630169","t":"Show HN: VibeVigil – scan AI-built apps for leaked keys and open tables","p":1,"c":0,"s":1795536261}
 {"i":"50630243","t":"Show HN: LLM API cost and carbon calculator for your own token mix","p":1,"c":0,"s":1795536502}
 {"i":"50630248","t":"Show HN: Terminal Tasks Open – 30 hard tasks, best model passes 67%","p":2,"c":0,"s":1795536523}
-{"i":"50630294","t":"Show HN: Mason – A lightweight Postgres read-replica, built on columnar storage","p":109,"c":21,"s":1795536712}
+{"i":"50630294","t":"Show HN: Mason – A lightweight Postgres read-replica, built on columnar storage","p":110,"c":21,"s":1795536712}
 {"i":"50630304","t":"Show HN: PII Guard – local Chrome extension that redacts PII before AI chats","p":1,"c":0,"s":1795536741}
 {"i":"50630315","t":"Show HN: Fit large JSON tool results into an LLM's context without losing data","p":1,"c":0,"s":1795536777}
 {"i":"50630317","t":"Show HN: I've become the dumb one, so I made a shortcut to ask Claude","p":1,"c":0,"s":1795536793}
@@ -3603,7 +3603,7 @@
 {"i":"50631281","t":"Show HN: Bifrost hit 10k stars on GitHub","p":1,"c":0,"s":1795540511}
 {"i":"50631364","t":"Show HN: Byname – open-source tool to see when AI assistants name your product","p":1,"c":0,"s":1795540900}
 {"i":"50631569","t":"Show HN: Art50Scan: Check if your CDN silently strips C2PA metadata before Dec 2","p":1,"c":0,"s":1795541771}
-{"i":"50631791","t":"Show HN: Keeping faces and features consistent across 24 AI-driven comic pages","p":21,"c":25,"s":1795542833}
+{"i":"50631791","t":"Show HN: Keeping faces and features consistent across 24 AI-driven comic pages","p":21,"c":29,"s":1795542833}
 {"i":"50631820","t":"Show HN: Offline communication using your phone's speakers and microphones","p":1,"c":0,"s":1795542924}
 {"i":"50631830","t":"Show HN: A simulator of the Army's lead explosion","p":1,"c":0,"s":1795542950}
 {"i":"50631948","t":"Show HN: Two fan bases vote on every move of one chess game","p":1,"c":1,"s":1795543406}
@@ -3620,15 +3620,15 @@
 {"i":"50633321","t":"Show HN: Turn a list of URLs or a sitemap into one PDF of full-page captures","p":1,"c":0,"s":1795548890}
 {"i":"50633329","t":"Show HN: Mole – research agent that traces claims to their sources","p":5,"c":2,"s":1795548916}
 {"i":"50633448","t":"Show HN: Decoding 63 years of Canadian Prime Ministers' secret telegrams","p":1,"c":0,"s":1795549318}
-{"i":"50633531","t":"Show HN: Analysis of Hacker News predictions since 2008","p":12,"c":12,"s":1795549614}
+{"i":"50633531","t":"Show HN: Analysis of Hacker News predictions since 2008","p":105,"c":79,"s":1795549614}
 {"i":"50633633","t":"Show HN: MetaClean – Zero-retention in-memory metadata and PII scrubber","p":1,"c":0,"s":1795549933}
 {"i":"50633638","t":"Show HN: GrowPython, an AI agent that runs outreach up to the booked call","p":1,"c":0,"s":1795549947}
 {"i":"50633658","t":"Show HN: Read-only scanner for exposed Supabase RLS tables and bundle keys","p":1,"c":0,"s":1795549993}
 {"i":"50634230","t":"Show HN: Call / meeting recorder for Mac. open source local models or free cloud","p":1,"c":0,"s":1795552030}
-{"i":"50634239","t":"Show HN: Wakeshift – Open-Source MCP Events for Claude Code, Codex and More","p":4,"c":1,"s":1795552068}
+{"i":"50634239","t":"Show HN: Wakeshift – Open-Source MCP Events for Claude Code, Codex and More","p":5,"c":1,"s":1795552068}
 {"i":"50634246","t":"Show HN: Reylo – Import .sql files into TypeScript with full type inference","p":1,"c":0,"s":1795552099}
 {"i":"50634302","t":"Show HN: Hyper Elements – Agents build emails, PDFs, images with 70% less tokens","p":4,"c":0,"s":1795552417}
-{"i":"50634489","t":"Show HN: ModelXare – Decentralized AI Models","p":5,"c":2,"s":1795553384}
+{"i":"50634489","t":"Show HN: ModelXare – Decentralized AI Models","p":6,"c":2,"s":1795553384}
 {"i":"50634513","t":"Show HN: BetterNews – Live voice rooms for every hackernews story","p":2,"c":0,"s":1795553497}
 {"i":"50634518","t":"Show HN: FrameGloss – Browser Screen Studio alternative (WebCodecs, no uploads)","p":1,"c":0,"s":1795553514}
 {"i":"50634543","t":"Show HN: Nemos – one searchable library for links, screenshots and notes (iOS)","p":5,"c":0,"s":1795553618}
@@ -3666,7 +3666,7 @@
 {"i":"50638169","t":"Show HN: Open Modeling – multidimensional modeling engine in the browser","p":1,"c":0,"s":1795578001}
 {"i":"50638216","t":"Show HN: Archiver that opens every format","p":4,"c":0,"s":1795578400}
 {"i":"50638345","t":"Show HN: Side-panel Chrome extension to match a resume against a job posting","p":1,"c":0,"s":1795579667}
-{"i":"50638503","t":"Show HN: Old Nvidia and ATI tech demos, running again in the browser","p":355,"c":80,"s":1795581108}
+{"i":"50638503","t":"Show HN: Old Nvidia and ATI tech demos, running again in the browser","p":356,"c":80,"s":1795581108}
 {"i":"50638523","t":"Show HN: U.S. Interstate Weather","p":26,"c":8,"s":1795581332}
 {"i":"50638565","t":"Show HN: Simulusion – DreamerV3, IRIS, Genie and other world models in PyTorch","p":2,"c":0,"s":1795581800}
 {"i":"50638598","t":"Show HN: I make open-source flight test stand","p":2,"c":0,"s":1795582064}
@@ -3734,7 +3734,7 @@
 {"i":"50642266","t":"Show HN: Eigenkit – write a quantum circuit once, run it on many back ends","p":2,"c":0,"s":1795614517}
 {"i":"50642280","t":"Show HN: Thatplace – iOS/macOS app to remember the places you've been","p":3,"c":0,"s":1795614589}
 {"i":"50642292","t":"Show HN: Sax – Browser 3D telemetry and teleop for ROS 2 on low-bandwidth links","p":1,"c":0,"s":1795614662}
-{"i":"50642300","t":"Show HN: Turned a $5 AliExpress clock into a desk Clawd pet(+usage)","p":57,"c":7,"s":1795614704}
+{"i":"50642300","t":"Show HN: Turned a $5 AliExpress clock into a desk Clawd pet(+usage)","p":58,"c":8,"s":1795614704}
 {"i":"50642308","t":"Show HN: N8n-TUI – A keyboard-driven terminal UI for n8n","p":1,"c":0,"s":1795614741}
 {"i":"50642341","t":"Show HN: LaunchPulse – 3-wave SaaS directory pacing and edge attribution","p":1,"c":0,"s":1795614967}
 {"i":"50642373","t":"Show HN: Auditstream – Database audit trail engine in Rust (no CDC daemon)","p":1,"c":0,"s":1795615098}
@@ -3744,7 +3744,7 @@
 {"i":"50642557","t":"Show HN: I don't like macOS Stickies or Windows Sticky Notes, so I built TextPin","p":1,"c":0,"s":1795616376}
 {"i":"50642722","t":"Show HN: Olympus Coder – one desktop app for Claude Code, Codex and other agents","p":1,"c":1,"s":1795617233}
 {"i":"50642762","t":"Show HN: Cyber, every hack in one place and does my code share the same flaw?","p":1,"c":0,"s":1795617360}
-{"i":"50642773","t":"Show HN: Rusty Teams – A Native Microsoft Teams Client in Rust","p":7,"c":3,"s":1795617460}
+{"i":"50642773","t":"Show HN: Rusty Teams – A Native Microsoft Teams Client in Rust","p":8,"c":3,"s":1795617460}
 {"i":"50642783","t":"Show HN: bouncemarket – a live prediction market on a falling ball","p":1,"c":1,"s":1795617536}
 {"i":"50642794","t":"Show HN: Pontia, A bot and remote UI for local coding agents","p":2,"c":0,"s":1795617586}
 {"i":"50642804","t":"Show HN: MicroVM with automatic sleep and seamless wake-on-request","p":1,"c":0,"s":1795617640}
@@ -3808,26 +3808,26 @@
 {"i":"50645837","t":"Show HN: Rating.so – Domain Rating monitor that pings you on every change","p":1,"c":0,"s":1795632284}
 {"i":"50645980","t":"Show HN: Skillsync - Skills as a Service","p":1,"c":2,"s":1795633192}
 {"i":"50646001","t":"Show HN: Jotly – Offline-first docs, issues, boards and calendar with MCP","p":1,"c":0,"s":1795633309}
-{"i":"50646120","t":"Show HN: DocsWorks – LibreOffice in the Browser","p":3,"c":0,"s":1795633956}
+{"i":"50646120","t":"Show HN: DocsWorks – LibreOffice in the Browser","p":5,"c":0,"s":1795633956}
 {"i":"50646123","t":"Show HN: Slope Spy, compare 3D ski resorts side by side","p":2,"c":0,"s":1795633964}
 {"i":"50646284","t":"Show HN","p":1,"c":0,"s":1795634820}
 {"i":"50646369","t":"Show HN: Eggsimulator","p":4,"c":2,"s":1795635242}
 {"i":"50646377","t":"Show HN: LLM Training NO CUDA 85k tok/SEC locally","p":1,"c":0,"s":1795635273}
 {"i":"50646403","t":"Show HN: ESP32 ESP32-2432S028R CYD Ham Clock / Ham Radio Dashboard","p":1,"c":1,"s":1795635378}
-{"i":"50646482","t":"Show HN: Rust agent with an Inkling 2 Mini inference engine for Apple Silicon","p":13,"c":0,"s":1795635756}
+{"i":"50646482","t":"Show HN: Rust agent with an Inkling 2 Mini inference engine for Apple Silicon","p":14,"c":0,"s":1795635756}
 {"i":"50646533","t":"Show HN: HeyCube – The personalized feed for your always-on AI agents","p":1,"c":0,"s":1795636057}
 {"i":"50646607","t":"Show HN: I made the PaperBoy like I remember it from my childhood","p":2,"c":0,"s":1795636398}
 {"i":"50646969","t":"Show HN: HealthBar – Open-source macOS menu bar app that tracks status pages","p":1,"c":0,"s":1795637983}
 {"i":"50647038","t":"Show HN: Drop-in replacement for the remove.bg API, which shuts down Dec 1","p":1,"c":0,"s":1795638282}
 {"i":"50647219","t":"Show HN: Openfal, local image and video generation with a fal-style API","p":15,"c":5,"s":1795639252}
-{"i":"50647231","t":"Show HN: <include-content> – Lazy loading with no app JavaScript","p":5,"c":1,"s":1795639277}
+{"i":"50647231","t":"Show HN: <include-content> – Lazy loading with no app JavaScript","p":6,"c":1,"s":1795639277}
 {"i":"50647252","t":"Show HN: Anniversary Calculator","p":4,"c":0,"s":1795639405}
 {"i":"50647419","t":"Show HN: Codeword","p":2,"c":0,"s":1795640203}
 {"i":"50647513","t":"Show HN: Data center, power, land, fiber and capacity","p":2,"c":1,"s":1795640638}
 {"i":"50648165","t":"Show HN: Anvil has won pricing among AI web builders plan starting at $5","p":3,"c":0,"s":1795643867}
 {"i":"50648180","t":"Show HN: I made a little gratitude wall for Thanksgiving","p":3,"c":0,"s":1795643969}
-{"i":"50648189","t":"Show HN: HN topics bar chart race, I use HTML-in-Canvas 3D(need Chrome 157+)","p":4,"c":1,"s":1795644065}
-{"i":"50649068","t":"Show HN: A never-ending programming contest for chess and shogi engines","p":1,"c":3,"s":1795648690}
+{"i":"50648189","t":"Show HN: HN topics bar chart race, I use HTML-in-Canvas 3D(need Chrome 157+)","p":5,"c":1,"s":1795644065}
+{"i":"50649068","t":"Show HN: A never-ending programming contest for chess and shogi engines","p":2,"c":3,"s":1795648690}
 {"i":"50649180","t":"Show HN: Sidelong – read-it-later and highlighting for every type of content","p":3,"c":1,"s":1795649267}
 {"i":"50649234","t":"Show HN: Christmas snow globes on an ESP32-S3 board","p":1,"c":0,"s":1795649674}
 {"i":"50649501","t":"Show HN: PortalGate – Zero-leakage client portals for monday.com","p":1,"c":0,"s":1795651307}
@@ -3843,16 +3843,16 @@
 {"i":"50650737","t":"Show HN: Branching-story-kit – 207-line zero-dep story-state kernel (MIT)","p":1,"c":0,"s":1795660573}
 {"i":"50650772","t":"Show HN: Just Dashboard, open-source Linux full management dashboard","p":1,"c":0,"s":1795660844}
 {"i":"50651016","t":"Show HN: LEIE Check – Search the OIG health care exclusion list by name or NPI","p":1,"c":0,"s":1795663306}
-{"i":"50651099","t":"Show HN: Olumino, a Markdown notes and spaced repetition app","p":120,"c":49,"s":1795663986}
+{"i":"50651099","t":"Show HN: Olumino, a Markdown notes and spaced repetition app","p":124,"c":69,"s":1795663986}
 {"i":"50651470","t":"Show HN: Talira – Search engine for software, built for AI agents","p":1,"c":0,"s":1795667850}
 {"i":"50651523","t":"Show HN: Hush, the fastest computer use for AI agents","p":3,"c":0,"s":1795668329}
 {"i":"50651654","t":"Show HN: Fattura – Parse credit card PDF statements and split family bills","p":1,"c":0,"s":1795669500}
 {"i":"50651706","t":"Show HN: An insanely cool-looking app on iPhone Duo","p":1,"c":0,"s":1795669835}
 {"i":"50651794","t":"Show HN: HookArmor – Self-hosted webhook queue that defeats 300s replay expiry","p":1,"c":0,"s":1795670722}
 {"i":"50651990","t":"Show HN: Seahelm – Native Mac app for running Claude Code agents in parallel","p":2,"c":0,"s":1795672864}
-{"i":"50652560","t":"Show HN: Anthropic and OpenAI Math Tracker","p":8,"c":0,"s":1795678681}
+{"i":"50652560","t":"Show HN: Anthropic and OpenAI Math Tracker","p":9,"c":0,"s":1795678681}
 {"i":"50652592","t":"Show HN: willFlock : find a time for a group across time zones, no sign-up","p":2,"c":0,"s":1795678916}
-{"i":"50652661","t":"Show HN: Hozo compiles React Native to native UI and semantic HTML","p":4,"c":0,"s":1795679467}
+{"i":"50652661","t":"Show HN: Hozo compiles React Native to native UI and semantic HTML","p":5,"c":0,"s":1795679467}
 {"i":"50652876","t":"Show HN: Production eBPF and XDP Tracing Toolkit for Linux Kernel Performance","p":1,"c":0,"s":1795680989}
 {"i":"50652895","t":"Show HN: WebLidar, every website you run, graded","p":1,"c":0,"s":1795681193}
 {"i":"50653216","t":"Show HN: Turbo-Desktop-MCP – Windows UIA deltas for desktop agents","p":1,"c":0,"s":1795683970}
@@ -3876,15 +3876,15 @@
 {"i":"50655338","t":"Show HN: I spent 10 years traveling and built a travel blog out of the data","p":4,"c":0,"s":1795701338}
 {"i":"50655536","t":"Show HN: Slate, a C to Rust Transpiler for multiple targets","p":2,"c":0,"s":1795702540}
 {"i":"50655608","t":"Show HN: Nullify 68M, local PII detection trained on a MacBook Air","p":3,"c":0,"s":1795702966}
-{"i":"50655639","t":"Show HN: Silent dictation for Claude Code via on-device lip reading","p":17,"c":2,"s":1795703108}
+{"i":"50655639","t":"Show HN: Silent dictation for Claude Code via on-device lip reading","p":18,"c":2,"s":1795703108}
 {"i":"50655660","t":"Show HN: Skykeep – bring your Linux or Windows PC into your Apple ecosystem","p":3,"c":0,"s":1795703204}
 {"i":"50655673","t":"Show HN: Claude wrote the 115 nonzero weights of a maze-solving net, no training","p":1,"c":0,"s":1795703258}
 {"i":"50655748","t":"Show HN: RebillKit – BYOK failed-payment recovery for Stripe (0% rev share)","p":3,"c":0,"s":1795703683}
 {"i":"50655801","t":"Show HN: GearLint – Browser-based mouse, keyboard, and controller fault tests","p":1,"c":0,"s":1795703954}
 {"i":"50655803","t":"Show HN: AI agents explore your mobile app, then their paths replay as tests","p":1,"c":0,"s":1795703963}
-{"i":"50655868","t":"Show HN: I wrote an entire Vim manual over 4 years","p":231,"c":72,"s":1795704262}
+{"i":"50655868","t":"Show HN: I wrote an entire Vim manual over 4 years","p":308,"c":110,"s":1795704262}
 {"i":"50655993","t":"Show HN: Nbody 3D Solar System and Milky Way in WebGL (+many Uncatalogued TNOs)","p":2,"c":0,"s":1795705010}
-{"i":"50656036","t":"Show HN: Three Linux VMs in a browser tab, each running a different browser","p":147,"c":33,"s":1795705206}
+{"i":"50656036","t":"Show HN: Three Linux VMs in a browser tab, each running a different browser","p":153,"c":34,"s":1795705206}
 {"i":"50656050","t":"Show HN: Lockward – a lockfile for skills and MCP servers your AI agent loads","p":1,"c":0,"s":1795705289}
 {"i":"50656060","t":"Show HN: HousePrecheck, City of Toronto records for any house on one page","p":1,"c":0,"s":1795705348}
 {"i":"50656067","t":"Show HN: Lazyfwd, a TUI for managing SSH port forwards","p":6,"c":0,"s":1795705388}
@@ -3894,19 +3894,19 @@
 {"i":"50656417","t":"Show HN: Isaref: Machine-readable atlas of computing hardware","p":1,"c":0,"s":1795707651}
 {"i":"50656458","t":"Show HN: Hubris - Local like Obsidian, but real-time collaboration like Figma","p":2,"c":1,"s":1795707967}
 {"i":"50656529","t":"Show HN: Voom – An API for Human Feedback","p":1,"c":2,"s":1795708373}
-{"i":"50656632","t":"Show HN: AutoCaptions – animated word-by-word captions for short videos","p":1,"c":0,"s":1795709013}
+{"i":"50656632","t":"Show HN: AutoCaptions – animated word-by-word captions for short videos","p":2,"c":0,"s":1795709013}
 {"i":"50656666","t":"Show HN: Unscript – Practice speaking English as the script gradually disappears","p":1,"c":0,"s":1795709234}
 {"i":"50656687","t":"Show HN: Manabrew – Play Magic: The Gathering in the Browser with Forge/WASM","p":1,"c":0,"s":1795709375}
-{"i":"50656688","t":"Show HN: Neui – Go web apps with a built-in AI agent","p":1,"c":0,"s":1795709376}
+{"i":"50656688","t":"Show HN: Neui – Go web apps with a built-in AI agent","p":2,"c":0,"s":1795709376}
 {"i":"50656740","t":"Show HN: CiteSieve – Check how ChatGPT and Perplexity cite your brand","p":1,"c":0,"s":1795709681}
-{"i":"50656826","t":"Show HN: Status page for your AI bots","p":2,"c":0,"s":1795710241}
+{"i":"50656826","t":"Show HN: Status page for your AI bots","p":2,"c":2,"s":1795710241}
 {"i":"50656832","t":"Show HN: Domainyze – Track domain expiry, drops, SSL and DNS changes","p":1,"c":0,"s":1795710259}
 {"i":"50656884","t":"Show HN: I posted a read-later-to-paper app here in 2020. Here's what happened","p":2,"c":0,"s":1795710669}
 {"i":"50656925","t":"Show HN: Graphvein – Trace calls to handlers and tables across repos, no LLM","p":3,"c":1,"s":1795710998}
-{"i":"50657003","t":"Show HN: Everything Is Outdated, the game for sysadmins","p":2,"c":0,"s":1795711543}
+{"i":"50657003","t":"Show HN: Everything Is Outdated, the game for sysadmins","p":2,"c":1,"s":1795711543}
 {"i":"50657014","t":"Show HN: Krionex – A browser workspace for deploying EVM smart contracts","p":2,"c":0,"s":1795711638}
 {"i":"50657069","t":"Show HN: Dev-Mem – Local-first SQLite knowledge graph for AI coding agents","p":8,"c":0,"s":1795711894}
-{"i":"50657070","t":"Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar","p":49,"c":10,"s":1795711898}
+{"i":"50657070","t":"Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar","p":63,"c":18,"s":1795711898}
 {"i":"50657140","t":"Show HN: Lean 4 and nanoda proof-compression bounties for AI agents ($0 gas)","p":1,"c":0,"s":1795712277}
 {"i":"50657159","t":"Show HN: Dev-Mem – Local-first SQLite knowledge graph for AI coding agents","p":1,"c":0,"s":1795712364}
 {"i":"50657224","t":"Show HN: BenchSaaS – 30 LLM configs across 8,850 live ERP/CRM runs","p":1,"c":0,"s":1795712753}
@@ -3914,12 +3914,12 @@
 {"i":"50657373","t":"Show HN: AGI – Robots Awake, my first (vibecoded) indie shooter","p":2,"c":2,"s":1795713757}
 {"i":"50657424","t":"Show HN: Real-time lights and shadows in CSS 3D, no runtime JavaScript","p":2,"c":2,"s":1795714005}
 {"i":"50657669","t":"Show HN: Walk out onto a dock in CSS 3D, no runtime JavaScript (scroll to walk)","p":1,"c":0,"s":1795715455}
-{"i":"50657713","t":"Show HN: An Agent Sandbox where you pay per command, not CPU second","p":1,"c":0,"s":1795715658}
+{"i":"50657713","t":"Show HN: An Agent Sandbox where you pay per command, not CPU second","p":1,"c":1,"s":1795715658}
 {"i":"50657946","t":"Show HN: Sandpile Lab, Drop sand and watch it spill onto its neighbors","p":2,"c":0,"s":1795716831}
 {"i":"50657982","t":"Show HN: NeXDM – A 5 MB Rust download manager with SSD RAM buffering","p":1,"c":0,"s":1795717042}
-{"i":"50658013","t":"Show HN: Grind, my OpenDocument native office suite built in Rust","p":3,"c":1,"s":1795717241}
+{"i":"50658013","t":"Show HN: Grind, my OpenDocument native office suite built in Rust","p":4,"c":2,"s":1795717241}
 {"i":"50658039","t":"Show HN: Yioop 10 – a PHP search engine that runs groups, wikis, Git and mail","p":1,"c":0,"s":1795717397}
-{"i":"50658191","t":"Show HN: Fuck_data_brokers.py","p":240,"c":52,"s":1795718241}
+{"i":"50658191","t":"Show HN: Fuck_data_brokers.py","p":245,"c":55,"s":1795718241}
 {"i":"50658266","t":"Show HN: Debugging a slow Zola blog with an agentic performance test harness","p":2,"c":0,"s":1795718634}
 {"i":"50658338","t":"Show HN: A OS workspace for small companies, 6 in 1","p":2,"c":0,"s":1795719149}
 {"i":"50658345","t":"Show HN: FileSwiss – Free, private file tools that run 100% in your browser","p":1,"c":1,"s":1795719197}
@@ -3927,10 +3927,10 @@
 {"i":"50658615","t":"Show HN: A free wedding seating planner with no signup required","p":1,"c":1,"s":1795720545}
 {"i":"50659294","t":"Show HN: Footprint – Visual electronics learning, encyclopedia, and part search","p":2,"c":0,"s":1795724439}
 {"i":"50659354","t":"Show HN: Play with VST/CLAP instruments and effects in the browser","p":3,"c":1,"s":1795724713}
-{"i":"50659404","t":"Show HN: Explore the 17M-line Lean proof of the Riemann Hypothesis","p":5,"c":1,"s":1795724910}
-{"i":"50659437","t":"Show HN: Décor does HTML widgets for the Mac (you know, like in the old days)","p":4,"c":5,"s":1795725066}
+{"i":"50659404","t":"Show HN: Explore the 17M-line Lean proof of the Riemann Hypothesis","p":6,"c":1,"s":1795724910}
+{"i":"50659437","t":"Show HN: Décor does HTML widgets for the Mac (you know, like in the old days)","p":4,"c":6,"s":1795725066}
 {"i":"50659586","t":"Show HN: Resolving the black hole singularity with a pure-P(X) khronon bounce","p":2,"c":0,"s":1795725874}
-{"i":"50659618","t":"Show HN: Single Calendar – Sync multiple Google calendars","p":5,"c":2,"s":1795726053}
+{"i":"50659618","t":"Show HN: Single Calendar – Sync multiple Google calendars","p":5,"c":3,"s":1795726053}
 {"i":"50659669","t":"Show HN: OIM – Multilingual interactive images inside a signed PNG (Apache-2.0)","p":1,"c":1,"s":1795726360}
 {"i":"50659697","t":"Show HN: AgentDesign – Make your coding agent draw each screen before it codes","p":1,"c":0,"s":1795726536}
 {"i":"50659784","t":"Show HN: Potluck – a small, algorithm-free way to share what you love","p":3,"c":0,"s":1795726975}
@@ -3944,18 +3944,18 @@
 {"i":"50660560","t":"Show HN: Turkey Trot","p":2,"c":1,"s":1795732280}
 {"i":"50660739","t":"Show HN: Sandbox platform on Kubernetes for secure remote access without secrets","p":1,"c":0,"s":1795733390}
 {"i":"50660837","t":"Show HN: Kaju – Annotate, comment and collaborate with Claude Code","p":1,"c":0,"s":1795734222}
-{"i":"50661061","t":"Show HN: Dailydev – do you still know the code you ship now that AI writes it?","p":3,"c":2,"s":1795736146}
+{"i":"50661061","t":"Show HN: Dailydev – do you still know the code you ship now that AI writes it?","p":4,"c":2,"s":1795736146}
 {"i":"50661076","t":"Show HN: SonoJS – A collection of reusable React components and UI blocks","p":1,"c":0,"s":1795736314}
 {"i":"50661086","t":"Show HN: Linux of AI, score and prove how locked-in your AI stack is","p":1,"c":0,"s":1795736429}
 {"i":"50661129","t":"Show HN: Isekai Boys – a free browser otome game with over 100 love interests","p":2,"c":0,"s":1795736977}
 {"i":"50661152","t":"Show HN: DataFluxor – SEO, Etsy Research and Scraping via API and MCP","p":1,"c":0,"s":1795737179}
 {"i":"50661473","t":"Show HN: Scolast – AI tutor for autodidacts inspired by Bloom's 2 sigma problem","p":1,"c":0,"s":1795740192}
-{"i":"50661603","t":"Show HN: Faster Mac Use – Background Chrome/macOS MCP and 5-lane routing skill","p":3,"c":0,"s":1795741638}
+{"i":"50661603","t":"Show HN: Faster Mac Use – Background Chrome/macOS MCP and 5-lane routing skill","p":5,"c":0,"s":1795741638}
 {"i":"50661654","t":"Show HN: The fastest and most accurate way to convert bank statements to Excel","p":3,"c":2,"s":1795742131}
 {"i":"50661780","t":"Show HN: Pardon Me – a Thanksgiving game where you're the turkey","p":2,"c":0,"s":1795743267}
-{"i":"50661906","t":"Show HN: GravityFinder – Explore Exoplanets and More","p":4,"c":0,"s":1795744654}
+{"i":"50661906","t":"Show HN: GravityFinder – Explore Exoplanets and More","p":5,"c":0,"s":1795744654}
 {"i":"50661967","t":"Show HN: Brand logos as SVG/PNG with CDN links and light/dark variants","p":1,"c":0,"s":1795745273}
-{"i":"50661971","t":"Show HN: EarthCiv – Civ-style maps of real countries, on one world map","p":3,"c":0,"s":1795745301}
+{"i":"50661971","t":"Show HN: EarthCiv – Civ-style maps of real countries, on one world map","p":3,"c":1,"s":1795745301}
 {"i":"50662217","t":"Show HN: Sqrin – A better screen share for Mac","p":13,"c":6,"s":1795748002}
 {"i":"50662422","t":"Show HN: 4K fsync tail latency and SQLite WAL lock failures on a $4/mo VPS","p":1,"c":0,"s":1795750082}
 {"i":"50662462","t":"Show HN: Gmbrank – Google Business Profile rank tracking with geo-grid maps","p":1,"c":0,"s":1795750378}
@@ -3973,17 +3973,17 @@
 {"i":"50664409","t":"Show HN: Piton Lockfile and static supply-chain scanner for MCP/coding agent","p":1,"c":1,"s":1795768645}
 {"i":"50664473","t":"Show HN: Blur – a Mac app that hides secrets during screen sharing","p":2,"c":1,"s":1795769222}
 {"i":"50664650","t":"Show HN: Mobile-friendly image editor inspired by GIMP (layers, selection, etc)","p":1,"c":0,"s":1795770802}
-{"i":"50664718","t":"Show HN: Factoroids – Mental Maths Game","p":2,"c":2,"s":1795771354}
+{"i":"50664718","t":"Show HN: Factoroids – Mental Maths Game","p":3,"c":5,"s":1795771354}
 {"i":"50664729","t":"Show HN: A client portal that automatically chases missing documents","p":1,"c":0,"s":1795771392}
 {"i":"50664783","t":"Show HN: Pure-Python Docx to PDF Converter, No Word or LibreOffice Needed","p":4,"c":0,"s":1795771921}
 {"i":"50664795","t":"Show HN: Europe Instead – find the European version of the tools you use","p":5,"c":1,"s":1795771994}
 {"i":"50664843","t":"Show HN: Moonlight – which medicines are approved or in trials for any disease","p":1,"c":0,"s":1795772334}
 {"i":"50664856","t":"Show HN: Slash commands and AI snippets that work everywhere you type","p":2,"c":0,"s":1795772440}
-{"i":"50665175","t":"Show HN: Hacker News Movies","p":3,"c":2,"s":1795774870}
+{"i":"50665175","t":"Show HN: Hacker News Movies","p":3,"c":3,"s":1795774870}
 {"i":"50665204","t":"Show HN: Lelvo – Open-source, end-to-end encrypted photo backup with no servers","p":1,"c":0,"s":1795775058}
-{"i":"50665405","t":"Show HN: Gerber 3D – view, compare and fab-check PCB files in the browser","p":2,"c":0,"s":1795776945}
-{"i":"50665715","t":"Show HN: IQ test\" small brainteaser game","p":1,"c":0,"s":1795779548}
-{"i":"50665796","t":"Show HN: Open-Sourced Code Mode to Cut ~60% of My Rust Agent's Token Burn","p":2,"c":2,"s":1795780263}
+{"i":"50665405","t":"Show HN: Gerber 3D – view, compare and fab-check PCB files in the browser","p":4,"c":0,"s":1795776945}
+{"i":"50665715","t":"Show HN: IQ test\" small brainteaser game","p":1,"c":2,"s":1795779548}
+{"i":"50665796","t":"Show HN: Open-Sourced Code Mode to Cut ~60% of My Rust Agent's Token Burn","p":3,"c":4,"s":1795780263}
 {"i":"50665814","t":"Show HN: Askama-analyzer – LSP support for Askama templates","p":1,"c":0,"s":1795780400}
 {"i":"50665877","t":"Show HN: A 307M encoder that flags 23 logical fallacies in 40ms on CPU","p":1,"c":0,"s":1795780693}
 {"i":"50665909","t":"Show HN: Unterm v0.73 – Pure-Rust GPU Terminal Built for Claude Code, Codex, Agy","p":1,"c":0,"s":1795780951}
@@ -3994,8 +3994,124 @@
 {"i":"50666386","t":"Show HN: Tumblr Likes Calendar – heatmap, search and gallery for Tumblr likes","p":2,"c":0,"s":1795784147}
 {"i":"50666409","t":"Show HN: LbDMF – Distributed Multiplatform Framework – 1.3.6","p":2,"c":0,"s":1795784249}
 {"i":"50666422","t":"Show HN: Open-source Hotjar for AI prototypes","p":2,"c":1,"s":1795784353}
-{"i":"50666506","t":"Show HN: No-equipment workout generator with 3D-to-2D SVG figures","p":1,"c":0,"s":1795784952}
+{"i":"50666506","t":"Show HN: No-equipment workout generator with 3D-to-2D SVG figures","p":1,"c":2,"s":1795784952}
 {"i":"50666547","t":"Show HN: Reiji-Maigo – Zero-dep SQLite agent memory without vector DBs","p":1,"c":0,"s":1795785157}
 {"i":"50666587","t":"Show HN: Toggles, Data Analysis Game","p":1,"c":0,"s":1795785365}
-{"i":"50666643","t":"Show HN: Teach Your Kid Electronics","p":1,"c":0,"s":1795785715}
+{"i":"50666643","t":"Show HN: Teach Your Kid Electronics","p":2,"c":1,"s":1795785715}
 {"i":"50666728","t":"Show HN: TextFix – 2.4MB Swift app to fix selected text on macOS (BYOK)","p":1,"c":0,"s":1795786277}
+{"i":"50666947","t":"Show HN: Recon – Air-gapped preflight data gate and Python AST adapter compiler","p":1,"c":0,"s":1795787565}
+{"i":"50667038","t":"Show HN: Dub Digger dataset, a curated graph of the dub techno scene (SQLite)","p":2,"c":0,"s":1795788022}
+{"i":"50667091","t":"Show HN: Permission Slips: only your prompt can issue coding-agent grants","p":2,"c":1,"s":1795788356}
+{"i":"50667133","t":"Show HN: Paper Sky Rally – a multiplayer paper-plane racer in the browser","p":1,"c":0,"s":1795788529}
+{"i":"50667197","t":"Show HN: Woodada – Cats that run across your taskbar as your CPU gets busy","p":1,"c":0,"s":1795788860}
+{"i":"50667307","t":"Show HN: A Christmas question a day, answered verbatim from scripture","p":1,"c":0,"s":1795789432}
+{"i":"50667340","t":"Show HN: Clacketier – Cherry MX sounds for any macOS terminal","p":1,"c":0,"s":1795789604}
+{"i":"50667356","t":"Show HN: Place AI and math breakthroughs on a timeline vs. Scott Aaronson","p":1,"c":0,"s":1795789688}
+{"i":"50667373","t":"Show HN: Wots – restaurant recommendations from people with your taste","p":1,"c":0,"s":1795789825}
+{"i":"50667452","t":"Show HN: I restored Palm's last device, and brought its OS to other platforms","p":80,"c":27,"s":1795790222}
+{"i":"50667468","t":"Show HN: Made a video game portfolio website","p":1,"c":0,"s":1795790297}
+{"i":"50667491","t":"Show HN: Pgseal – Zero-data-access Postgres/Supabase schema drift and RLS guard","p":1,"c":0,"s":1795790419}
+{"i":"50667535","t":"Show HN: Peerdeck – QBittorrent/Transmission Remote for macOS/iOS","p":1,"c":0,"s":1795790668}
+{"i":"50667549","t":"Show HN: I made a FREE note-taking app that connects to your AI","p":1,"c":0,"s":1795790745}
+{"i":"50667572","t":"Show HN: CoDesignFlo – Keep Figma in sync with the code your AI agents ship","p":3,"c":2,"s":1795790893}
+{"i":"50667702","t":"Show HN: Kanvas – an open-source screen for your agents","p":1,"c":0,"s":1795791600}
+{"i":"50667726","t":"Show HN: bouncemarket – a live prediction market game for a bouncing ball","p":388,"c":130,"s":1795791710}
+{"i":"50667755","t":"Show HN: AI agents can now call you","p":5,"c":5,"s":1795791852}
+{"i":"50667780","t":"Show HN: Precitions Until 2030","p":1,"c":1,"s":1795791959}
+{"i":"50667811","t":"Show HN: Targeted Mutation Testing – Observation-guided mutation testing tool","p":2,"c":0,"s":1795792073}
+{"i":"50667860","t":"Show HN: Just Dashboard, open-source Linux full management dashboard","p":1,"c":0,"s":1795792288}
+{"i":"50668024","t":"Show HN: Open-source ESP32 desk body for a local AI assistant","p":4,"c":0,"s":1795793343}
+{"i":"50668111","t":"Show HN: A 1999 small-business website for a New Jersey collections crew","p":6,"c":1,"s":1795793798}
+{"i":"50668235","t":"Show HN: Browser-CLI – coding agents in your own signed-in browser","p":1,"c":0,"s":1795794503}
+{"i":"50668269","t":"Show HN: King – Man + Woman = ?","p":41,"c":15,"s":1795794653}
+{"i":"50668372","t":"Show HN: An MCP that searches X using your own Grokbot plan","p":2,"c":1,"s":1795795275}
+{"i":"50668494","t":"Show HN: Find HN projects about your local area – place indexed Show HN","p":1,"c":1,"s":1795795966}
+{"i":"50668560","t":"Show HN: DataRanger – data repair that must prove each fix against the source","p":1,"c":0,"s":1795796344}
+{"i":"50668662","t":"Show HN: Kana Dash – Hiragana and katakana practice","p":1,"c":1,"s":1795796898}
+{"i":"50668715","t":"Show HN: GPT Plays Civilization","p":2,"c":0,"s":1795797139}
+{"i":"50668765","t":"Show HN: SoundEtch, an open source podcast/media editor for the desktop browser","p":2,"c":0,"s":1795797421}
+{"i":"50669007","t":"Show HN: I Know Your Age – Client-side Bayesian age deduction across 7 cultures","p":2,"c":3,"s":1795798827}
+{"i":"50669013","t":"Show HN: A self-hosted, read-only API for Proton Calendar","p":1,"c":0,"s":1795798856}
+{"i":"50669015","t":"Show HN: Hooks that stop Claude Code from faking tests and inventing packages","p":2,"c":0,"s":1795798868}
+{"i":"50669043","t":"Show HN: AIsbom – ML model scanner, now with a public list of what it misses","p":2,"c":0,"s":1795798987}
+{"i":"50669108","t":"Show HN: Shandu 4.0 – Local sleek deep research agent that audits every citation","p":2,"c":0,"s":1795799315}
+{"i":"50669136","t":"Show HN: Black Friday for Developers","p":3,"c":0,"s":1795799423}
+{"i":"50669324","t":"Show HN: Emelyn – Social Media Assistant","p":2,"c":0,"s":1795800327}
+{"i":"50669394","t":"Show HN: Clam – Type plain English in Bash and an agent does it, no prefix","p":3,"c":0,"s":1795800705}
+{"i":"50669511","t":"Show HN: Pasteup – Paste screenshots into file upload fields","p":1,"c":0,"s":1795801246}
+{"i":"50669533","t":"Show HN: Built NerdBot cause I couldn't pay for Grok bot","p":1,"c":0,"s":1795801360}
+{"i":"50669647","t":"Show HN: Games Fair, a collection of puzzles and games, all platforms, in Rust","p":1,"c":0,"s":1795802069}
+{"i":"50669662","t":"Show HN: Breakpoint – helps manage your breaks so you can focus on your work","p":2,"c":0,"s":1795802133}
+{"i":"50669673","t":"Show HN: DragDropMath – Learn math by feel","p":155,"c":40,"s":1795802188}
+{"i":"50669827","t":"Show HN: CostPerToken – Rank LLM API providers by your monthly bill","p":2,"c":0,"s":1795802829}
+{"i":"50669845","t":"Show HN: Simple multimodal RAG for ChatGPT (calypso.so)","p":1,"c":0,"s":1795802932}
+{"i":"50669993","t":"Show HN: Flowmaps – the logic layer for agents and developers","p":2,"c":0,"s":1795803628}
+{"i":"50670265","t":"Show HN: MCP for fixing id3 tags of music files","p":5,"c":6,"s":1795805018}
+{"i":"50670271","t":"Show HN: Journey To Europa: An interactive look at the Europa Clipper mission","p":3,"c":0,"s":1795805049}
+{"i":"50670443","t":"Show HN: Getting 101 tok/s from Inkling 2 Mini in vLLM on one GB10","p":58,"c":15,"s":1795805995}
+{"i":"50670462","t":"Show HN: Uplytics – if uptimerobot and plausible analytics had a baby","p":1,"c":0,"s":1795806086}
+{"i":"50670468","t":"Show HN: A local-first AI memory for your video footage","p":2,"c":1,"s":1795806121}
+{"i":"50670688","t":"Show HN: Machine-load – see which AI coding session is slowing your Mac","p":2,"c":0,"s":1795807470}
+{"i":"50670715","t":"Show HN: Poly – One CLI and PURL syntax across 26 language package managers","p":2,"c":0,"s":1795807645}
+{"i":"50670874","t":"Show HN: Free audiobook and eBook with the story of recent discoveries in math","p":1,"c":0,"s":1795808652}
+{"i":"50670914","t":"Show HN: dotenc – Git-native encrypted environments powered by your SSH keys","p":3,"c":2,"s":1795808964}
+{"i":"50670940","t":"Show HN: ClawdTime, a CUA agent for long tasks that FaceTimes you when stuck","p":3,"c":2,"s":1795809127}
+{"i":"50670977","t":"Show HN: A free browser backgammon club, gnubg's net under the hood","p":2,"c":0,"s":1795809332}
+{"i":"50671006","t":"Show HN: I gave my AI Agents Production backed Memory","p":1,"c":0,"s":1795809525}
+{"i":"50671188","t":"Show HN: A ten-step ladder for chasing unpaid invoices","p":1,"c":0,"s":1795810562}
+{"i":"50671294","t":"Show HN: OutOnTime – A routine app for people who lose track of time","p":2,"c":0,"s":1795811088}
+{"i":"50671343","t":"Show HN: Sentinel, live monitoring tool for coding agent sabotage","p":1,"c":1,"s":1795811373}
+{"i":"50671383","t":"Show HN: Glossbeam – Highlight text on your Mac to see an explanation beside it","p":7,"c":0,"s":1795811694}
+{"i":"50671929","t":"Show HN: Virtum – Docker-like CLI for local KVM VMs and multi-VM labs","p":2,"c":0,"s":1795815516}
+{"i":"50672106","t":"Show HN: Create Immersive Audiobooks","p":4,"c":1,"s":1795816904}
+{"i":"50672125","t":"Show HN: I ran an LLM written in F# on a Commodore 64 [video]","p":2,"c":0,"s":1795817010}
+{"i":"50672243","t":"Show HN: I built an anonymous real time status generator for anything?","p":4,"c":2,"s":1795817967}
+{"i":"50672315","t":"Show HN: A CLI that measures whether AI answers cite your site","p":1,"c":0,"s":1795818547}
+{"i":"50672402","t":"Show HN: Redact personal data in documents with consistent labels","p":3,"c":1,"s":1795819212}
+{"i":"50672741","t":"Show HN: Free Temporary and Mock REST API for Front End Developers","p":2,"c":1,"s":1795822597}
+{"i":"50672749","t":"Show HN: I made a language for apps to embed arbitrary server-driven UIs safely","p":1,"c":1,"s":1795822667}
+{"i":"50672873","t":"Show HN: OpenMessageBoard: a message board spec for people and AI agents","p":2,"c":0,"s":1795823880}
+{"i":"50672874","t":"Show HN: Vending Bench – The Game","p":1,"c":1,"s":1795823888}
+{"i":"50673018","t":"Show HN: A 52 KB WebAssembly engine that runs Qwen3.5-2B in a browser tab","p":20,"c":8,"s":1795825019}
+{"i":"50673173","t":"Show HN: Far Worlds, a co-op voxel RPG that runs in the browser on WebGPU/WebRTC","p":1,"c":1,"s":1795826227}
+{"i":"50673212","t":"Show HN: Plain-Auth an open-source authentication library for Go","p":4,"c":0,"s":1795826469}
+{"i":"50673241","t":"Show HN: HardCall – Test 52ms raw RTP vs. 920ms WebSocket barge-in in browser","p":2,"c":0,"s":1795826645}
+{"i":"50673307","t":"Show HN: Omnistew – 3D multiplayer RTS inspired by Risk, playable in a browser","p":1,"c":0,"s":1795827314}
+{"i":"50673473","t":"Show HN: Calcurio","p":3,"c":2,"s":1795829083}
+{"i":"50673844","t":"Show HN: AI Face Shape Detection and Custom Beard Design","p":1,"c":0,"s":1795832995}
+{"i":"50673880","t":"Show HN: RamusDB is an inmem KV database with branching","p":2,"c":0,"s":1795833306}
+{"i":"50674209","t":"Show HN: Flokk Hunter – a browser stealth game about surveillance cameras","p":1,"c":0,"s":1795835928}
+{"i":"50674356","t":"Show HN: Our Build Studio – Track home builder upgrades and variation quotes","p":1,"c":0,"s":1795836945}
+{"i":"50674470","t":"Show HN: Mobile App Builder","p":1,"c":0,"s":1795837938}
+{"i":"50674729","t":"Show HN: Riffsheet – your coding agent breaks down a short video shot by shot","p":3,"c":0,"s":1795840610}
+{"i":"50674887","t":"Show HN: WikiVectors – makes any LLM smarter","p":5,"c":0,"s":1795842365}
+{"i":"50674969","t":"Show HN: Tidewall – A wallpaper that makes room for your windows (Mac, Windows)","p":1,"c":0,"s":1795843311}
+{"i":"50675145","t":"Show HN: A web scraper for your AI agents","p":1,"c":0,"s":1795845791}
+{"i":"50675175","t":"Show HN: SupplementDEX – Evidence-Based Dietary Supplements","p":3,"c":0,"s":1795846219}
+{"i":"50675185","t":"Show HN: Sokak Lezzeti:Street Chef","p":2,"c":0,"s":1795846374}
+{"i":"50675226","t":"Show HN: Locus – A fast Windows database client built with Rust and GPUI","p":1,"c":0,"s":1795846908}
+{"i":"50675517","t":"Show HN: unLAB.run – homelab in a tab using unkernel","p":8,"c":1,"s":1795850778}
+{"i":"50675672","t":"Show HN: NukeSim – Interactive 3D Nuclear Blast Radius and Fallout Map","p":1,"c":1,"s":1795852991}
+{"i":"50675769","t":"Show HN: First Report, bias and publication timeline for breaking news","p":2,"c":1,"s":1795854262}
+{"i":"50675831","t":"Show HN: Fleetlayer – Framework for running many AI agents on multiple machines","p":10,"c":7,"s":1795855029}
+{"i":"50676075","t":"Show HN: Cathedral Lab is an intelligence utility application","p":1,"c":1,"s":1795858117}
+{"i":"50676102","t":"Show HN: Semantic Zoom, a Mac app that rewrites text into natural English","p":3,"c":0,"s":1795858483}
+{"i":"50676154","t":"Show HN: Voicehook – see which coding agent is waiting on you, answer by voice","p":1,"c":0,"s":1795859240}
+{"i":"50676277","t":"Show HN: Bouquetgram – send a digital bouquet as a link that blooms","p":1,"c":0,"s":1795860667}
+{"i":"50676283","t":"Show HN: SutraDB – Embedded Rust+Python Hybrid Vector DB (HNSW, BM25, ColBERT)","p":1,"c":0,"s":1795860762}
+{"i":"50676368","t":"Show HN: Machinery Learning – an interactive guide to how LLMs work","p":1,"c":0,"s":1795861986}
+{"i":"50676369","t":"Show HN: Started open source course for DevOps engineers with open governance","p":1,"c":0,"s":1795861992}
+{"i":"50676450","t":"Show HN: PaulStretch Editor","p":1,"c":0,"s":1795863000}
+{"i":"50676456","t":"Show HN: Coinsole – turn your Mac into an arcade console","p":1,"c":0,"s":1795863108}
+{"i":"50676477","t":"Show HN: I built a tool that helps in marketing on Reddit without getting banned","p":1,"c":1,"s":1795863286}
+{"i":"50676555","t":"Show HN: Offline Python table extractor for digital and scanned PDFs","p":1,"c":0,"s":1795864336}
+{"i":"50676570","t":"Show HN: I built a tool that helps you build cute online cards for your partners","p":1,"c":0,"s":1795864567}
+{"i":"50676588","t":"Show HN: Sonic Pi as a VST3/AU plugin – live coding inside your DAW","p":1,"c":0,"s":1795864828}
+{"i":"50676612","t":"Show HN: Accurate Models of Microcontrollers","p":1,"c":0,"s":1795865196}
+{"i":"50676616","t":"Show HN: Password Rules Registry","p":1,"c":0,"s":1795865299}
+{"i":"50676699","t":"Show HN: Turbotap – Open-Source CLI for AI Agents to Drive an iPhone over Wi-Fi","p":1,"c":0,"s":1795866453}
+{"i":"50676755","t":"Show HN: Svelto, a Language-Agnostic Svelte","p":1,"c":1,"s":1795867041}
+{"i":"50676922","t":"Show HN: Agentic Signal – build AI agents from nodes, run them on local models","p":2,"c":0,"s":1795868659}
+{"i":"50676952","t":"Show HN: Folio – Share your notes with the AI you use. For Free","p":1,"c":0,"s":1795868918}
+{"i":"50676994","t":"Show HN: DecksMD – Native Markdown flashcards for your Markdown vault","p":1,"c":0,"s":1795869283}
+{"i":"50677091","t":"Show HN: Luciole Mono – terminal font designed for legibility","p":2,"c":0,"s":1795870215}
